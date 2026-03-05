@@ -25169,7 +25169,7 @@
 	dir = 10
 	},
 /obj/machinery/atmospherics/components/unary/thermomachine/freezer{
-	dir = 4
+	dir = 1
 	},
 /turf/open/floor/iron/white/smooth_large,
 /area/station/medical/cryo)
@@ -41866,6 +41866,7 @@
 	pixel_x = 4;
 	pixel_y = 2
 	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
 /turf/open/floor/iron/white/smooth_edge{
 	dir = 8
 	},
