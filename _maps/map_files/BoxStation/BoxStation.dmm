@@ -16359,10 +16359,16 @@
 /turf/closed/wall,
 /area/station/medical/pharmacy)
 "bfG" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/iron/white,
-/area/station/medical/medbay/central)
+/obj/effect/turf_decal/trimline/blue/filled/warning,
+/obj/effect/turf_decal/trimline/blue/filled/warning{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/blue/filled/mid_joiner,
+/obj/effect/turf_decal/trimline/blue/filled/mid_joiner,
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible,
+/turf/open/floor/iron/white/smooth_large,
+/area/station/medical/cryo)
 "bfH" = (
 /obj/machinery/door/firedoor/border_only{
 	dir = 1
@@ -20790,7 +20796,6 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/trimline/blue/filled/mid_joiner,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/door/firedoor/border_only{
 	dir = 1
 	},
@@ -21991,7 +21996,6 @@
 	},
 /area/station/medical/medbay/lobby)
 "bxS" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/railing{
 	dir = 9;
 	layer = 4
@@ -22832,12 +22836,16 @@
 	dir = 1;
 	layer = 10005
 	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
 "bAt" = (
 /obj/effect/turf_decal/siding/white/corner{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
 "bAu" = (
@@ -23631,7 +23639,6 @@
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
 "bCT" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/landmark/start/paramedic,
 /turf/open/floor/iron/white,
@@ -25169,7 +25176,7 @@
 	dir = 10
 	},
 /obj/machinery/atmospherics/components/unary/thermomachine/freezer{
-	dir = 1
+	dir = 4
 	},
 /turf/open/floor/iron/white/smooth_large,
 /area/station/medical/cryo)
@@ -35918,6 +35925,7 @@
 "daQ" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
 "dba" = (
@@ -39050,7 +39058,6 @@
 /obj/structure/chair/sofa/corp{
 	dir = 8
 	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/white,
 /area/station/medical/office)
 "eKC" = (
@@ -41866,7 +41873,6 @@
 	pixel_x = 4;
 	pixel_y = 2
 	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
 /turf/open/floor/iron/white/smooth_edge{
 	dir = 8
 	},
@@ -43356,7 +43362,6 @@
 	},
 /area/station/medical/medbay/aft)
 "hba" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/chair/office/light{
 	dir = 8
@@ -50628,11 +50633,10 @@
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/central)
 "lmc" = (
-/obj/machinery/atmospherics/pipe/layer_manifold/scrubbers/hidden{
-	dir = 8
-	},
-/turf/closed/wall,
-/area/station/medical/office)
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/white,
+/area/station/medical/treatment_center)
 "lmi" = (
 /obj/effect/spawner/random/structure/closet_maintenance,
 /obj/effect/spawner/random/maintenance{
@@ -58404,6 +58408,8 @@
 /obj/effect/turf_decal/siding/white/corner{
 	dir = 1
 	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/white,
 /area/station/medical/treatment_center)
 "pDu" = (
@@ -59508,6 +59514,7 @@
 /obj/effect/turf_decal/trimline/blue/filled/mid_joiner,
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/medical/cryo)
 "qla" = (
@@ -67705,7 +67712,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/white,
 /area/station/medical/cryo)
 "vlq" = (
@@ -69367,9 +69374,12 @@
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
 "wid" = (
-/obj/machinery/atmospherics/components/trinary/filter/atmos/flipped/co2,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/layer_manifold/scrubbers/hidden{
+	dir = 1
+	},
 /turf/open/floor/iron/white,
-/area/station/medical/cryo)
+/area/station/medical/treatment_center)
 "wit" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -72320,10 +72330,11 @@
 /turf/open/floor/circuit,
 /area/station/ai_monitored/turret_protected/ai_upload)
 "xXU" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/components/trinary/filter/atmos/flipped/co2{
+	dir = 8
+	},
 /turf/open/floor/iron/white,
-/area/station/medical/treatment_center)
+/area/station/medical/cryo)
 "xYr" = (
 /obj/structure/sign/poster/traitor/lick_supermatter,
 /turf/closed/wall,
@@ -72578,7 +72589,6 @@
 /obj/machinery/light/directional/east{
 	dir = 8
 	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible,
 /turf/open/floor/iron/white/smooth_edge{
 	dir = 8
 	},
@@ -109061,8 +109071,8 @@ juK
 jsa
 bwG
 rJU
-aZU
-bwF
+lmc
+daQ
 bzW
 aBn
 bCT
@@ -109311,14 +109321,14 @@ bll
 hQY
 uoI
 sPC
-bfG
-bfG
+bpO
+bpO
 btV
-xXU
-xXU
-xXU
-xXU
 bwF
+bwF
+bwF
+bwF
+daQ
 bwF
 jtt
 bDZ
@@ -109579,7 +109589,7 @@ bAt
 cvB
 bfK
 bfK
-lmc
+bfK
 bfK
 bfK
 bzs
@@ -110093,7 +110103,7 @@ pDs
 bwF
 nbM
 bCE
-wid
+lHY
 cdY
 bIn
 bzs
@@ -110346,10 +110356,10 @@ aZU
 aZU
 aZU
 aZU
-aZU
-bwF
-nbM
-lHY
+lmc
+wid
+bfG
+xXU
 pHl
 dKs
 bIm
@@ -110603,7 +110613,7 @@ dmA
 jsa
 jQU
 mIf
-mIf
+lmc
 daQ
 qkU
 vlp
