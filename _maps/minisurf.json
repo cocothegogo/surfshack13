@@ -1,17 +1,17 @@
 {
-	"version": 1,
-	"map_name": "MetaStation",
-	"map_path": "map_files/MetaStation",
-	"map_file": "MetaStation.dmm",
-	"shuttles": {
-		"cargo": "cargo_box",
-		"ferry": "ferry_fancy",
-		"whiteship": "whiteship_meta",
-		"emergency": "emergency_meta"
-	},
-	"job_changes": {
+    "version": 1,
+	"map_name": "MiniSurf",
+	"map_path": "map_files/MiniSurf",
+	"map_file": "MiniSurf.dmm",
+    "shuttles": {
+	    "cargo": "cargo_box",
+	    "ferry": "ferry_kilo",
+	    "whiteship": "whiteship_kilo",
+	    "emergency": "emergency_box"
+    },
+    "job_changes": {
 		"Cook": {
-			"additional_cqc_areas": ["/area/station/service/bar", "/area/station/commons/lounge"]
+			"additional_cqc_areas": ["/area/station/service/bar"]
 		}
 	}
 }
