@@ -56,6 +56,11 @@ map pubbystation
 	votable
 endmap
 
+map minisurf
+	maxplayers 25
+	votable
+endmap
+
 # Debug-only maps.
 
 map gateway_test
