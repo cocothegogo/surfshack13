@@ -2392,6 +2392,7 @@
 /obj/item/etherealballdeployer,
 /obj/item/ammo_casing/shotgun/buckshot,
 /obj/item/ammo_casing/shotgun/buckshot,
+/obj/item/roulette_wheel_beacon,
 /turf/open/floor/wood,
 /area/station/service/kitchen)
 "cbM" = (
@@ -3016,6 +3017,9 @@
 /area/station/command/bridge)
 "cCb" = (
 /obj/effect/turf_decal/tile/blue,
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
 "cCl" = (
@@ -3040,7 +3044,6 @@
 /turf/closed/wall,
 /area/station/medical/psychology)
 "cDJ" = (
-/obj/effect/mapping_helpers/broken_floor,
 /obj/structure/table/wood,
 /obj/item/reagent_containers/cup/glass/drinkingglass/filled,
 /obj/effect/spawner/random/food_or_drink/booze,
@@ -5266,7 +5269,6 @@
 /turf/open/floor/iron/dark,
 /area/station/hallway/primary/aft)
 "esu" = (
-/obj/effect/mapping_helpers/broken_floor,
 /obj/structure/table/wood,
 /obj/item/reagent_containers/cup/glass/drinkingglass/filled/cola,
 /obj/effect/spawner/random/food_or_drink/booze,
@@ -5729,6 +5731,7 @@
 /obj/structure/disposalpipe/segment,
 /obj/effect/turf_decal/tile/blue/fourcorners,
 /obj/structure/cable,
+/obj/machinery/status_display/evac/directional/north,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/lobby)
 "eLA" = (
@@ -6479,6 +6482,7 @@
 	pixel_y = 6
 	},
 /obj/machinery/light/small/red/directional/east,
+/obj/effect/spawner/random/clothing/gloves,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/aft)
 "foV" = (
@@ -6561,6 +6565,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/table,
+/obj/item/plate,
 /obj/effect/spawner/random/food_or_drink/dinner,
 /turf/open/floor/iron,
 /area/station/service/cafeteria)
@@ -6726,6 +6731,7 @@
 "fzP" = (
 /obj/machinery/shower/directional/south,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/fluff/shower_drain,
 /turf/open/floor/iron/freezer,
 /area/station/commons/toilet/restrooms)
 "fzU" = (
@@ -6773,7 +6779,7 @@
 /area/station/engineering/main)
 "fBD" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood,
+/turf/open/floor/carpet/green,
 /area/station/service/abandoned_gambling_den)
 "fBX" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -7548,6 +7554,7 @@
 "gii" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/iron/white,
 /area/station/medical/abandoned)
 "gij" = (
@@ -9289,6 +9296,10 @@
 /obj/machinery/door/airlock/maintenance,
 /turf/open/floor/plating,
 /area/station/maintenance/port/lesser)
+"hLA" = (
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/carpet/green,
+/area/station/service/abandoned_gambling_den)
 "hLR" = (
 /obj/machinery/computer/operating{
 	dir = 4
@@ -9367,7 +9378,7 @@
 /area/station/hallway/primary/fore)
 "hQj" = (
 /obj/machinery/light/small/broken/directional/west,
-/turf/open/floor/wood,
+/turf/open/floor/carpet/green,
 /area/station/service/abandoned_gambling_den)
 "hQD" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -10726,6 +10737,7 @@
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/power/apc/auto_name/directional/east,
+/obj/effect/landmark/generic_maintenance_landmark,
 /turf/open/floor/plating,
 /area/station/medical/abandoned)
 "iSo" = (
@@ -11573,7 +11585,7 @@
 /area/station/maintenance/department/science/xenobiology)
 "jxu" = (
 /obj/machinery/vending/boozeomat,
-/turf/open/floor/wood,
+/turf/open/floor/carpet/green,
 /area/station/service/abandoned_gambling_den)
 "jxw" = (
 /obj/structure/chair/office/light{
@@ -12405,7 +12417,7 @@
 /obj/machinery/newscaster/directional/east,
 /obj/machinery/airalarm/directional/north,
 /obj/effect/mapping_helpers/broken_floor,
-/turf/open/floor/wood,
+/turf/open/floor/carpet/green,
 /area/station/service/abandoned_gambling_den)
 "kaP" = (
 /obj/effect/spawner/random/vending/snackvend,
@@ -15536,7 +15548,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/item/kitchen/rollingpin,
 /obj/item/reagent_containers/condiment/enzyme,
-/obj/item/storage/box/donkpockets,
+/obj/effect/spawner/random/food_or_drink/donkpockets,
 /turf/open/floor/iron/cafeteria,
 /area/station/service/kitchen)
 "mHk" = (
@@ -16137,6 +16149,7 @@
 /obj/item/storage/belt/utility,
 /obj/structure/rack,
 /obj/effect/spawner/random/maintenance/three,
+/obj/effect/spawner/random/clothing/gloves,
 /turf/open/floor/plating,
 /area/station/maintenance/aft/lesser)
 "ndl" = (
@@ -16520,6 +16533,7 @@
 /area/station/science/research)
 "nsI" = (
 /obj/item/reagent_containers/cup/bucket,
+/obj/effect/landmark/generic_maintenance_landmark,
 /turf/open/floor/plating,
 /area/station/maintenance/fore)
 "nsR" = (
@@ -17012,15 +17026,15 @@
 /turf/open/floor/iron/dark,
 /area/station/command/gateway)
 "nJp" = (
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 4
-	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
 /obj/machinery/door/airlock/external{
 	name = "Escape Pod One";
 	space_dir = 1
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/aft)
@@ -18546,7 +18560,7 @@
 	dir = 6
 	},
 /obj/effect/turf_decal/weather/snow,
-/obj/structure/broken_flooring/side/always_floorplane/directional/south,
+/obj/structure/broken_flooring/pile/directional/south,
 /turf/open/floor/iron/freezer,
 /area/station/service/kitchen)
 "oNA" = (
@@ -18702,6 +18716,9 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/green,
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
 "oRF" = (
@@ -19517,7 +19534,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/barricade/wooden/crude,
+/obj/effect/mapping_helpers/airlock/abandoned,
 /turf/open/floor/plating,
 /area/station/service/abandoned_gambling_den)
 "pyw" = (
@@ -20314,7 +20331,7 @@
 /obj/machinery/chem_dispenser/drinks/beer{
 	pixel_y = 3
 	},
-/turf/open/floor/wood,
+/turf/open/floor/carpet/green,
 /area/station/service/abandoned_gambling_den)
 "qky" = (
 /turf/open/floor/plating,
@@ -20529,6 +20546,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 1
 	},
+/obj/effect/mapping_helpers/airlock/abandoned,
 /turf/open/floor/plating,
 /area/station/medical/abandoned)
 "qsL" = (
@@ -20834,10 +20852,10 @@
 /turf/open/floor/plating/airless,
 /area/station/engineering/atmos)
 "qDP" = (
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/mapping_helpers/broken_floor,
-/mob/living/basic/pet/cat/space,
-/turf/open/floor/wood,
-/area/station/service/abandoned_gambling_den)
+/turf/open/floor/plating,
+/area/station/maintenance/department/science/xenobiology)
 "qDS" = (
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/wood,
@@ -21833,7 +21851,7 @@
 	pixel_y = 3
 	},
 /obj/structure/table,
-/turf/open/floor/wood,
+/turf/open/floor/carpet/green,
 /area/station/service/abandoned_gambling_den)
 "rpo" = (
 /obj/machinery/camera/autoname/directional/east,
@@ -22637,6 +22655,7 @@
 /obj/effect/mapping_helpers/broken_floor,
 /obj/structure/chair/stool/bar/directional/south,
 /obj/effect/landmark/event_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /turf/open/floor/wood,
 /area/station/service/abandoned_gambling_den)
 "rVf" = (
@@ -23885,6 +23904,7 @@
 /obj/machinery/shower/directional/south,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/fluff/shower_drain,
 /turf/open/floor/iron/freezer,
 /area/station/commons/toilet/restrooms)
 "sVi" = (
@@ -26423,6 +26443,7 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/purple/half/contrasted,
+/obj/item/storage/box/swab,
 /turf/open/floor/iron/white,
 /area/station/science/xenobiology)
 "vaS" = (
@@ -26553,6 +26574,7 @@
 	},
 /obj/machinery/light/directional/west,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/status_display/evac/directional/west,
 /turf/open/floor/iron,
 /area/station/hallway/primary/aft)
 "vfU" = (
@@ -26964,13 +26986,18 @@
 /turf/open/floor/iron,
 /area/station/hallway/secondary/exit)
 "vth" = (
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 8
-	},
 /obj/machinery/door/airlock/external{
 	name = "Escape Pod One";
 	space_dir = 1
 	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/aft)
+"vtA" = (
+/obj/effect/landmark/event_spawn,
+/obj/effect/landmark/generic_maintenance_landmark,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/aft)
 "vuf" = (
@@ -27431,6 +27458,7 @@
 "vKv" = (
 /obj/structure/extinguisher_cabinet/directional/north,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/event_spawn,
 /turf/open/floor/iron,
 /area/station/commons/storage/primary)
 "vKB" = (
@@ -29528,6 +29556,7 @@
 "xlA" = (
 /obj/structure/rack,
 /obj/effect/spawner/random/engineering/toolbox,
+/obj/effect/spawner/random/clothing/gloves,
 /turf/open/floor/plating,
 /area/station/maintenance/aft{
 	name = "Aft Maintenance"
@@ -30241,11 +30270,9 @@
 	pixel_y = 11
 	},
 /obj/structure/table/wood/fancy/red,
-/obj/item/ai_module/core/full/damaged,
 /turf/open/floor/circuit/green,
 /area/station/ai_monitored/turret_protected/ai_upload)
 "xKB" = (
-/obj/effect/mapping_helpers/broken_floor,
 /obj/structure/table/wood,
 /obj/item/reagent_containers/cup/glass/drinkingglass,
 /obj/item/reagent_containers/cup/glass/drinkingglass/filled,
@@ -71947,7 +71974,7 @@ yfW
 yfW
 yfW
 yfW
-xCD
+qDP
 kyw
 kFX
 hLj
@@ -73815,7 +73842,7 @@ fbU
 pxU
 fbU
 fbU
-hJb
+vtA
 hJb
 eZM
 tvW
@@ -74580,7 +74607,7 @@ vth
 eZM
 eZM
 jxu
-qDS
+hLA
 hQj
 qDS
 wwN
@@ -74844,7 +74871,7 @@ eyy
 lYy
 ruZ
 vQz
-qDP
+qDS
 qui
 brf
 lXz
@@ -75617,7 +75644,7 @@ kaP
 fbU
 hkc
 qui
-qui
+lXz
 lXz
 tvW
 wuD
@@ -75875,7 +75902,7 @@ fbU
 lXz
 lXz
 lXz
-lXz
+tvW
 wuD
 pdc
 wuD
