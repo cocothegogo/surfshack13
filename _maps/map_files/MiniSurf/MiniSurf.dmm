@@ -707,6 +707,11 @@
 /obj/effect/spawner/random/engineering/tracking_beacon,
 /turf/open/floor/engine/xenobio,
 /area/station/science/xenobiology)
+"aEF" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/carpet/green,
+/area/station/service/abandoned_gambling_den)
 "aEJ" = (
 /obj/machinery/power/port_gen/pacman,
 /obj/machinery/light{
@@ -1390,7 +1395,7 @@
 /area/station/hallway/secondary/dock)
 "bku" = (
 /obj/effect/mapping_helpers/broken_floor,
-/obj/machinery/light/small/dim/directional/west,
+/obj/machinery/light/small/directional/west,
 /turf/open/floor/wood,
 /area/station/service/abandoned_gambling_den)
 "bkw" = (
@@ -1836,6 +1841,7 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
 "bDr" = (
@@ -2217,6 +2223,9 @@
 	dir = 1
 	},
 /obj/structure/closet/radiation,
+/obj/machinery/light/directional/east{
+	dir = 8
+	},
 /turf/open/floor/iron,
 /area/station/engineering/storage_shared)
 "bWx" = (
@@ -2306,6 +2315,7 @@
 /obj/structure/sign/warning/vacuum/external/directional/east,
 /obj/effect/spawner/random/trash/food_packaging,
 /obj/effect/spawner/random/trash/food_packaging,
+/obj/effect/turf_decal/stripes/corner,
 /turf/open/floor/wood,
 /area/station/service/abandoned_gambling_den)
 "cap" = (
@@ -4129,7 +4139,7 @@
 	name = "lavaland"
 	},
 /turf/open/space,
-/area/space/nearstation)
+/area/space)
 "dBc" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/window/reinforced/spawner/directional/east,
@@ -4834,6 +4844,7 @@
 /obj/machinery/power/apc/auto_name/directional/west,
 /obj/structure/cable,
 /obj/machinery/suit_storage_unit/engine,
+/obj/item/clothing/shoes/magboots,
 /turf/open/floor/iron,
 /area/station/engineering/storage_shared)
 "eaU" = (
@@ -5272,10 +5283,10 @@
 /obj/structure/table/wood,
 /obj/item/reagent_containers/cup/glass/drinkingglass/filled/cola,
 /obj/effect/spawner/random/food_or_drink/booze,
-/obj/machinery/light/small/dim/directional/east,
 /obj/structure/noticeboard/directional/east,
 /obj/item/paper/fluff/junkmail_generic,
 /obj/item/paper/fluff/junkmail_redpill/true,
+/obj/machinery/light/small/directional/east,
 /turf/open/floor/carpet/green,
 /area/station/service/abandoned_gambling_den)
 "esO" = (
@@ -5463,7 +5474,6 @@
 /turf/open/floor/iron/dark,
 /area/station/hallway/secondary/dock)
 "eAg" = (
-/obj/effect/decal/cleanable/blood/gibs/old,
 /obj/effect/decal/cleanable/blood/old,
 /obj/structure/fluff/paper/stack,
 /obj/effect/landmark/event_spawn,
@@ -6555,6 +6565,7 @@
 "ftR" = (
 /obj/structure/chair/stool/bar/directional/south,
 /obj/effect/mapping_helpers/broken_floor,
+/obj/effect/decal/cleanable/blood/gibs/old,
 /turf/open/floor/wood,
 /area/station/maintenance/department/science/xenobiology)
 "ftT" = (
@@ -8139,7 +8150,6 @@
 	dir = 1
 	},
 /obj/effect/mapping_helpers/airlock/access/any/engineering/general,
-/obj/effect/decal/cleanable/oil/slippery,
 /turf/open/floor/engine,
 /area/station/engineering/supermatter)
 "gKL" = (
@@ -8742,6 +8752,9 @@
 "hpB" = (
 /obj/machinery/vending/cigarette,
 /obj/effect/decal/cleanable/cobweb,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
 /turf/open/floor/wood,
 /area/station/service/abandoned_gambling_den)
 "hqy" = (
@@ -9298,7 +9311,6 @@
 /turf/open/floor/plating,
 /area/station/maintenance/port/lesser)
 "hLA" = (
-/obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/carpet/green,
 /area/station/service/abandoned_gambling_den)
 "hLR" = (
@@ -9379,6 +9391,7 @@
 /area/station/hallway/primary/fore)
 "hQj" = (
 /obj/machinery/light/small/broken/directional/west,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/green,
 /area/station/service/abandoned_gambling_den)
 "hQD" = (
@@ -11014,6 +11027,14 @@
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/station/science/xenobiology)
+"iYJ" = (
+/obj/effect/turf_decal/bot{
+	dir = 1
+	},
+/obj/structure/closet/radiation,
+/obj/machinery/airalarm/directional/south,
+/turf/open/floor/iron,
+/area/station/engineering/storage_shared)
 "iYS" = (
 /obj/machinery/power/terminal{
 	dir = 1
@@ -12287,12 +12308,8 @@
 /turf/open/floor/iron,
 /area/station/cargo/miningoffice)
 "jSM" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
-/obj/machinery/power/apc/auto_name/directional/south,
-/turf/open/floor/iron,
-/area/station/engineering/atmos)
+/turf/open/floor/plating,
+/area/station/service/abandoned_gambling_den)
 "jUx" = (
 /obj/effect/turf_decal/tile/yellow{
 	dir = 1
@@ -12417,7 +12434,6 @@
 "kaz" = (
 /obj/machinery/newscaster/directional/east,
 /obj/machinery/airalarm/directional/north,
-/obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/carpet/green,
 /area/station/service/abandoned_gambling_den)
 "kaP" = (
@@ -14753,7 +14769,10 @@
 /area/space/nearstation)
 "mbi" = (
 /obj/effect/spawner/random/structure/musician/piano/random_piano,
-/turf/open/floor/plating,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/turf/open/floor/wood,
 /area/station/service/abandoned_gambling_den)
 "mbw" = (
 /obj/effect/turf_decal/tile/blue/half,
@@ -15504,6 +15523,13 @@
 	},
 /obj/machinery/camera/directional/west,
 /obj/structure/tank_dispenser,
+/obj/item/toy/figure/engineer{
+	pixel_x = 5;
+	pixel_y = 13
+	},
+/obj/machinery/light/directional/east{
+	dir = 8
+	},
 /turf/open/floor/iron,
 /area/station/engineering/storage_shared)
 "mGz" = (
@@ -17036,9 +17062,6 @@
 	name = "Escape Pod One";
 	space_dir = 1
 	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 4
-	},
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/aft)
 "nJS" = (
@@ -18063,6 +18086,7 @@
 /obj/effect/turf_decal/bot{
 	dir = 1
 	},
+/obj/item/clothing/shoes/magboots,
 /turf/open/floor/iron,
 /area/station/engineering/storage_shared)
 "oyq" = (
@@ -20768,7 +20792,6 @@
 /area/station/medical/cryo)
 "qzp" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/airalarm/directional/south,
 /turf/open/floor/iron,
 /area/station/engineering/storage_shared)
 "qzH" = (
@@ -24631,6 +24654,8 @@
 	pixel_y = -32
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/south,
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
 "tAl" = (
@@ -27007,9 +27032,6 @@
 	name = "Escape Pod One";
 	space_dir = 1
 	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 8
-	},
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/aft)
 "vtA" = (
@@ -28982,6 +29004,9 @@
 /area/station/engineering/supermatter/room)
 "wKc" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
 /obj/machinery/vending/sovietsoda,
 /turf/open/floor/plating,
 /area/station/service/abandoned_gambling_den)
@@ -64099,8 +64124,8 @@ mGx
 eaP
 oxP
 bWh
-bWh
-dYC
+iYJ
+uTu
 ruh
 uka
 jCs
@@ -64349,15 +64374,15 @@ uHA
 mmS
 uWj
 uWj
-jSM
-uTu
+vXS
+dYC
 qcV
 avF
 rea
 tbE
 oFB
 qzp
-uTu
+dYC
 xgn
 iYh
 tNv
@@ -74883,7 +74908,7 @@ qlt
 qkm
 fBD
 xKB
-qui
+jSM
 eyy
 lYy
 ruZ
@@ -75138,7 +75163,7 @@ wuD
 wuD
 qlt
 roV
-fBD
+aEF
 cDJ
 rNL
 gij

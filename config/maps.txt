@@ -57,7 +57,7 @@ map pubbystation
 endmap
 
 map minisurf
-	maxplayers 25
+	minplayers 10
 	votable
 endmap
 
