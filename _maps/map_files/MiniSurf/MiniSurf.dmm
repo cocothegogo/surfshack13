@@ -8030,6 +8030,7 @@
 	name = "Aft Maintenance"
 	})
 "gGZ" = (
+/obj/effect/decal/cleanable/robot_debris,
 /turf/open/floor/iron,
 /area/station/commons/storage/primary)
 "gHB" = (
@@ -15562,6 +15563,9 @@
 /obj/structure/table,
 /obj/machinery/firealarm/directional/north,
 /obj/machinery/camera/directional/north,
+/obj/item/storage/belt/utility{
+	pixel_y = 3
+	},
 /turf/open/floor/iron,
 /area/station/commons/storage/primary)
 "mHT" = (
@@ -15990,7 +15994,6 @@
 	light_color = "#d8b1b1"
 	},
 /obj/structure/rack,
-/obj/item/storage/belt/utility,
 /obj/effect/spawner/random/engineering/material_cheap,
 /obj/item/storage/toolbox/drone,
 /obj/item/storage/toolbox/electrical,
@@ -17815,7 +17818,21 @@
 /obj/effect/turf_decal/tile/yellow/anticorner/contrasted{
 	dir = 8
 	},
-/obj/effect/decal/cleanable/robot_debris,
+/obj/structure/rack,
+/obj/item/t_scanner,
+/obj/item/assembly/igniter{
+	pixel_x = -8;
+	pixel_y = -4
+	},
+/obj/item/assembly/igniter{
+	pixel_x = 9;
+	pixel_y = 2
+	},
+/obj/item/crowbar,
+/obj/item/assembly/prox_sensor{
+	pixel_x = -8;
+	pixel_y = 4
+	},
 /turf/open/floor/iron,
 /area/station/commons/storage/primary)
 "omm" = (
