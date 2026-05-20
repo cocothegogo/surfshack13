@@ -195,6 +195,7 @@
 /turf/open/floor/carpet,
 /area/station/command/bridge)
 "als" = (
+/obj/effect/spawner/random/structure/table,
 /obj/effect/spawner/random/mod/maint{
 	spawn_loot_chance = 30
 	},
@@ -239,6 +240,7 @@
 /area/station/medical/virology)
 "aoj" = (
 /obj/structure/disposalpipe/segment,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/maintenance/aft/lesser)
 "aon" = (
@@ -2157,7 +2159,7 @@
 	dir = 8
 	},
 /turf/open/floor/wood/parquet,
-/area/station/command/heads_quarters/captain)
+/area/station/command/bridge)
 "bOq" = (
 /obj/structure/closet/l3closet/janitor,
 /obj/effect/decal/cleanable/dirt,
@@ -3148,6 +3150,16 @@
 /obj/machinery/light/small,
 /turf/open/floor/plating,
 /area/station/hallway/secondary/dock)
+"cCs" = (
+/obj/machinery/computer/mech_bay_power_console{
+	dir = 4
+	},
+/obj/structure/cable,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/textured,
+/area/station/security/mechbay)
 "cCt" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -4399,6 +4411,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/station/medical/pharmacy)
 "dFf" = (
@@ -5533,10 +5546,6 @@
 /turf/open/floor/plating,
 /area/station/maintenance/aft/lesser)
 "eua" = (
-/obj/machinery/computer/mech_bay_power_console{
-	dir = 4
-	},
-/obj/machinery/power/apc/auto_name/directional/west,
 /obj/structure/cable,
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
@@ -8625,6 +8634,8 @@
 	dir = 4
 	},
 /obj/machinery/light/red/directional/south,
+/obj/machinery/power/apc/auto_name/directional/south,
+/obj/structure/cable,
 /turf/open/floor/iron/dark/textured,
 /area/station/security/mechbay)
 "gQH" = (
@@ -9145,6 +9156,7 @@
 "hry" = (
 /obj/structure/disposalpipe/segment,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/maintenance/aft/lesser)
 "hrN" = (
@@ -12434,6 +12446,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/camera/directional/west,
 /turf/open/floor/iron,
 /area/station/maintenance/disposal/incinerator)
 "jGk" = (
@@ -13700,7 +13713,7 @@
 	dir = 1
 	},
 /obj/machinery/light,
-/obj/structure/extinguisher_cabinet/directional/south,
+/obj/machinery/power/apc/auto_name/directional/south,
 /turf/open/floor/iron/dark/textured,
 /area/station/medical/pharmacy)
 "kKD" = (
@@ -13753,6 +13766,15 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/white,
 /area/station/medical/virology)
+"kNc" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/cable/layer1,
+/obj/machinery/holopad,
+/turf/open/floor/engine,
+/area/station/engineering/supermatter/room)
 "kNr" = (
 /obj/machinery/computer/operating{
 	dir = 4;
@@ -17513,8 +17535,8 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
-/obj/machinery/power/apc/auto_name/directional/south,
 /obj/structure/cable,
+/obj/structure/extinguisher_cabinet/directional/south,
 /turf/open/floor/iron/dark/textured,
 /area/station/medical/pharmacy)
 "nFh" = (
@@ -18052,7 +18074,6 @@
 /turf/open/floor/iron,
 /area/station/hallway/primary/central)
 "obz" = (
-/obj/machinery/light/directional/east,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
 	},
@@ -22272,6 +22293,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/door/firedoor,
 /obj/effect/turf_decal/tile/yellow/fourcorners,
+/obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/commons/storage/primary)
 "rcy" = (
@@ -24426,8 +24448,9 @@
 /obj/effect/mapping_helpers/airlock/access/all/supply/qm,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
-/obj/machinery/door/airlock/mining/glass{
-	name = "Quartermasters Office"
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/door/airlock/mining{
+	name = "Quartermaster's Office"
 	},
 /turf/open/floor/wood,
 /area/station/cargo/qm)
@@ -25616,6 +25639,15 @@
 "tGZ" = (
 /turf/open/floor/carpet,
 /area/station/command/heads_quarters/hop)
+"tHO" = (
+/obj/machinery/light/directional/east,
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/wood/parquet,
+/area/station/command/heads_quarters/captain)
 "tHQ" = (
 /obj/machinery/vending/cart{
 	req_access_txt = "57"
@@ -30097,7 +30129,6 @@
 /area/station/medical/pharmacy)
 "wUQ" = (
 /obj/structure/cable/layer1,
-/obj/machinery/holopad,
 /turf/open/floor/iron,
 /area/station/engineering/main)
 "wUX" = (
@@ -61152,7 +61183,7 @@ oab
 oab
 oab
 rYl
-sfv
+rYl
 sMv
 gKz
 azv
@@ -62423,7 +62454,7 @@ pdc
 apX
 apX
 pdc
-apX
+mMM
 mMM
 mMM
 mMM
@@ -62673,7 +62704,6 @@ wuD
 wuD
 wuD
 wuD
-pdc
 lce
 xOL
 xOL
@@ -62683,6 +62713,7 @@ xOL
 xOL
 mMM
 lOt
+pEm
 bVx
 mMM
 osi
@@ -62930,7 +62961,6 @@ wuD
 wuD
 wuD
 wuD
-apX
 xOL
 ozt
 apD
@@ -62940,6 +62970,7 @@ skk
 xOL
 xOL
 bSn
+pEm
 nsI
 mMM
 mMM
@@ -63187,7 +63218,6 @@ apX
 apX
 apX
 apX
-apX
 uWW
 upg
 iIf
@@ -63197,6 +63227,7 @@ iKM
 ofM
 xOL
 bSn
+pEm
 oPZ
 szE
 pEm
@@ -63444,7 +63475,6 @@ wuD
 wuD
 wuD
 wuD
-apX
 uWW
 vwO
 uvq
@@ -63454,6 +63484,7 @@ ppm
 cUa
 xOL
 oCG
+pEm
 hwP
 mMM
 xOm
@@ -63701,7 +63732,6 @@ wuD
 wuD
 wuD
 wuD
-apX
 uWW
 fae
 nIc
@@ -63709,6 +63739,7 @@ qXg
 wAj
 wAj
 iEp
+xOL
 xOL
 xOL
 xOL
@@ -63958,7 +63989,6 @@ wuD
 wuD
 wuD
 wuD
-apX
 uWW
 nLd
 kGA
@@ -63971,6 +64001,7 @@ rlq
 aKV
 cLI
 mQj
+btK
 btK
 cuK
 pzk
@@ -64215,7 +64246,6 @@ apX
 apX
 apX
 apX
-apX
 oYM
 wBb
 hKU
@@ -64228,6 +64258,7 @@ ofY
 pvz
 xRs
 rjP
+uoZ
 uoZ
 uoZ
 uoZ
@@ -64293,7 +64324,7 @@ tjS
 ppE
 nbl
 gSO
-lJv
+kNc
 gHB
 vwk
 nRp
@@ -64472,7 +64503,6 @@ wuD
 wuD
 wuD
 wuD
-apX
 uWW
 pfi
 eVz
@@ -64485,6 +64515,7 @@ qGk
 fuf
 fFZ
 gSq
+nBU
 nBU
 ssb
 ngE
@@ -64729,7 +64760,6 @@ wuD
 wuD
 wuD
 wuD
-apX
 uWW
 ocF
 kSP
@@ -64737,9 +64767,10 @@ sus
 wAj
 wAj
 vLz
-afB
+xOL
 afB
 xBS
+afB
 afB
 afB
 afB
@@ -64986,7 +65017,6 @@ wuD
 wuD
 wuD
 wuD
-apX
 uWW
 nvw
 cBW
@@ -64996,6 +65026,7 @@ iiX
 pRi
 bNZ
 hwc
+nYG
 nYG
 jJm
 gTA
@@ -65243,7 +65274,6 @@ apX
 apX
 apX
 apX
-apX
 nRE
 xrZ
 aba
@@ -65251,8 +65281,9 @@ gEm
 qbT
 sCI
 dxO
-afB
+xOL
 lMc
+tHO
 obz
 qIU
 ine
@@ -65500,13 +65531,13 @@ wuD
 wuD
 wuD
 wuD
-apX
 xOL
 xOL
 nzG
 jzS
 mSu
 wyV
+xOL
 xOL
 afB
 afB
@@ -65758,13 +65789,13 @@ wuD
 wuD
 wuD
 pdc
-pdc
 xOL
 xOL
 xOL
 xOL
 xOL
 xOL
+cCs
 bsy
 mOk
 afB
@@ -75486,8 +75517,8 @@ pdc
 pdc
 pdc
 pdc
+wuD
 ves
-pdc
 pdc
 pdc
 pdc
