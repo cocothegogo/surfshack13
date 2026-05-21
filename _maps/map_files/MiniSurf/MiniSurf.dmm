@@ -1274,7 +1274,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/door/firedoor,
 /obj/structure/cable,
-/obj/effect/mapping_helpers/airlock/access/all/supply/general,
 /obj/effect/turf_decal/tile/brown/fourcorners,
 /turf/open/floor/iron,
 /area/station/cargo/miningoffice)
@@ -5971,8 +5970,8 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/mapping_helpers/airlock/access/all/security/court,
 /obj/structure/cable,
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 4
+/obj/effect/mapping_helpers/airlock/unres{
+	dir = 8
 	},
 /turf/open/floor/wood,
 /area/station/service/lawoffice)
@@ -6598,7 +6597,6 @@
 /obj/machinery/door/airlock/engineering{
 	name = "Gravity Generator"
 	},
-/obj/effect/mapping_helpers/airlock/access/any/engineering/construction,
 /turf/open/floor/iron,
 /area/station/engineering/main)
 "ffV" = (
@@ -10521,8 +10519,8 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/obj/effect/mapping_helpers/airlock/access/all/service/bar,
 /obj/effect/landmark/navigate_destination/bar,
+/obj/effect/mapping_helpers/airlock/access/any/service/bar,
 /obj/effect/mapping_helpers/airlock/access/any/service/kitchen,
 /obj/effect/mapping_helpers/airlock/access/any/service/hydroponics,
 /turf/open/floor/iron/dark,
@@ -10707,7 +10705,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/item/storage/toolbox/mechanical/old,
 /obj/structure/cable,
-/obj/machinery/power/apc/auto_name/directional/north,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/upper)
 "iyN" = (
@@ -10944,11 +10941,9 @@
 /turf/open/floor/iron,
 /area/station/service/cafeteria)
 "iFi" = (
-/obj/effect/mapping_helpers/airlock/access/any/supply/bit_den,
 /obj/machinery/door/airlock/maintenance{
 	name = "Mining Dock Maintenance"
 	},
-/obj/effect/mapping_helpers/airlock/access/any/supply/mining,
 /obj/effect/mapping_helpers/airlock/access/all/supply/general,
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -31761,11 +31756,6 @@
 	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/fore)
-"xSE" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/iron,
-/area/station/hallway/primary/central)
 "xSJ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/turf_decal/tile/blue{
@@ -32029,7 +32019,6 @@
 /obj/machinery/door/airlock/engineering{
 	name = "Gravity Generator"
 	},
-/obj/effect/mapping_helpers/airlock/access/any/engineering/construction,
 /turf/open/floor/plating,
 /area/station/engineering/gravity_generator)
 "ybk" = (
@@ -61463,8 +61452,8 @@ mno
 piv
 bwf
 xNq
-gSB
-gSB
+sEu
+sEu
 iDP
 sSe
 xqh
@@ -61720,7 +61709,7 @@ fDY
 rzl
 keK
 cJj
-gSB
+sEu
 avZ
 jpH
 gSB
@@ -61977,7 +61966,7 @@ rVf
 keZ
 rVf
 aHd
-gSB
+sEu
 fUl
 jpH
 wDp
@@ -62188,7 +62177,7 @@ wuD
 wuD
 pdc
 tvW
-tvW
+wuD
 mMM
 btM
 hYL
@@ -62234,7 +62223,7 @@ lde
 qcA
 wnv
 rTl
-gSB
+sEu
 vpX
 hgL
 xzQ
@@ -62491,7 +62480,7 @@ rVf
 cJj
 gGU
 neY
-gSB
+sEu
 tvA
 jpH
 adZ
@@ -62744,11 +62733,11 @@ prl
 gED
 bwf
 xHP
-sqP
+sEu
 bDr
 clG
 auu
-gSB
+sEu
 pgu
 dvD
 fiv
@@ -63005,7 +62994,7 @@ sqP
 sqP
 sqP
 gED
-gSB
+sEu
 izp
 uBO
 weJ
@@ -63262,7 +63251,7 @@ eyh
 qoi
 sqP
 mig
-gSB
+sEu
 hki
 dXM
 vlg
@@ -63519,7 +63508,7 @@ jqM
 udx
 sqP
 gED
-gSB
+sEu
 rZm
 txH
 eop
@@ -63776,7 +63765,7 @@ qCt
 jYF
 sqP
 gbq
-gSB
+sEu
 gSB
 gSB
 gSB
@@ -64273,7 +64262,7 @@ ovu
 srJ
 tpj
 fQW
-xSE
+tjd
 gOl
 oas
 gIT
