@@ -3621,7 +3621,6 @@
 /obj/structure/bed,
 /obj/item/bedsheet/captain,
 /obj/machinery/computer/security/telescreen/entertainment/directional/south,
-/obj/machinery/light_switch/directional/west,
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
@@ -11150,8 +11149,8 @@
 /turf/open/floor/iron/dark,
 /area/station/engineering/supermatter/room)
 "iNx" = (
-/obj/machinery/gateway/centerstation,
 /obj/structure/cable,
+/obj/machinery/gateway/centerstation,
 /turf/open/floor/iron/dark,
 /area/station/command/gateway)
 "iOk" = (
@@ -11818,7 +11817,8 @@
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 4
 	},
-/obj/structure/displaycase/captain,
+/obj/structure/closet/secure_closet/captains,
+/obj/item/storage/lockbox/medal,
 /turf/open/floor/wood/parquet,
 /area/station/command/heads_quarters/captain)
 "jjO" = (
@@ -15060,8 +15060,6 @@
 /turf/open/floor/grass,
 /area/station/medical/virology)
 "lMc" = (
-/obj/structure/closet/secure_closet/captains,
-/obj/item/storage/lockbox/medal,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -15069,6 +15067,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
+/obj/structure/displaycase/captain,
 /turf/open/floor/wood/parquet,
 /area/station/command/heads_quarters/captain)
 "lMe" = (
@@ -17898,7 +17897,6 @@
 /turf/open/floor/engine/n2,
 /area/station/engineering/main)
 "nNy" = (
-/obj/machinery/air_sensor/ordnance_burn_chamber,
 /obj/machinery/igniter/incinerator_ordmix,
 /turf/open/floor/engine/vacuum,
 /area/station/science/ordnance/burnchamber)
@@ -18063,9 +18061,6 @@
 "nYG" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/turf_decal/siding/wood/corner{
-	dir = 8
-	},
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
@@ -20055,6 +20050,9 @@
 /obj/effect/spawner/random/maintenance,
 /obj/item/pickaxe{
 	pixel_x = 7
+	},
+/obj/item/shovel{
+	pixel_x = -5
 	},
 /turf/open/floor/plating,
 /area/station/hallway/secondary/dock)
@@ -25275,6 +25273,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/station/engineering/main)
+"tjZ" = (
+/obj/machinery/air_sensor/ordnance_burn_chamber,
+/turf/open/floor/engine/vacuum,
+/area/station/science/ordnance/burnchamber)
 "tkg" = (
 /obj/effect/turf_decal/tile/yellow,
 /obj/effect/turf_decal/tile/yellow{
@@ -25831,7 +25833,6 @@
 /area/station/command/heads_quarters/hop)
 "tHO" = (
 /obj/machinery/light/directional/east,
-/obj/effect/turf_decal/siding/wood,
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
@@ -75302,7 +75303,7 @@ ufq
 mvR
 mvR
 nNN
-nNN
+tjZ
 nNN
 dJN
 dJN
@@ -75558,10 +75559,10 @@ cem
 qYk
 xOt
 lhX
-wuD
-apX
-wuD
-vPk
+nNN
+nNN
+nNN
+dJN
 nlO
 cwr
 jpc
