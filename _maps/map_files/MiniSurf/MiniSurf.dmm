@@ -5989,6 +5989,7 @@
 /obj/effect/turf_decal/tile/green{
 	dir = 8
 	},
+/obj/effect/landmark/navigate_destination,
 /turf/open/floor/iron,
 /area/station/hallway/secondary/service)
 "eKC" = (
@@ -31430,6 +31431,13 @@
 /area/station/maintenance/aft{
 	name = "Aft Maintenance"
 	})
+"xDP" = (
+/obj/effect/turf_decal/tile/green,
+/obj/effect/turf_decal/tile/green{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/station/hallway/secondary/service)
 "xDV" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
@@ -68787,7 +68795,7 @@ ooV
 gIf
 vZa
 fbu
-eKw
+xDP
 jyG
 lYt
 ehK
@@ -69558,7 +69566,7 @@ rEo
 gIf
 myh
 qfK
-eKw
+xDP
 inO
 piW
 wzE
