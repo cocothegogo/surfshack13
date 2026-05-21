@@ -2292,15 +2292,12 @@
 /turf/open/floor/plating,
 /area/station/maintenance/fore)
 "bVB" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
+/obj/structure/cable,
+/obj/structure/disposalpipe/segment{
+	dir = 4
 	},
-/obj/machinery/atmospherics/components/trinary/filter/flipped/critical{
-	filter_type = list(/datum/gas/nitrogen);
-	dir = 1
-	},
-/turf/open/floor/engine,
-/area/station/engineering/supermatter/room)
+/turf/open/floor/iron,
+/area/station/hallway/secondary/dock)
 "bWh" = (
 /obj/effect/turf_decal/bot{
 	dir = 1
@@ -6576,18 +6573,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/station/maintenance/fore/lesser)
-"ffp" = (
-/obj/effect/spawner/structure/window/reinforced/plasma,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible/layer2,
-/obj/machinery/atmospherics/pipe/layer_manifold/yellow/visible{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/layer_manifold/cyan/hidden{
-	dir = 4;
-	piping_layer = 5
-	},
-/turf/open/floor/plating/airless,
-/area/station/engineering/atmos)
 "ffS" = (
 /obj/effect/mapping_helpers/airlock/access/all/engineering/general,
 /obj/structure/cable,
@@ -7677,6 +7662,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /obj/effect/mapping_helpers/airlock/access/all/medical/virology,
+/obj/effect/turf_decal/tile/green/fourcorners,
 /turf/open/floor/iron/white,
 /area/station/medical/virology)
 "fZP" = (
@@ -12402,7 +12388,10 @@
 /obj/machinery/atmospherics/pipe/layer_manifold/yellow/visible{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
+/obj/machinery/atmospherics/pipe/layer_manifold/cyan/hidden{
+	dir = 4;
+	piping_layer = 5
+	},
 /turf/open/floor/plating/airless,
 /area/station/engineering/atmos)
 "jBR" = (
@@ -12789,13 +12778,15 @@
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
 "jQI" = (
-/obj/effect/turf_decal/tile/yellow{
-	dir = 4
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
 	},
-/obj/effect/turf_decal/tile/yellow,
-/obj/machinery/firealarm/directional/east,
-/turf/open/floor/iron,
-/area/station/cargo/storage)
+/obj/machinery/atmospherics/components/trinary/filter/flipped/critical{
+	filter_type = list(/datum/gas/nitrogen);
+	dir = 1
+	},
+/turf/open/floor/engine,
+/area/station/engineering/supermatter/room)
 "jRa" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
@@ -25512,12 +25503,10 @@
 /turf/open/floor/iron/dark/textured_large,
 /area/station/science/xenobiology)
 "ttY" = (
-/obj/structure/cable,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/floor/iron,
-/area/station/hallway/secondary/dock)
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/structure/extinguisher_cabinet/directional/south,
+/turf/open/floor/iron/dark,
+/area/station/science/ordnance)
 "tuP" = (
 /obj/structure/sign/departments/evac{
 	pixel_y = -32
@@ -26849,10 +26838,13 @@
 /turf/open/floor/engine,
 /area/station/engineering/supermatter)
 "uzW" = (
-/obj/effect/turf_decal/tile/neutral/fourcorners,
-/obj/structure/extinguisher_cabinet/directional/south,
-/turf/open/floor/iron/dark,
-/area/station/science/ordnance)
+/obj/effect/turf_decal/tile/yellow{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/yellow,
+/obj/machinery/firealarm/directional/east,
+/turf/open/floor/iron,
+/area/station/cargo/storage)
 "uAd" = (
 /obj/structure/sign/departments/medbay/directional/north,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -26884,7 +26876,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /obj/effect/mapping_helpers/airlock/access/all/medical/virology,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/tile/green/fourcorners,
 /turf/open/floor/iron/white,
 /area/station/medical/virology)
 "uAi" = (
@@ -58576,7 +58568,7 @@ tvW
 tvW
 bMo
 bUx
-ttY
+bVB
 eLw
 lMS
 igm
@@ -62934,7 +62926,7 @@ fLL
 btM
 hYL
 bdn
-jQI
+uzW
 shF
 bZG
 msh
@@ -63256,7 +63248,7 @@ kzd
 ezp
 qKj
 aFJ
-bVB
+jQI
 mqs
 nFk
 mqs
@@ -69148,7 +69140,7 @@ ffY
 wQT
 aVO
 wQT
-ffp
+jBk
 wQT
 jBk
 wQT
@@ -75804,9 +75796,9 @@ wam
 qYk
 apb
 lbQ
+wuD
 apX
-fyD
-apX
+wuD
 vPk
 gIQ
 xSc
@@ -76061,9 +76053,9 @@ wam
 qYk
 arl
 lbQ
-wuD
+apX
 fyD
-wuD
+apX
 dJN
 dJN
 dJN
@@ -77087,7 +77079,7 @@ lhX
 lhX
 lhX
 mYa
-uzW
+ttY
 lhX
 apX
 dJN
