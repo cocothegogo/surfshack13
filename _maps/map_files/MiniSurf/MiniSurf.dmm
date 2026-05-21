@@ -2292,12 +2292,15 @@
 /turf/open/floor/plating,
 /area/station/maintenance/fore)
 "bVB" = (
-/obj/structure/cable,
-/obj/structure/disposalpipe/segment{
-	dir = 4
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
 	},
-/turf/open/floor/iron,
-/area/station/hallway/secondary/dock)
+/obj/machinery/atmospherics/components/trinary/filter/flipped/critical{
+	filter_type = list(/datum/gas/nitrogen);
+	dir = 1
+	},
+/turf/open/floor/engine,
+/area/station/engineering/supermatter/room)
 "bWh" = (
 /obj/effect/turf_decal/bot{
 	dir = 1
@@ -7833,6 +7836,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark,
 /area/station/medical/morgue)
 "gfz" = (
@@ -11506,7 +11510,6 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/plating,
 /area/station/medical/morgue)
 "iXd" = (
@@ -16230,7 +16233,6 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/medical/morgue)
 "mGY" = (
@@ -16728,8 +16730,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/airlock/access/all/medical/virology,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/white,
 /area/station/medical/virology)
 "mXR" = (
@@ -22362,6 +22362,7 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
 	},
+/obj/effect/landmark/start/security_officer,
 /turf/open/floor/iron/dark/textured,
 /area/station/security/mechbay)
 "qZM" = (
@@ -25511,15 +25512,12 @@
 /turf/open/floor/iron/dark/textured_large,
 /area/station/science/xenobiology)
 "ttY" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
+/obj/structure/cable,
+/obj/structure/disposalpipe/segment{
+	dir = 4
 	},
-/obj/machinery/atmospherics/components/trinary/filter/flipped/critical{
-	filter_type = list(/datum/gas/nitrogen);
-	dir = 1
-	},
-/turf/open/floor/engine,
-/area/station/engineering/supermatter/room)
+/turf/open/floor/iron,
+/area/station/hallway/secondary/dock)
 "tuP" = (
 /obj/structure/sign/departments/evac{
 	pixel_y = -32
@@ -29947,7 +29945,6 @@
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/aisat/exterior)
 "wBn" = (
-/obj/structure/disposalpipe/segment,
 /obj/structure/cable,
 /obj/machinery/door/airlock/maintenance{
 	name = "Detective's Office Maintenance"
@@ -32224,7 +32221,6 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/dark,
 /area/station/medical/morgue)
 "ylb" = (
@@ -58580,7 +58576,7 @@ tvW
 tvW
 bMo
 bUx
-bVB
+ttY
 eLw
 lMS
 igm
@@ -63260,7 +63256,7 @@ kzd
 ezp
 qKj
 aFJ
-ttY
+bVB
 mqs
 nFk
 mqs
@@ -72225,8 +72221,8 @@ sRG
 sRG
 sRG
 sRG
-qpm
-qpm
+qsq
+qsq
 rXo
 sNF
 ocw
