@@ -16531,14 +16531,6 @@
 /obj/effect/landmark/start/hangover,
 /turf/open/floor/iron/freezer,
 /area/station/service/kitchen/coldroom)
-"mQA" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/turf/open/floor/iron,
-/area/station/hallway/primary/aft)
 "mRe" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
@@ -64785,7 +64777,7 @@ lIC
 wan
 wan
 wan
-mQA
+wan
 iZn
 lvA
 yid
