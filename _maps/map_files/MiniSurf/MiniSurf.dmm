@@ -600,8 +600,8 @@
 	name = "stagnant sewage water";
 	desc = "Stagnant water. Time to take a dip and give the virologist a job! Oh, wait."
 	},
-/area/station/cargo/warehouse{
-	name = "\improper Gator Farm"
+/area/station/maintenance/department/prison{
+	name = "Gator Farm"
 	})
 "azv" = (
 /obj/structure/chair/office{
@@ -1386,8 +1386,8 @@
 	name = "stagnant sewage water";
 	desc = "Stagnant water. Time to take a dip and give the virologist a job! Oh, wait."
 	},
-/area/station/cargo/warehouse{
-	name = "\improper Gator Farm"
+/area/station/maintenance/department/prison{
+	name = "Gator Farm"
 	})
 "bhi" = (
 /obj/machinery/light,
@@ -2560,8 +2560,8 @@
 	},
 /obj/effect/landmark/event_spawn,
 /turf/open/floor/pod,
-/area/station/cargo/warehouse{
-	name = "\improper Gator Farm"
+/area/station/maintenance/department/prison{
+	name = "Gator Farm"
 	})
 "cgh" = (
 /obj/effect/turf_decal/tile/blue{
@@ -2677,8 +2677,8 @@
 	dir = 8
 	},
 /turf/open/floor/pod,
-/area/station/cargo/warehouse{
-	name = "\improper Gator Farm"
+/area/station/maintenance/department/prison{
+	name = "Gator Farm"
 	})
 "cjQ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
@@ -3784,8 +3784,8 @@
 	name = "stagnant sewage water";
 	desc = "Stagnant water. Time to take a dip and give the virologist a job! Oh, wait."
 	},
-/area/station/cargo/warehouse{
-	name = "\improper Gator Farm"
+/area/station/maintenance/department/prison{
+	name = "Gator Farm"
 	})
 "dcw" = (
 /obj/effect/decal/cleanable/dirt,
@@ -6369,8 +6369,8 @@
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/north,
 /turf/open/floor/pod,
-/area/station/cargo/warehouse{
-	name = "\improper Gator Farm"
+/area/station/maintenance/department/prison{
+	name = "Gator Farm"
 	})
 "fae" = (
 /obj/structure/table,
@@ -7291,8 +7291,8 @@
 	name = "stagnant sewage water";
 	desc = "Stagnant water. Time to take a dip and give the virologist a job! Oh, wait."
 	},
-/area/station/cargo/warehouse{
-	name = "\improper Gator Farm"
+/area/station/maintenance/department/prison{
+	name = "Gator Farm"
 	})
 "fMk" = (
 /obj/effect/turf_decal/stripes/line,
@@ -8704,8 +8704,8 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/pod,
-/area/station/cargo/warehouse{
-	name = "\improper Gator Farm"
+/area/station/maintenance/department/prison{
+	name = "Gator Farm"
 	})
 "gSW" = (
 /obj/effect/landmark/start/botanist,
@@ -9112,8 +9112,8 @@
 	name = "stagnant sewage water";
 	desc = "Stagnant water. Time to take a dip and give the virologist a job! Oh, wait."
 	},
-/area/station/cargo/warehouse{
-	name = "\improper Gator Farm"
+/area/station/maintenance/department/prison{
+	name = "Gator Farm"
 	})
 "hqy" = (
 /obj/machinery/computer/teleporter{
@@ -9584,8 +9584,8 @@
 "hHW" = (
 /obj/structure/fence,
 /turf/open/floor/pod,
-/area/station/cargo/warehouse{
-	name = "\improper Gator Farm"
+/area/station/maintenance/department/prison{
+	name = "Gator Farm"
 	})
 "hHY" = (
 /obj/machinery/power/shieldwallgen/xenobiologyaccess,
@@ -9677,8 +9677,8 @@
 	name = "stagnant sewage water";
 	desc = "Stagnant water. Time to take a dip and give the virologist a job! Oh, wait."
 	},
-/area/station/cargo/warehouse{
-	name = "\improper Gator Farm"
+/area/station/maintenance/department/prison{
+	name = "Gator Farm"
 	})
 "hLq" = (
 /obj/effect/mapping_helpers/airlock/access/any/engineering/maintenance,
@@ -10524,8 +10524,8 @@
 	dir = 1
 	},
 /turf/open/floor/pod,
-/area/station/cargo/warehouse{
-	name = "\improper Gator Farm"
+/area/station/maintenance/department/prison{
+	name = "Gator Farm"
 	})
 "iup" = (
 /obj/effect/turf_decal/tile/purple{
@@ -11818,8 +11818,8 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/pod,
-/area/station/cargo/warehouse{
-	name = "\improper Gator Farm"
+/area/station/maintenance/department/prison{
+	name = "Gator Farm"
 	})
 "jnF" = (
 /obj/effect/turf_decal/tile/yellow{
@@ -13381,8 +13381,8 @@
 /area/station/maintenance/aft)
 "kyw" = (
 /turf/closed/wall/r_wall,
-/area/station/cargo/warehouse{
-	name = "\improper Gator Farm"
+/area/station/maintenance/department/prison{
+	name = "Gator Farm"
 	})
 "kyH" = (
 /obj/structure/table/reinforced,
@@ -13529,8 +13529,8 @@
 	name = "stagnant sewage water";
 	desc = "Stagnant water. Time to take a dip and give the virologist a job! Oh, wait."
 	},
-/area/station/cargo/warehouse{
-	name = "\improper Gator Farm"
+/area/station/maintenance/department/prison{
+	name = "Gator Farm"
 	})
 "kGx" = (
 /obj/effect/turf_decal/tile/yellow,
@@ -13771,8 +13771,8 @@
 	name = "stagnant sewage water";
 	desc = "Stagnant water. Time to take a dip and give the virologist a job! Oh, wait."
 	},
-/area/station/cargo/warehouse{
-	name = "\improper Gator Farm"
+/area/station/maintenance/department/prison{
+	name = "Gator Farm"
 	})
 "kOp" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -14898,8 +14898,8 @@
 	dir = 4
 	},
 /turf/open/floor/pod,
-/area/station/cargo/warehouse{
-	name = "\improper Gator Farm"
+/area/station/maintenance/department/prison{
+	name = "Gator Farm"
 	})
 "lKo" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -15190,8 +15190,8 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/pod,
-/area/station/cargo/warehouse{
-	name = "\improper Gator Farm"
+/area/station/maintenance/department/prison{
+	name = "Gator Farm"
 	})
 "lWx" = (
 /obj/effect/turf_decal/stripes/line{
@@ -16663,8 +16663,8 @@
 	name = "stagnant sewage water";
 	desc = "Stagnant water. Time to take a dip and give the virologist a job! Oh, wait."
 	},
-/area/station/cargo/warehouse{
-	name = "\improper Gator Farm"
+/area/station/maintenance/department/prison{
+	name = "Gator Farm"
 	})
 "naJ" = (
 /obj/effect/turf_decal/tile/green,
@@ -18140,8 +18140,8 @@
 	dir = 5
 	},
 /turf/open/floor/pod,
-/area/station/cargo/warehouse{
-	name = "\improper Gator Farm"
+/area/station/maintenance/department/prison{
+	name = "Gator Farm"
 	})
 "odl" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -18480,8 +18480,8 @@
 	name = "stagnant sewage water";
 	desc = "Stagnant water. Time to take a dip and give the virologist a job! Oh, wait."
 	},
-/area/station/cargo/warehouse{
-	name = "\improper Gator Farm"
+/area/station/maintenance/department/prison{
+	name = "Gator Farm"
 	})
 "onQ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -19414,8 +19414,8 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/pod,
-/area/station/cargo/warehouse{
-	name = "\improper Gator Farm"
+/area/station/maintenance/department/prison{
+	name = "Gator Farm"
 	})
 "oWH" = (
 /obj/effect/turf_decal/tile/bar{
@@ -20798,8 +20798,8 @@
 /area/station/security/prison)
 "pZu" = (
 /turf/closed/wall,
-/area/station/cargo/warehouse{
-	name = "\improper Gator Farm"
+/area/station/maintenance/department/prison{
+	name = "Gator Farm"
 	})
 "pZS" = (
 /obj/machinery/door/airlock/maintenance,
@@ -22563,8 +22563,8 @@
 	},
 /obj/machinery/light/blacklight/directional/west,
 /turf/open/floor/pod,
-/area/station/cargo/warehouse{
-	name = "\improper Gator Farm"
+/area/station/maintenance/department/prison{
+	name = "Gator Farm"
 	})
 "rnG" = (
 /obj/structure/table,
@@ -23935,8 +23935,8 @@
 	name = "stagnant sewage water";
 	desc = "Stagnant water. Time to take a dip and give the virologist a job! Oh, wait."
 	},
-/area/station/cargo/warehouse{
-	name = "\improper Gator Farm"
+/area/station/maintenance/department/prison{
+	name = "Gator Farm"
 	})
 "sng" = (
 /obj/effect/turf_decal/tile/green{
@@ -24787,8 +24787,8 @@
 	dir = 4
 	},
 /turf/open/floor/pod,
-/area/station/cargo/warehouse{
-	name = "\improper Gator Farm"
+/area/station/maintenance/department/prison{
+	name = "Gator Farm"
 	})
 "sWn" = (
 /obj/machinery/power/apc/auto_name/directional/west,
@@ -25220,8 +25220,8 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/pod,
-/area/station/cargo/warehouse{
-	name = "\improper Gator Farm"
+/area/station/maintenance/department/prison{
+	name = "Gator Farm"
 	})
 "tpj" = (
 /obj/machinery/power/apc/auto_name/directional/west,
@@ -26006,8 +26006,8 @@
 	name = "stagnant sewage water";
 	desc = "Stagnant water. Time to take a dip and give the virologist a job! Oh, wait."
 	},
-/area/station/cargo/warehouse{
-	name = "\improper Gator Farm"
+/area/station/maintenance/department/prison{
+	name = "Gator Farm"
 	})
 "tVI" = (
 /obj/effect/decal/cleanable/dirt,
@@ -26618,8 +26618,8 @@
 	name = "stagnant sewage water";
 	desc = "Stagnant water. Time to take a dip and give the virologist a job! Oh, wait."
 	},
-/area/station/cargo/warehouse{
-	name = "\improper Gator Farm"
+/area/station/maintenance/department/prison{
+	name = "Gator Farm"
 	})
 "uwK" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
@@ -26827,8 +26827,8 @@
 	},
 /obj/machinery/airalarm/directional/west,
 /turf/open/floor/pod,
-/area/station/cargo/warehouse{
-	name = "\improper Gator Farm"
+/area/station/maintenance/department/prison{
+	name = "Gator Farm"
 	})
 "uEL" = (
 /obj/effect/turf_decal/siding/wood{
@@ -28936,8 +28936,8 @@
 	dir = 4
 	},
 /turf/open/floor/pod,
-/area/station/cargo/warehouse{
-	name = "\improper Gator Farm"
+/area/station/maintenance/department/prison{
+	name = "Gator Farm"
 	})
 "wbI" = (
 /obj/effect/turf_decal/tile/neutral{
@@ -29086,8 +29086,8 @@
 /obj/item/clothing/head/costume/gator_cloak,
 /obj/item/clothing/shoes/cowboy/lizard/masterwork,
 /turf/open/floor/pod,
-/area/station/cargo/warehouse{
-	name = "\improper Gator Farm"
+/area/station/maintenance/department/prison{
+	name = "Gator Farm"
 	})
 "wfY" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
@@ -30038,8 +30038,8 @@
 	name = "stagnant sewage water";
 	desc = "Stagnant water. Time to take a dip and give the virologist a job! Oh, wait."
 	},
-/area/station/cargo/warehouse{
-	name = "\improper Gator Farm"
+/area/station/maintenance/department/prison{
+	name = "Gator Farm"
 	})
 "wQO" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
