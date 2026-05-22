@@ -7506,6 +7506,7 @@
 	dir = 6
 	},
 /obj/structure/reagent_dispensers/watertank,
+/obj/machinery/firealarm/directional/south,
 /turf/open/floor/iron/dark,
 /area/station/science/xenobiology)
 "gga" = (
@@ -8514,6 +8515,7 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/firealarm/directional/south,
 /turf/open/floor/iron/dark,
 /area/station/science/explab)
 "gZJ" = (
@@ -12012,12 +12014,13 @@
 /turf/open/floor/iron,
 /area/station/security/brig)
 "jIB" = (
-/obj/structure/window/reinforced,
 /obj/machinery/atmospherics/components/unary/thermomachine/freezer/on{
 	dir = 4;
 	initialize_directions = 4;
 	name = "euthanization chamber freezer"
 	},
+/obj/structure/window/reinforced/spawner/directional/east,
+/obj/structure/window/reinforced/spawner/directional/south,
 /turf/open/floor/plating,
 /area/station/science/xenobiology)
 "jIS" = (
@@ -14929,9 +14932,7 @@
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
 "mng" = (
-/turf/closed/mineral/random{
-	mineralSpawnChanceList = list(/turf/closed/mineral/uranium=5,/turf/closed/mineral/diamond=1,/turf/closed/mineral/gold=10,/turf/closed/mineral/silver=12,/turf/closed/mineral/plasma=20,/turf/closed/mineral/iron=40,/turf/closed/mineral/titanium=11,/turf/closed/mineral/gibtonite=4,/turf/closed/mineral/bscrystal=1)
-	},
+/turf/closed/mineral/random,
 /area/lavaland/surface)
 "mnn" = (
 /obj/structure/disposalpipe/segment,
@@ -18363,7 +18364,6 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
-/obj/machinery/firealarm/directional/west,
 /obj/structure/extinguisher_cabinet/directional/north,
 /turf/open/floor/iron/dark,
 /area/station/science/explab)
@@ -45068,7 +45068,7 @@ pdc
 pdc
 pdc
 pdc
-pth
+mng
 pdc
 pdc
 pdc
@@ -52565,7 +52565,7 @@ pdc
 pth
 pth
 iPl
-iPl
+mng
 mng
 lpO
 lpO
