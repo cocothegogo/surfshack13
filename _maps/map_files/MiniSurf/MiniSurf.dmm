@@ -822,8 +822,8 @@
 /obj/structure/cable,
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/preopen{
-	id = "ceprivacy";
-	name = "Privacy Shutter"
+	name = "Chief Engineer's Office Blast Doors";
+	id = "ce_blast"
 	},
 /turf/open/floor/plating,
 /area/station/command/heads_quarters/ce)
@@ -1104,17 +1104,16 @@
 /area/station/hallway/secondary/exit)
 "aUO" = (
 /obj/structure/table/reinforced,
-/obj/machinery/button/door{
-	id = "xenobio1";
-	layer = 3.3;
-	name = "Xenobio Pen 1 Blast Doors";
-	pixel_y = 1;
-	req_access = list("xenobiology")
-	},
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 4
 	},
 /obj/structure/window/reinforced/spawner/directional/north,
+/obj/machinery/button/door{
+	id = "xenobio1";
+	name = "Xenobio Pen 1 Blast Doors";
+	pixel_y = 1;
+	req_access = list("xenobiology")
+	},
 /turf/open/floor/iron/white,
 /area/station/science/xenobiology)
 "aVt" = (
@@ -2796,10 +2795,6 @@
 /turf/open/floor/iron/kitchen_coldroom,
 /area/station/medical/coldroom)
 "cpK" = (
-/obj/machinery/computer/apc_control{
-	dir = 4
-	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /obj/item/radio/intercom/directional/south,
 /obj/machinery/button/door/directional/west{
 	id = "Engineering";
@@ -2814,6 +2809,10 @@
 	pixel_y = -40;
 	req_access = list("engine_equip");
 	pixel_x = -6
+	},
+/obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk{
+	dir = 8
 	},
 /turf/open/floor/iron,
 /area/station/command/heads_quarters/ce)
@@ -5564,12 +5563,6 @@
 	pixel_y = 35;
 	req_access = list("armory")
 	},
-/obj/machinery/button/door{
-	id = "armoryshutter";
-	name = "Armory Shutters";
-	pixel_y = 25;
-	req_access = list("armory")
-	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4;
 	name = "Warden's Office Vent"
@@ -6139,9 +6132,17 @@
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/upper)
 "eVz" = (
-/obj/effect/turf_decal/siding/dark,
-/turf/open/floor/iron/dark,
-/area/station/command/bridge)
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable,
+/obj/machinery/door/poddoor/preopen{
+	name = "Chief Engineer's Office Blast Doors";
+	id = "ce_blast"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/station/command/heads_quarters/ce)
 "eVY" = (
 /turf/open/misc/ironsand,
 /area/space/nearstation)
@@ -6649,7 +6650,9 @@
 "fqO" = (
 /obj/machinery/door/firedoor,
 /obj/structure/cable,
-/obj/structure/disposalpipe/segment,
+/obj/structure/disposalpipe/junction{
+	dir = 1
+	},
 /turf/open/floor/iron,
 /area/station/engineering/main)
 "frf" = (
@@ -9674,15 +9677,15 @@
 /area/station/maintenance/port/aft)
 "hRE" = (
 /obj/structure/table/reinforced,
-/obj/machinery/door/poddoor/preopen{
-	id = "armory";
-	name = "armory blast door"
-	},
 /obj/machinery/door/firedoor,
 /obj/item/storage/fancy/donut_box,
 /obj/machinery/door/window/brigdoor/left/directional/east{
 	name = "Armory Desk";
 	req_access = list("security")
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "briglockdown";
+	name = "Brig Shutters"
 	},
 /turf/open/floor/iron/showroomfloor,
 /area/station/security/warden)
@@ -10641,11 +10644,6 @@
 /turf/open/floor/iron/white,
 /area/station/science/research)
 "iEp" = (
-/obj/machinery/button/door/directional/south{
-	id = "bridge blast";
-	name = "Bridge Access Blast Door Control";
-	req_access = list("command")
-	},
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
 	},
@@ -10657,6 +10655,11 @@
 	},
 /obj/effect/turf_decal/siding/dark{
 	dir = 1
+	},
+/obj/machinery/button/door/directional/south{
+	id = "bridge blast";
+	name = "Bridge Access Blast Door Control";
+	req_access = list("command")
 	},
 /turf/open/floor/iron/dark,
 /area/station/command/bridge)
@@ -10863,10 +10866,6 @@
 /obj/machinery/door/poddoor/shutters{
 	id = "armoryshutter";
 	name = "Armoury Shutter"
-	},
-/obj/machinery/door/poddoor/preopen{
-	id = "armory";
-	name = "armory blast door"
 	},
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
@@ -11601,11 +11600,11 @@
 	name = "Containment Pen";
 	req_access = list("xenobiology")
 	},
+/obj/structure/cable,
 /obj/machinery/door/poddoor/preopen{
 	id = "xenobio2";
 	name = "Xenobio Pen 2 Blast Door"
 	},
-/obj/structure/cable,
 /turf/open/floor/engine,
 /area/station/science/xenobiology)
 "jmM" = (
@@ -13325,6 +13324,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/station/engineering/main)
+"kGA" = (
+/obj/effect/turf_decal/siding/dark,
+/turf/open/floor/iron/dark,
+/area/station/command/bridge)
 "kGK" = (
 /obj/effect/mapping_helpers/broken_floor,
 /obj/effect/decal/cleanable/dirt,
@@ -14060,6 +14063,9 @@
 /area/station/science/research)
 "lkK" = (
 /obj/structure/cable,
+/obj/machinery/computer/apc_control{
+	dir = 4
+	},
 /turf/open/floor/iron,
 /area/station/command/heads_quarters/ce)
 "lla" = (
@@ -16037,8 +16043,8 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable,
 /obj/machinery/door/poddoor/preopen{
-	id = "ceprivacy";
-	name = "Privacy Shutter"
+	name = "Chief Engineer's Office Blast Doors";
+	id = "ce_blast"
 	},
 /turf/open/floor/plating,
 /area/station/command/heads_quarters/ce)
@@ -17542,13 +17548,12 @@
 /area/station/engineering/supermatter)
 "nRE" = (
 /obj/structure/cable,
-/obj/machinery/door/poddoor/preopen{
-	id = "bridge blast";
-	layer = 2.9;
-	name = "bridge blast door"
-	},
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/sign/warning/electric_shock/directional/east,
+/obj/machinery/door/poddoor/preopen{
+	id = "bridge blast";
+	name = "Bridge Blast Door"
+	},
 /turf/open/floor/plating/airless,
 /area/station/command/bridge)
 "nRG" = (
@@ -17670,16 +17675,15 @@
 "nZN" = (
 /obj/structure/window/reinforced,
 /obj/structure/table/reinforced,
-/obj/machinery/button/door{
-	id = "xenobio3";
-	layer = 3.3;
-	name = "Xenobio Pen 3 Blast Doors";
-	pixel_y = 4;
-	req_access = list("xenobiology")
-	},
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 8;
 	icon_state = "trimline_fill"
+	},
+/obj/machinery/button/door{
+	id = "xenobio3";
+	name = "Xenobio Pen 3 Blast Doors";
+	pixel_y = 4;
+	req_access = list("xenobiology")
 	},
 /turf/open/floor/iron/white,
 /area/station/science/xenobiology)
@@ -19186,16 +19190,6 @@
 /obj/machinery/newscaster/directional/north,
 /turf/open/floor/wood/parquet,
 /area/station/maintenance/department/chapel)
-"oYM" = (
-/obj/machinery/door/poddoor/preopen{
-	id = "bridge blast";
-	layer = 2.9;
-	name = "bridge blast door"
-	},
-/obj/structure/cable,
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating/airless,
-/area/station/command/bridge)
 "oYR" = (
 /obj/machinery/meter{
 	name = "Freezer Chamber Out"
@@ -19401,8 +19395,8 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable,
 /obj/machinery/door/poddoor/preopen{
-	id = "armory";
-	name = "armory blast door"
+	id = "briglockdown";
+	name = "Brig Shutters"
 	},
 /turf/open/floor/plating,
 /area/station/security/warden)
@@ -21199,10 +21193,6 @@
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
 "qEJ" = (
-/obj/machinery/door/poddoor/preopen{
-	id = "xenobio1";
-	name = "Xenobio Pen 1 Blast Door"
-	},
 /obj/structure/cable,
 /obj/machinery/door/window/left/directional/north{
 	base_state = "right";
@@ -21210,6 +21200,10 @@
 	icon_state = "right";
 	name = "Containment Pen";
 	req_access = list("xenobiology")
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "xenobio1";
+	name = "Xenobio Pen 1 Blast Door"
 	},
 /turf/open/floor/engine,
 /area/station/science/xenobiology)
@@ -21535,6 +21529,9 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/disposalpipe/segment{
+	dir = 8
+	},
 /turf/open/floor/iron,
 /area/station/engineering/main)
 "qPs" = (
@@ -23576,20 +23573,16 @@
 /area/station/medical/virology)
 "snl" = (
 /obj/structure/table/reinforced,
-/obj/machinery/button/door{
-	id = "xenobio2";
-	layer = 3.3;
-	name = "Xenobio Pen 2 Blast Doors";
-	pixel_y = 1;
-	req_access = list("xenobiology")
-	},
-/obj/item/toy/plush/slimeplushie{
-	name = "Nanners"
-	},
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 4
 	},
 /obj/structure/window/reinforced/spawner/directional/north,
+/obj/machinery/button/door{
+	id = "xenobio2";
+	name = "Xenobio Pen 2 Blast Doors";
+	pixel_y = 1;
+	req_access = list("xenobiology")
+	},
 /turf/open/floor/iron/white,
 /area/station/science/xenobiology)
 "snn" = (
@@ -24499,7 +24492,7 @@
 	dir = 1
 	},
 /obj/machinery/disposal/bin{
-	name = ""EscapeChute"";
+	name = "Escape Chute";
 	desc = "Freedom!"
 	},
 /turf/open/floor/iron,
@@ -26902,12 +26895,11 @@
 /area/station/hallway/secondary/exit)
 "uWW" = (
 /obj/structure/cable,
+/obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/preopen{
 	id = "bridge blast";
-	layer = 2.9;
-	name = "bridge blast door"
+	name = "Bridge Blast Door"
 	},
-/obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating/airless,
 /area/station/command/bridge)
 "uYn" = (
@@ -29650,10 +29642,7 @@
 	name = "Chief Engineer's Office Blast Doors";
 	id = "ce_blast"
 	},
-/obj/machinery/door/poddoor/preopen{
-	id = "ceprivacy";
-	name = "Privacy Shutter"
-	},
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/command/heads_quarters/ce)
 "wUM" = (
@@ -30972,8 +30961,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/preopen{
 	id = "bridge blast";
-	layer = 2.9;
-	name = "bridge blast door"
+	name = "Bridge Blast Door"
 	},
 /turf/open/floor/plating,
 /area/station/command/bridge)
@@ -31388,16 +31376,16 @@
 /turf/open/floor/iron,
 /area/station/service/cafeteria)
 "yfb" = (
-/obj/machinery/door/poddoor/preopen{
-	id = "xenobio3";
-	name = "Xenobio Pen 3 Blast Door"
-	},
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
 /obj/machinery/door/window/left/directional/north{
 	dir = 4;
 	name = "Containment Pen";
 	req_access = list("xenobiology")
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "xenobio3";
+	name = "Xenobio Pen 3 Blast Door"
 	},
 /turf/open/floor/engine,
 /area/station/science/xenobiology)
@@ -62012,7 +62000,7 @@ oFp
 jPT
 wTK
 mOe
-mOe
+eVz
 jPT
 gSB
 gSB
@@ -63486,7 +63474,7 @@ wuD
 wuD
 uWW
 nLd
-eVz
+kGA
 wAj
 wAj
 ayZ
@@ -63741,7 +63729,7 @@ apX
 apX
 apX
 apX
-oYM
+uWW
 wBb
 hKU
 cnZ
@@ -64000,7 +63988,7 @@ wuD
 wuD
 uWW
 pfi
-eVz
+kGA
 wAj
 wAj
 dNP
