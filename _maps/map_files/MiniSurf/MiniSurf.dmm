@@ -2505,15 +2505,13 @@
 /area/station/science/research)
 "cbE" = (
 /obj/machinery/light/directional/east,
-/obj/structure/closet/secure_closet/bar{
-	req_access_txt = "25"
-	},
 /obj/item/vending_refill/cigarette,
 /obj/item/gun/ballistic/shotgun/doublebarrel,
 /obj/item/etherealballdeployer,
 /obj/item/ammo_casing/shotgun/buckshot,
 /obj/item/ammo_casing/shotgun/buckshot,
 /obj/item/roulette_wheel_beacon,
+/obj/structure/closet/secure_closet/bar,
 /turf/open/floor/wood,
 /area/station/service/kitchen)
 "cbM" = (
@@ -10804,10 +10802,6 @@
 /turf/open/floor/iron/grimy,
 /area/station/tcommsat/computer)
 "izL" = (
-/obj/machinery/door/airlock/medical/glass{
-	name = "Cryogenics Bay";
-	req_access_txt = "5"
-	},
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -10815,6 +10809,9 @@
 /obj/effect/mapping_helpers/airlock/access/all/medical/general,
 /obj/effect/mapping_helpers/airlock/unres{
 	dir = 4
+	},
+/obj/machinery/door/airlock/medical/glass{
+	name = "Cryogenics Bay"
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/cryo)
@@ -14580,9 +14577,7 @@
 /turf/open/floor/iron/dark,
 /area/station/command/bridge)
 "lsg" = (
-/obj/machinery/vending/autodrobe{
-	req_access_txt = ""
-	},
+/obj/machinery/vending/autodrobe,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
@@ -15942,8 +15937,7 @@
 /area/station/ai_monitored/command/storage/satellite)
 "mwh" = (
 /obj/machinery/door/airlock/medical/glass{
-	name = "Medbay Storage";
-	req_access_txt = "5"
+	name = "Medbay Storage"
 	},
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -19133,8 +19127,7 @@
 	id = "roboticsprivacy";
 	name = "Robotics Privacy Control";
 	pixel_x = -24;
-	pixel_y = -24;
-	req_access_txt = "29"
+	pixel_y = -24
 	},
 /obj/structure/chair/office{
 	dir = 8
@@ -25938,9 +25931,7 @@
 /turf/open/floor/wood/parquet,
 /area/station/command/heads_quarters/captain)
 "tHQ" = (
-/obj/machinery/vending/cart{
-	req_access_txt = "57"
-	},
+/obj/machinery/vending/cart,
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/hop)
 "tHV" = (
@@ -28125,8 +28116,7 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/medical/glass{
 	id_tag = null;
-	name = "Medbay Office";
-	req_access_txt = "5"
+	name = "Medbay Office"
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
