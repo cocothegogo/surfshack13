@@ -592,7 +592,7 @@
 	name = "stagnant sewage water";
 	desc = "Stagnant water. Time to take a dip and give the virologist a job! Oh, wait."
 	},
-/area/station/construction/storage_wing)
+/area/station/commons/fitness/recreation/pool)
 "azv" = (
 /obj/structure/chair/office{
 	dir = 4
@@ -1344,16 +1344,8 @@
 /turf/open/floor/iron/dark,
 /area/station/science/research)
 "bhb" = (
-/obj/effect/gibspawner/human/bodypartless,
-/obj/structure/railing{
-	dir = 8
-	},
-/turf/open/water/no_planet_atmos{
-	fishing_datum = /datum/fish_source/toilet;
-	name = "stagnant sewage water";
-	desc = "Stagnant water. Time to take a dip and give the virologist a job! Oh, wait."
-	},
-/area/station/construction/storage_wing)
+/turf/open/misc/asteroid,
+/area/lavaland/surface)
 "bhi" = (
 /obj/structure/closet/secure_closet/security/sec,
 /obj/effect/turf_decal/bot_red,
@@ -2480,7 +2472,7 @@
 	},
 /obj/effect/landmark/event_spawn,
 /turf/open/floor/pod,
-/area/station/construction/storage_wing)
+/area/station/commons/fitness/recreation/pool)
 "cgh" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
@@ -2538,7 +2530,7 @@
 /area/station/medical/pharmacy)
 "ciw" = (
 /obj/item/toy/plush/lizard_plushie/space/green,
-/turf/open/misc/ironsand,
+/turf/open/misc/asteroid/airless,
 /area/centcom/asteroid/nearstation)
 "ciy" = (
 /obj/machinery/door/window/right/directional/west{
@@ -2591,7 +2583,7 @@
 	dir = 8
 	},
 /turf/open/floor/pod,
-/area/station/construction/storage_wing)
+/area/station/commons/fitness/recreation/pool)
 "cjQ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
 /obj/effect/turf_decal/stripes/line{
@@ -3670,7 +3662,7 @@
 	name = "stagnant sewage water";
 	desc = "Stagnant water. Time to take a dip and give the virologist a job! Oh, wait."
 	},
-/area/station/construction/storage_wing)
+/area/station/commons/fitness/recreation/pool)
 "dcw" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sign/poster/contraband/random/directional/west,
@@ -5997,7 +5989,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/upper)
 "eVY" = (
-/turf/open/misc/ironsand,
+/turf/open/misc/asteroid/airless,
 /area/space/nearstation)
 "eWa" = (
 /obj/effect/turf_decal/tile/purple{
@@ -6128,7 +6120,7 @@
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/north,
 /turf/open/floor/pod,
-/area/station/construction/storage_wing)
+/area/station/commons/fitness/recreation/pool)
 "fae" = (
 /obj/structure/table,
 /obj/item/storage/medkit/regular{
@@ -6417,7 +6409,7 @@
 /obj/structure/chair/plastic{
 	dir = 4
 	},
-/turf/open/misc/ironsand,
+/turf/open/misc/asteroid,
 /area/lavaland/surface)
 "fnw" = (
 /obj/structure/reagent_dispensers/fueltank,
@@ -7013,7 +7005,7 @@
 	name = "stagnant sewage water";
 	desc = "Stagnant water. Time to take a dip and give the virologist a job! Oh, wait."
 	},
-/area/station/construction/storage_wing)
+/area/station/commons/fitness/recreation/pool)
 "fMk" = (
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/iron,
@@ -8218,7 +8210,7 @@
 /area/space/nearstation)
 "gNr" = (
 /obj/item/trench_tool,
-/turf/open/misc/ironsand,
+/turf/open/misc/asteroid/airless,
 /area/lavaland/surface)
 "gNI" = (
 /obj/effect/decal/cleanable/dirt,
@@ -8388,7 +8380,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/pod,
-/area/station/construction/storage_wing)
+/area/station/commons/fitness/recreation/pool)
 "gSW" = (
 /obj/effect/landmark/start/botanist,
 /obj/effect/turf_decal/tile/green/half/contrasted{
@@ -8791,7 +8783,7 @@
 	name = "stagnant sewage water";
 	desc = "Stagnant water. Time to take a dip and give the virologist a job! Oh, wait."
 	},
-/area/station/construction/storage_wing)
+/area/station/commons/fitness/recreation/pool)
 "hqy" = (
 /obj/machinery/computer/teleporter{
 	dir = 4
@@ -9237,7 +9229,7 @@
 "hHW" = (
 /obj/structure/fence,
 /turf/open/floor/pod,
-/area/station/construction/storage_wing)
+/area/station/commons/fitness/recreation/pool)
 "hHY" = (
 /obj/machinery/power/shieldwallgen/xenobiologyaccess,
 /obj/structure/cable,
@@ -9321,7 +9313,7 @@
 	name = "stagnant sewage water";
 	desc = "Stagnant water. Time to take a dip and give the virologist a job! Oh, wait."
 	},
-/area/station/construction/storage_wing)
+/area/station/commons/fitness/recreation/pool)
 "hLq" = (
 /obj/effect/mapping_helpers/airlock/access/any/engineering/maintenance,
 /obj/structure/cable,
@@ -9750,7 +9742,7 @@
 "ifF" = (
 /obj/effect/decal/remains/human,
 /obj/item/pickaxe/drill,
-/turf/open/misc/ironsand,
+/turf/open/misc/asteroid/airless,
 /area/lavaland/surface)
 "ifN" = (
 /obj/effect/turf_decal/tile/green{
@@ -10141,7 +10133,7 @@
 	dir = 1
 	},
 /turf/open/floor/pod,
-/area/station/construction/storage_wing)
+/area/station/commons/fitness/recreation/pool)
 "iup" = (
 /obj/effect/turf_decal/tile/purple{
 	dir = 1
@@ -11400,7 +11392,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/pod,
-/area/station/construction/storage_wing)
+/area/station/commons/fitness/recreation/pool)
 "jnF" = (
 /obj/effect/turf_decal/tile/yellow{
 	dir = 1
@@ -12880,7 +12872,7 @@
 /area/station/maintenance/aft)
 "kyw" = (
 /turf/closed/wall/r_wall,
-/area/station/construction/storage_wing)
+/area/station/commons/fitness/recreation/pool)
 "kyH" = (
 /obj/structure/table/reinforced,
 /obj/machinery/computer/records/medical/laptop,
@@ -13017,13 +13009,12 @@
 /turf/open/floor/plating,
 /area/station/maintenance/port)
 "kFX" = (
-/obj/effect/decal/cleanable/cobweb/cobweb2,
 /turf/open/water/no_planet_atmos{
 	fishing_datum = /datum/fish_source/toilet;
 	name = "stagnant sewage water";
 	desc = "Stagnant water. Time to take a dip and give the virologist a job! Oh, wait."
 	},
-/area/station/construction/storage_wing)
+/area/station/commons/fitness/recreation/pool)
 "kGx" = (
 /obj/effect/turf_decal/tile/yellow,
 /obj/effect/turf_decal/tile/yellow{
@@ -13248,7 +13239,7 @@
 	name = "stagnant sewage water";
 	desc = "Stagnant water. Time to take a dip and give the virologist a job! Oh, wait."
 	},
-/area/station/construction/storage_wing)
+/area/station/commons/fitness/recreation/pool)
 "kOp" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
@@ -13618,7 +13609,7 @@
 /turf/open/floor/iron/freezer,
 /area/station/service/kitchen/coldroom)
 "lgG" = (
-/turf/open/misc/ironsand,
+/turf/open/misc/asteroid/airless,
 /area/lavaland/surface)
 "lgK" = (
 /obj/machinery/door/firedoor,
@@ -13842,7 +13833,7 @@
 /turf/open/floor/iron/white,
 /area/station/science/research)
 "lpO" = (
-/turf/open/misc/ironsand,
+/turf/open/misc/asteroid/airless,
 /area/centcom/asteroid/nearstation)
 "lpP" = (
 /obj/machinery/door/airlock/engineering/glass{
@@ -14322,7 +14313,7 @@
 	dir = 4
 	},
 /turf/open/floor/pod,
-/area/station/construction/storage_wing)
+/area/station/commons/fitness/recreation/pool)
 "lKo" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -14607,7 +14598,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/pod,
-/area/station/construction/storage_wing)
+/area/station/commons/fitness/recreation/pool)
 "lWx" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -15462,7 +15453,7 @@
 /area/station/medical/morgue)
 "mGL" = (
 /obj/effect/spawner/random/structure/billboard/nanotrasen,
-/turf/open/misc/ironsand,
+/turf/open/misc/asteroid/airless,
 /area/centcom/asteroid/nearstation)
 "mGN" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/visible/layer4,
@@ -16032,7 +16023,7 @@
 	name = "stagnant sewage water";
 	desc = "Stagnant water. Time to take a dip and give the virologist a job! Oh, wait."
 	},
-/area/station/construction/storage_wing)
+/area/station/commons/fitness/recreation/pool)
 "naJ" = (
 /obj/effect/turf_decal/tile/green,
 /obj/effect/turf_decal/tile/green{
@@ -16287,7 +16278,7 @@
 /area/station/hallway/primary/central)
 "njp" = (
 /obj/structure/fluff/iced_abductor,
-/turf/open/misc/ironsand,
+/turf/open/misc/asteroid/airless,
 /area/space/nearstation)
 "njE" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
@@ -17337,7 +17328,7 @@
 /mob/living/basic/pet/gondola{
 	name = "Comfy Boy"
 	},
-/turf/open/misc/ironsand,
+/turf/open/misc/asteroid,
 /area/lavaland/surface)
 "oas" = (
 /obj/effect/turf_decal/plaque{
@@ -17464,7 +17455,7 @@
 	dir = 5
 	},
 /turf/open/floor/pod,
-/area/station/construction/storage_wing)
+/area/station/commons/fitness/recreation/pool)
 "odl" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/telecomms/message_server/preset,
@@ -17794,7 +17785,7 @@
 	name = "stagnant sewage water";
 	desc = "Stagnant water. Time to take a dip and give the virologist a job! Oh, wait."
 	},
-/area/station/construction/storage_wing)
+/area/station/commons/fitness/recreation/pool)
 "onQ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/turf_decal/tile/neutral{
@@ -18685,7 +18676,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/pod,
-/area/station/construction/storage_wing)
+/area/station/commons/fitness/recreation/pool)
 "oWH" = (
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
@@ -20021,7 +20012,7 @@
 /area/station/security/prison)
 "pZu" = (
 /turf/closed/wall,
-/area/station/construction/storage_wing)
+/area/station/commons/fitness/recreation/pool)
 "pZS" = (
 /obj/machinery/door/airlock/maintenance,
 /turf/open/floor/plating,
@@ -21743,7 +21734,7 @@
 	},
 /obj/machinery/light/blacklight/directional/west,
 /turf/open/floor/pod,
-/area/station/construction/storage_wing)
+/area/station/commons/fitness/recreation/pool)
 "rnG" = (
 /obj/structure/table,
 /obj/item/stack/rods/fifty,
@@ -21884,7 +21875,7 @@
 /area/station/engineering/atmos)
 "rti" = (
 /obj/effect/spawner/message_in_a_bottle,
-/turf/open/misc/ironsand,
+/turf/open/misc/asteroid/airless,
 /area/centcom/asteroid/nearstation)
 "rtz" = (
 /obj/effect/turf_decal/bot,
@@ -21963,7 +21954,7 @@
 /obj/item/reagent_containers/cup/soda_cans/beer,
 /obj/item/reagent_containers/cup/soda_cans/beer,
 /obj/item/reagent_containers/cup/soda_cans/beer,
-/turf/open/misc/ironsand,
+/turf/open/misc/asteroid,
 /area/lavaland/surface)
 "rwl" = (
 /obj/structure/sign/directions/command{
@@ -23061,17 +23052,6 @@
 /obj/machinery/door/poddoor/incinerator_ordmix,
 /turf/open/floor/engine/vacuum,
 /area/station/science/ordnance/burnchamber)
-"slV" = (
-/obj/item/food/meat/slab/human/mutant/zombie,
-/obj/structure/railing{
-	dir = 8
-	},
-/turf/open/water/no_planet_atmos{
-	fishing_datum = /datum/fish_source/toilet;
-	name = "stagnant sewage water";
-	desc = "Stagnant water. Time to take a dip and give the virologist a job! Oh, wait."
-	},
-/area/station/construction/storage_wing)
 "sng" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 8
@@ -23903,7 +23883,7 @@
 	dir = 4
 	},
 /turf/open/floor/pod,
-/area/station/construction/storage_wing)
+/area/station/commons/fitness/recreation/pool)
 "sWn" = (
 /obj/machinery/power/apc/auto_name/directional/west,
 /obj/structure/cable,
@@ -24317,7 +24297,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/pod,
-/area/station/construction/storage_wing)
+/area/station/commons/fitness/recreation/pool)
 "tpj" = (
 /obj/machinery/power/apc/auto_name/directional/west,
 /obj/structure/cable,
@@ -24337,7 +24317,7 @@
 /obj/item/clothing/suit/space,
 /obj/item/clothing/head/helmet/space,
 /obj/effect/decal/remains/human,
-/turf/open/misc/ironsand,
+/turf/open/misc/asteroid/airless,
 /area/centcom/asteroid/nearstation)
 "tpy" = (
 /obj/effect/decal/cleanable/dirt,
@@ -25074,7 +25054,7 @@
 	name = "stagnant sewage water";
 	desc = "Stagnant water. Time to take a dip and give the virologist a job! Oh, wait."
 	},
-/area/station/construction/storage_wing)
+/area/station/commons/fitness/recreation/pool)
 "tVI" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
@@ -25663,7 +25643,7 @@
 	name = "stagnant sewage water";
 	desc = "Stagnant water. Time to take a dip and give the virologist a job! Oh, wait."
 	},
-/area/station/construction/storage_wing)
+/area/station/commons/fitness/recreation/pool)
 "uwK" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/effect/turf_decal/bot,
@@ -25868,7 +25848,7 @@
 	},
 /obj/machinery/airalarm/directional/west,
 /turf/open/floor/pod,
-/area/station/construction/storage_wing)
+/area/station/commons/fitness/recreation/pool)
 "uEL" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -27925,7 +27905,7 @@
 	dir = 4
 	},
 /turf/open/floor/pod,
-/area/station/construction/storage_wing)
+/area/station/commons/fitness/recreation/pool)
 "wbI" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -28070,7 +28050,7 @@
 /obj/item/clothing/head/costume/gator_cloak,
 /obj/item/clothing/shoes/cowboy/lizard/masterwork,
 /turf/open/floor/pod,
-/area/station/construction/storage_wing)
+/area/station/commons/fitness/recreation/pool)
 "wfY" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 8
@@ -49174,7 +49154,7 @@ pth
 pth
 pth
 mng
-lgG
+bhb
 fnb
 mng
 mng
@@ -49432,7 +49412,7 @@ pth
 mng
 mng
 oar
-lgG
+bhb
 mng
 mng
 pth
@@ -49687,9 +49667,9 @@ pdc
 pdc
 pth
 mng
-lgG
+bhb
 rvC
-lgG
+bhb
 mng
 mng
 pth
@@ -71321,10 +71301,10 @@ fQP
 yfW
 gBj
 kyw
-slV
+kOj
 sWg
 kOj
-bhb
+kOj
 kOj
 pZu
 rIR
