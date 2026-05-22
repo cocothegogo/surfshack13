@@ -1644,14 +1644,13 @@
 /turf/open/floor/iron/dark/textured,
 /area/station/security/mechbay)
 "bsO" = (
-/obj/machinery/door/airlock/command/glass{
-	name = "EVA Storage";
-	red_alert_access = list("eva")
-	},
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/mapping_helpers/airlock/access/any/command/eva,
 /obj/structure/cable,
+/obj/machinery/door/airlock/command/glass{
+	name = "EVA Storage"
+	},
 /turf/open/floor/iron,
 /area/station/ai_monitored/command/storage/eva)
 "bsV" = (
@@ -2626,12 +2625,11 @@
 /turf/open/floor/plating,
 /area/station/hallway/secondary/construction)
 "cgX" = (
-/obj/machinery/door/airlock/highsecurity{
-	name = "Secure Tech Storage";
-	req_access_txt = "19;23"
-	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/tech_storage,
 /obj/effect/mapping_helpers/airlock/access/all/command/general,
+/obj/machinery/door/airlock/highsecurity{
+	name = "Secure Tech Storage"
+	},
 /turf/open/floor/iron,
 /area/station/engineering/storage/tech)
 "ciu" = (
@@ -4170,6 +4168,9 @@
 "dro" = (
 /obj/effect/mapping_helpers/airlock/access/all/medical/chemistry,
 /obj/structure/cable,
+/obj/machinery/door/airlock/maintenance{
+	name = "Pharmacy Maintenance"
+	},
 /turf/open/floor/plating,
 /area/station/medical/chemistry)
 "dso" = (
@@ -5238,8 +5239,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/door/morgue{
-	name = "Private Exhibit";
-	red_alert_access = null
+	name = "Private Exhibit"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/service/library,
 /turf/open/floor/iron/dark,
@@ -8559,8 +8559,7 @@
 "gKH" = (
 /obj/machinery/door/airlock/engineering/glass/critical{
 	heat_proof = 1;
-	name = "Supermatter Chamber";
-	req_one_access_txt = "10;24"
+	name = "Supermatter Chamber"
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
@@ -11986,12 +11985,11 @@
 /turf/open/floor/iron,
 /area/station/hallway/primary/central/fore)
 "jpc" = (
-/obj/machinery/door/airlock/virology/glass{
-	name = "Isolation A";
-	req_access_txt = "39"
-	},
 /obj/machinery/door/firedoor,
 /obj/effect/mapping_helpers/airlock/access/all/medical/virology,
+/obj/machinery/door/airlock/virology/glass{
+	name = "Isolation A"
+	},
 /turf/open/floor/iron/white,
 /area/station/medical/virology)
 "jpD" = (
@@ -12903,15 +12901,14 @@
 /turf/open/floor/iron,
 /area/station/engineering/main)
 "jUM" = (
-/obj/machinery/door/airlock/engineering{
-	name = "Tech Storage";
-	req_one_access_txt = "23;30"
-	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/mapping_helpers/airlock/access/any/engineering/construction,
 /obj/structure/cable,
 /obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/engineering{
+	name = "Technical Storage"
+	},
 /turf/open/floor/iron,
 /area/station/engineering/main)
 "jUP" = (
@@ -28297,8 +28294,7 @@
 "vwk" = (
 /obj/machinery/door/airlock/engineering/glass/critical{
 	heat_proof = 1;
-	name = "Supermatter Chamber";
-	req_one_access_txt = "10;24"
+	name = "Supermatter Chamber"
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/effect/mapping_helpers/airlock/access/any/engineering/general,
