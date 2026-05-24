@@ -2704,6 +2704,9 @@
 	},
 /obj/effect/turf_decal/tile/neutral,
 /obj/item/radio/intercom/directional/north,
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
 /turf/open/floor/iron/dark,
 /area/station/science/genetics)
 "cnZ" = (
@@ -7049,9 +7052,6 @@
 /obj/machinery/door/airlock/maintenance,
 /obj/structure/barricade/wooden,
 /obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
-/obj/effect/mapping_helpers/airlock/unres{
-	dir = 8
-	},
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/aft)
 "fLE" = (
@@ -7220,6 +7220,7 @@
 	dir = 4
 	},
 /obj/structure/closet/secure_closet/personal/cabinet,
+/obj/item/clothing/suit/hooded/shork_costume,
 /turf/open/floor/iron/dark,
 /area/station/maintenance/department/science/xenobiology)
 "fPZ" = (
@@ -8580,8 +8581,7 @@
 /obj/machinery/button/door/directional/south{
 	id = "psych_shutters";
 	name = "Shutter Control";
-	pixel_x = -4;
-	req_access = list("psychology")
+	pixel_x = -4
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/aft)
@@ -9002,6 +9002,9 @@
 	},
 /obj/effect/turf_decal/tile/neutral,
 /obj/machinery/requests_console/auto_name/directional/north,
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
 /turf/open/floor/iron/dark,
 /area/station/science/genetics)
 "hsD" = (
@@ -12073,6 +12076,9 @@
 /obj/effect/turf_decal/tile/neutral,
 /obj/machinery/airalarm/directional/north,
 /obj/machinery/light/directional/north,
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
 /turf/open/floor/iron/dark,
 /area/station/science/genetics)
 "jDV" = (
@@ -13362,6 +13368,9 @@
 	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
 	},
 /turf/open/floor/iron/dark,
 /area/station/science/genetics)
@@ -14871,6 +14880,9 @@
 	},
 /obj/machinery/dna_infuser,
 /obj/structure/extinguisher_cabinet/directional/south,
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
 /turf/open/floor/iron/dark,
 /area/station/science/genetics)
 "lYt" = (
@@ -15003,8 +15015,7 @@
 "meW" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/neutral/half/contrasted,
-/obj/structure/table/wood,
-/obj/item/clothing/suit/hooded/shork_costume,
+/obj/structure/showcase/machinery/tv/broken,
 /turf/open/floor/iron/dark,
 /area/station/maintenance/department/science/xenobiology)
 "meY" = (
@@ -15280,7 +15291,7 @@
 "mqU" = (
 /obj/structure/cable,
 /obj/machinery/button/door/directional/west{
-	id = "eng_secure";
+	id = "Secure Storage";
 	name = "Engineering Secure Storage";
 	req_access = list("engine_equip");
 	pixel_y = 24;
@@ -17142,6 +17153,9 @@
 	dir = 1
 	},
 /obj/machinery/light/directional/south,
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
 /turf/open/floor/iron/dark,
 /area/station/science/genetics)
 "nGL" = (
@@ -18768,6 +18782,9 @@
 	},
 /obj/effect/turf_decal/tile/neutral,
 /obj/machinery/newscaster/directional/north,
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
 /turf/open/floor/iron/dark,
 /area/station/science/genetics)
 "oOe" = (
@@ -21418,7 +21435,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
-/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
 /obj/effect/mapping_helpers/airlock/unres{
 	dir = 4
 	},
@@ -21427,6 +21443,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/any/medical/general,
 /obj/effect/mapping_helpers/airlock/access/any/service/general,
+/obj/effect/mapping_helpers/airlock/access/any/engineering/maintenance,
 /turf/open/floor/plating,
 /area/station/maintenance/aft/lesser)
 "qPK" = (
@@ -22181,10 +22198,7 @@
 /turf/open/floor/wood,
 /area/station/cargo/qm)
 "rqT" = (
-/obj/structure/cable,
 /obj/machinery/door/airlock/maintenance,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/disposalpipe/segment{
 	dir = 1
 	},
@@ -22331,6 +22345,7 @@
 "rws" = (
 /obj/structure/cable,
 /obj/structure/window/reinforced/spawner/directional/east,
+/mob/living/carbon/human/species/monkey,
 /turf/open/floor/grass,
 /area/station/science/genetics)
 "rwC" = (
@@ -22797,7 +22812,8 @@
 /turf/open/floor/iron,
 /area/station/maintenance/disposal/incinerator)
 "rOw" = (
-/obj/structure/showcase/machinery/tv/broken,
+/obj/effect/spawner/random/structure/closet_maintenance,
+/obj/item/clothing/suit/costume/cryptic_shirt,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/aft)
 "rOP" = (
@@ -26992,6 +27008,9 @@
 /obj/item/infuser_book,
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/north,
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
 /turf/open/floor/iron/dark,
 /area/station/science/genetics)
 "vgs" = (
@@ -72156,7 +72175,7 @@ dPq
 dgr
 eZM
 uMw
-hSe
+rOw
 eZM
 wuD
 wuD
@@ -74212,7 +74231,7 @@ vtA
 hJb
 hSe
 eZM
-rOw
+hJb
 wVl
 woh
 crt
