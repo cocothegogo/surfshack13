@@ -2415,10 +2415,10 @@
 "ccq" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/visible/layer4,
-/obj/machinery/atmospherics/pipe/layer_manifold/cyan/visible/layer2{
+/obj/machinery/atmospherics/pipe/layer_manifold/cyan/visible{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/green/hidden,
 /turf/open/floor/plating/airless,
 /area/station/engineering/atmos)
 "ccV" = (
@@ -9627,6 +9627,14 @@
 	},
 /turf/open/floor/iron/showroomfloor,
 /area/station/security/warden)
+"hRG" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/visible/layer4,
+/obj/machinery/atmospherics/pipe/smart/simple/general/visible/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/green/hidden,
+/turf/open/floor/plating/airless,
+/area/space/nearstation)
 "hRS" = (
 /obj/structure/cable,
 /turf/open/floor/iron,
@@ -14781,8 +14789,10 @@
 /turf/open/floor/iron/dark,
 /area/station/hallway/secondary/construction)
 "lUq" = (
-/obj/effect/spawner/structure/window/reinforced/plasma,
-/obj/machinery/atmospherics/pipe/layer_manifold/yellow/visible{
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/visible/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/green/hidden,
+/obj/machinery/atmospherics/pipe/layer_manifold/cyan/visible{
 	dir = 4
 	},
 /turf/open/floor/plating/airless,
@@ -67803,7 +67813,7 @@ jye
 jye
 rBh
 dJC
-ccq
+lUq
 dJC
 ccq
 dJC
@@ -68062,7 +68072,7 @@ hja
 tvW
 ihA
 tvW
-ihA
+hRG
 tvW
 dxr
 tvW
@@ -68319,7 +68329,7 @@ tRC
 wQT
 wqJ
 wQT
-lUq
+wqJ
 wQT
 aVO
 wQT
