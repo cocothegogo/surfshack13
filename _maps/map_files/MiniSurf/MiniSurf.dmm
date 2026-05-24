@@ -2412,15 +2412,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/science/ordnance)
-"ccq" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/visible/layer4,
-/obj/machinery/atmospherics/pipe/layer_manifold/cyan/visible{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/green/hidden,
-/turf/open/floor/plating/airless,
-/area/station/engineering/atmos)
 "ccV" = (
 /obj/effect/spawner/random/structure/closet_maintenance,
 /turf/open/floor/plating,
@@ -9628,11 +9619,11 @@
 /turf/open/floor/iron/showroomfloor,
 /area/station/security/warden)
 "hRG" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/visible/layer4,
 /obj/machinery/atmospherics/pipe/smart/simple/general/visible/layer2{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/green/hidden,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/hidden/layer4,
 /turf/open/floor/plating/airless,
 /area/space/nearstation)
 "hRS" = (
@@ -9985,11 +9976,11 @@
 /turf/open/floor/plating,
 /area/station/maintenance/port)
 "ihA" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/visible/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
 /obj/machinery/atmospherics/pipe/smart/simple/general/visible/layer2{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/hidden/layer4,
 /turf/open/floor/plating/airless,
 /area/space/nearstation)
 "iiC" = (
@@ -14790,11 +14781,9 @@
 /area/station/hallway/secondary/construction)
 "lUq" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/visible/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/green/hidden,
-/obj/machinery/atmospherics/pipe/layer_manifold/cyan/visible{
-	dir = 4
-	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible/layer2,
 /turf/open/floor/plating/airless,
 /area/station/engineering/atmos)
 "lUD" = (
@@ -67815,7 +67804,7 @@ rBh
 dJC
 lUq
 dJC
-ccq
+lUq
 dJC
 cQF
 dJC
