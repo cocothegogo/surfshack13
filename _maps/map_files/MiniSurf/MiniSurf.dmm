@@ -2412,6 +2412,13 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/science/ordnance)
+"ccq" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/visible/layer4,
+/obj/machinery/atmospherics/pipe/layer_manifold/cyan/visible{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/station/engineering/atmos)
 "ccV" = (
 /obj/effect/spawner/random/structure/closet_maintenance,
 /turf/open/floor/plating,
@@ -4680,13 +4687,6 @@
 	},
 /turf/open/floor/plating,
 /area/station/hallway/secondary/construction)
-"dVh" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/atmospherics/pipe/layer_manifold/cyan/visible{
-	dir = 4
-	},
-/turf/open/floor/plating/airless,
-/area/station/engineering/atmos)
 "dVk" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -8796,7 +8796,7 @@
 /area/station/maintenance/fore)
 "hja" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/visible/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/hidden/layer2,
 /turf/open/floor/plating/airless,
 /area/space/nearstation)
 "hjZ" = (
@@ -9859,13 +9859,6 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark,
 /area/station/science/ordnance)
-"idE" = (
-/obj/structure/lattice,
-/obj/machinery/atmospherics/pipe/smart/simple/general/hidden/layer4{
-	dir = 10
-	},
-/turf/open/space,
-/area/space/nearstation)
 "ieo" = (
 /obj/effect/landmark/start/atmospheric_technician,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/violet/visible,
@@ -9969,6 +9962,13 @@
 /obj/structure/grille,
 /turf/open/floor/plating,
 /area/station/maintenance/port)
+"ihA" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/atmospherics/pipe/layer_manifold/cyan/visible{
+	dir = 4
+	},
+/turf/open/floor/plating/airless,
+/area/station/engineering/atmos)
 "iiC" = (
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 9;
@@ -14765,12 +14765,12 @@
 /turf/open/floor/iron/dark,
 /area/station/hallway/secondary/construction)
 "lUq" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/visible/layer4,
-/obj/machinery/atmospherics/components/trinary/filter/atmos/flipped/o2{
-	dir = 1
+/obj/structure/lattice,
+/obj/machinery/atmospherics/pipe/smart/simple/general/hidden/layer4{
+	dir = 10
 	},
-/turf/open/floor/iron,
-/area/station/engineering/atmos)
+/turf/open/space,
+/area/space/nearstation)
 "lUD" = (
 /obj/structure/chair/office{
 	dir = 8
@@ -21661,9 +21661,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/high_volume/siphon/monitored/air_output{
 	dir = 8
 	},
-/obj/machinery/atmospherics/pipe/layer_manifold/cyan/hidden{
-	dir = 4
-	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/hidden/layer2,
 /turf/open/floor/engine/air,
 /area/station/engineering/atmos)
 "qXJ" = (
@@ -22418,7 +22416,7 @@
 "rBh" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/visible/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/hidden/layer2,
 /turf/open/floor/plating/airless,
 /area/station/engineering/atmos)
 "rBm" = (
@@ -25348,7 +25346,7 @@
 /obj/machinery/atmospherics/pipe/layer_manifold/yellow/visible{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/hidden/layer2,
 /turf/open/floor/plating/airless,
 /area/station/engineering/atmos)
 "tRL" = (
@@ -29851,8 +29849,8 @@
 /area/station/maintenance/aft/lesser)
 "xgJ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/visible/layer4,
-/obj/machinery/atmospherics/pipe/layer_manifold/cyan/visible{
-	dir = 4
+/obj/machinery/atmospherics/components/trinary/filter/atmos/flipped/o2{
+	dir = 1
 	},
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
@@ -67006,7 +67004,7 @@ eAC
 dMm
 mum
 oco
-lUq
+xgJ
 oco
 pQx
 jiE
@@ -67518,7 +67516,7 @@ ewt
 pxs
 jye
 qAx
-xgJ
+ccq
 hsF
 jiE
 lij
@@ -67776,9 +67774,9 @@ iRX
 jye
 jye
 rBh
-dVh
+ihA
 cQF
-dVh
+ihA
 cQF
 dJC
 cQF
@@ -68033,9 +68031,9 @@ kiU
 ffY
 pdc
 hja
-idE
+lUq
 dxr
-idE
+lUq
 dxr
 tvW
 dxr
