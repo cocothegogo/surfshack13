@@ -15931,8 +15931,7 @@
 	},
 /obj/machinery/portable_atmospherics/canister/plasma,
 /obj/machinery/door/window/right/directional/west{
-	name = "Gas Storage";
-	req_access = list("engineering","atmos")
+	name = "Gas Storage"
 	},
 /turf/open/floor/engine,
 /area/station/engineering/atmos/storage/gas)
@@ -17106,8 +17105,7 @@
 	},
 /obj/machinery/portable_atmospherics/canister/nitrogen,
 /obj/machinery/door/window/right/directional/west{
-	name = "Gas Storage";
-	req_access = list("engineering","atmos")
+	name = "Gas Storage"
 	},
 /turf/open/floor/engine,
 /area/station/engineering/atmos/storage/gas)
@@ -17421,7 +17419,9 @@
 /turf/open/floor/engine/n2,
 /area/station/engineering/atmos)
 "nNy" = (
-/obj/machinery/igniter/incinerator_ordmix,
+/obj/machinery/igniter{
+	id = ord
+	},
 /turf/open/floor/engine/vacuum,
 /area/station/science/ordnance/burnchamber)
 "nND" = (
@@ -19606,7 +19606,8 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/dark/visible,
 /obj/machinery/meter,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/button/ignition/incinerator/ordmix{
+/obj/machinery/button/ignition{
+	id = ord;
 	pixel_x = 8;
 	pixel_y = -24
 	},
@@ -26977,8 +26978,7 @@
 	},
 /obj/machinery/portable_atmospherics/canister/carbon_dioxide,
 /obj/machinery/door/window/right/directional/west{
-	name = "Gas Storage";
-	req_access = list("engineering","atmos")
+	name = "Gas Storage"
 	},
 /turf/open/floor/engine,
 /area/station/engineering/atmos/storage/gas)
@@ -27404,8 +27404,7 @@
 	},
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/machinery/door/window/right/directional/west{
-	name = "Gas Storage";
-	req_access = list("engineering","atmos")
+	name = "Gas Storage"
 	},
 /turf/open/floor/engine,
 /area/station/engineering/atmos/storage/gas)
