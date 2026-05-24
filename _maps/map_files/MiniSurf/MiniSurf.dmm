@@ -1578,6 +1578,14 @@
 /obj/machinery/rnd/production/protolathe/department/service,
 /turf/open/floor/plating,
 /area/station/maintenance/port)
+"bqs" = (
+/obj/structure/lattice,
+/obj/machinery/atmospherics/pipe/smart/simple/general/hidden/layer4{
+	dir = 10;
+	color = "#00FFFF"
+	},
+/turf/open/space,
+/area/space/nearstation)
 "brf" = (
 /obj/structure/chair/wood{
 	dir = 4
@@ -5344,6 +5352,7 @@
 	pixel_y = 16
 	},
 /obj/effect/turf_decal/trimline/blue/end,
+/obj/effect/turf_decal/trimline/purple/end,
 /turf/open/floor/iron/dark,
 /area/station/science/xenobiology)
 "etz" = (
@@ -5492,7 +5501,6 @@
 	name = "Warden's Office Vent"
 	},
 /obj/item/melee/baton/security/boomerang/loaded,
-/obj/item/dog_bone,
 /turf/open/floor/iron/showroomfloor,
 /area/station/security/warden)
 "ezR" = (
@@ -9625,6 +9633,9 @@
 	id = "briglockdown";
 	name = "Brig Shutters"
 	},
+/obj/machinery/door/window/left/directional/west{
+	name = "Reception Window"
+	},
 /turf/open/floor/iron/showroomfloor,
 /area/station/security/warden)
 "hRG" = (
@@ -12421,6 +12432,7 @@
 	pixel_y = 18
 	},
 /obj/effect/turf_decal/trimline/blue/end,
+/obj/effect/turf_decal/trimline/purple/end,
 /turf/open/floor/iron/white,
 /area/station/science/research)
 "jRC" = (
@@ -14131,9 +14143,8 @@
 /obj/structure/cable,
 /obj/effect/mapping_helpers/airlock/access/all/science/xenobio,
 /obj/effect/turf_decal/stripes/line{
-	dir = 4
+	dir = 8
 	},
-/obj/machinery/duct,
 /turf/open/floor/plating,
 /area/station/maintenance/department/science/xenobiology)
 "ltr" = (
@@ -14280,13 +14291,6 @@
 /obj/machinery/light/directional/south,
 /turf/open/floor/iron/white,
 /area/station/science/research)
-"lzz" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/atmospherics/pipe/layer_manifold/cyan/visible{
-	dir = 4
-	},
-/turf/open/floor/plating/airless,
-/area/station/engineering/atmos)
 "lzF" = (
 /obj/machinery/camera/autoname/directional/north,
 /obj/effect/turf_decal/weather/snow/corner{
@@ -16999,7 +17003,7 @@
 	dir = 8
 	},
 /obj/effect/spawner/random/medical/memeorgans,
-/obj/structure/closet/mini_fridge/grimy,
+/obj/structure/closet/mini_fridge,
 /turf/open/floor/iron/white,
 /area/station/medical/abandoned)
 "nzY" = (
@@ -18521,10 +18525,6 @@
 "oFw" = (
 /obj/item/stack/tile/iron/white,
 /obj/effect/decal/cleanable/dirt,
-/obj/item/clothing/mask/gas{
-	pixel_x = -3;
-	pixel_y = -3
-	},
 /turf/open/floor/plating,
 /area/station/medical/abandoned)
 "oFB" = (
@@ -18900,6 +18900,13 @@
 	dir = 4
 	},
 /area/station/medical/abandoned)
+"oQU" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/visible/layer4,
+/obj/machinery/atmospherics/components/trinary/filter/atmos/flipped/o2{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/station/engineering/atmos)
 "oQV" = (
 /obj/effect/decal/cleanable/blood/splatter/over_window,
 /turf/open/floor/iron/white,
@@ -20690,7 +20697,6 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
-/obj/machinery/duct,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/upper)
 "qqy" = (
@@ -21884,10 +21890,9 @@
 /turf/open/floor/iron/dark,
 /area/station/science/explab)
 "rgP" = (
-/obj/structure/closet,
-/obj/effect/spawner/random/maintenance/two,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small/directional/east,
+/obj/structure/closet/bombcloset,
 /turf/open/floor/iron,
 /area/station/maintenance/department/science/xenobiology)
 "rgQ" = (
@@ -23936,6 +23941,10 @@
 "sKb" = (
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /obj/structure/frame,
+/obj/item/clothing/mask/gas{
+	pixel_x = -3;
+	pixel_y = -3
+	},
 /turf/open/floor/iron/white,
 /area/station/medical/abandoned)
 "sKe" = (
@@ -25860,13 +25869,6 @@
 /obj/machinery/power/apc/auto_name/directional/south,
 /turf/open/floor/iron,
 /area/station/engineering/gravity_generator)
-"umT" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/visible/layer4,
-/obj/machinery/atmospherics/components/trinary/filter/atmos/flipped/o2{
-	dir = 1
-	},
-/turf/open/floor/iron,
-/area/station/engineering/atmos)
 "uoc" = (
 /obj/effect/turf_decal/tile/purple,
 /obj/effect/turf_decal/tile/purple{
@@ -26812,6 +26814,8 @@
 "uYn" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small/directional/east,
+/obj/effect/spawner/random/structure/crate,
+/obj/effect/spawner/random/trash/deluxe_garbage,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/upper)
 "uYA" = (
@@ -27448,7 +27452,7 @@
 /turf/closed/wall,
 /area/station/hallway/secondary/dock)
 "vvw" = (
-/obj/machinery/light/small/red/dim/directional/south,
+/obj/machinery/light/small/red/directional/south,
 /turf/open/floor/plating,
 /area/station/maintenance/department/science/xenobiology)
 "vvJ" = (
@@ -28858,13 +28862,14 @@
 /turf/open/floor/iron,
 /area/station/cargo/storage)
 "wqJ" = (
-/obj/structure/lattice,
-/obj/machinery/atmospherics/pipe/smart/simple/general/hidden/layer4{
-	dir = 10;
-	color = "#00FFFF"
+/obj/machinery/atmospherics/pipe/layer_manifold/yellow/visible{
+	dir = 4
 	},
-/turf/open/space,
-/area/space/nearstation)
+/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible/layer2{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/station/engineering/atmos)
 "wrd" = (
 /obj/docking_port/stationary/random{
 	name = "lavaland";
@@ -29898,13 +29903,11 @@
 /turf/open/floor/plating,
 /area/station/maintenance/aft/lesser)
 "xgJ" = (
-/obj/machinery/atmospherics/pipe/layer_manifold/yellow/visible{
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/atmospherics/pipe/layer_manifold/cyan/visible{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/smart/simple/cyan/visible/layer2{
-	dir = 4
-	},
-/turf/open/floor/iron,
+/turf/open/floor/plating/airless,
 /area/station/engineering/atmos)
 "xgP" = (
 /obj/structure/table/wood,
@@ -30719,6 +30722,7 @@
 /area/station/cargo/storage)
 "xLo" = (
 /obj/structure/sign/clock/directional/west,
+/obj/item/dog_bone,
 /turf/open/floor/iron,
 /area/station/security/brig)
 "xLw" = (
@@ -67056,7 +67060,7 @@ eAC
 dMm
 mum
 oco
-umT
+oQU
 oco
 pQx
 jiE
@@ -67568,7 +67572,7 @@ ewt
 pxs
 jye
 qAx
-xgJ
+wqJ
 hsF
 idE
 lij
@@ -67828,7 +67832,7 @@ jye
 rBh
 dVh
 lUq
-lzz
+xgJ
 ccq
 dJC
 cQF
@@ -68083,7 +68087,7 @@ kiU
 ffY
 pdc
 hja
-wqJ
+bqs
 dxr
 ihA
 hRG
