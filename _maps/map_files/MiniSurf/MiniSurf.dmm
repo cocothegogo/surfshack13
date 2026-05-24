@@ -5555,7 +5555,8 @@
 /obj/machinery/atmospherics/pipe/layer_manifold/scrubbers/hidden{
 	dir = 4
 	},
-/obj/structure/sign/warning/vacuum/directional/east,
+/obj/machinery/power/apc/auto_name/directional/east,
+/obj/structure/cable,
 /turf/open/floor/engine,
 /area/station/science/ordnance/burnchamber)
 "eCk" = (
@@ -12215,6 +12216,11 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
+"jIm" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/turf/open/floor/iron/dark,
+/area/station/science/ordnance)
 "jIz" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment{
@@ -15670,6 +15676,7 @@
 /obj/machinery/atmospherics/components/binary/dp_vent_pump/high_volume/incinerator_ordmix{
 	dir = 4
 	},
+/obj/structure/cable,
 /turf/open/floor/engine,
 /area/station/science/ordnance/burnchamber)
 "mDs" = (
@@ -24605,6 +24612,7 @@
 	pixel_x = 24;
 	pixel_y = 8
 	},
+/obj/structure/cable,
 /turf/open/floor/engine,
 /area/station/science/ordnance/burnchamber)
 "tjd" = (
@@ -24857,6 +24865,7 @@
 "tsF" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/station/science/ordnance)
 "ttQ" = (
@@ -26434,6 +26443,7 @@
 /obj/machinery/atmospherics/components/binary/pump{
 	dir = 1
 	},
+/obj/structure/sign/warning/vacuum/directional/south,
 /turf/open/floor/engine,
 /area/station/science/ordnance/burnchamber)
 "uGO" = (
@@ -73992,7 +74002,7 @@ tWL
 mqr
 mYW
 tsF
-hta
+jIm
 tiY
 mDk
 lTl
