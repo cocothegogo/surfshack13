@@ -24192,7 +24192,7 @@
 /turf/open/floor/circuit/off,
 /area/station/science/explab)
 "sQo" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/dark/visible,
 /obj/structure/sign/warning/fire,
 /turf/closed/wall/r_wall,
 /area/station/science/ordnance/burnchamber)
@@ -26424,14 +26424,14 @@
 /turf/open/floor/iron,
 /area/station/security/brig)
 "uGn" = (
-/obj/machinery/atmospherics/components/binary/pump/on{
-	dir = 1
-	},
 /obj/machinery/airlock_sensor/incinerator_ordmix{
 	pixel_x = -24
 	},
 /obj/machinery/atmospherics/pipe/layer_manifold/supply/hidden{
 	dir = 4
+	},
+/obj/machinery/atmospherics/components/binary/pump{
+	dir = 1
 	},
 /turf/open/floor/engine,
 /area/station/science/ordnance/burnchamber)
@@ -73739,7 +73739,7 @@ hFy
 wQW
 rFd
 uGn
-sQo
+rFd
 uWT
 slQ
 wuD
@@ -74253,7 +74253,7 @@ oXA
 ptX
 bHe
 eCe
-bHe
+sQo
 oDT
 slQ
 wuD
