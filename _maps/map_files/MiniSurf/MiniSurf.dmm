@@ -5533,6 +5533,10 @@
 /turf/open/floor/plating,
 /area/station/maintenance/port)
 "eBw" = (
+/obj/effect/spawner/random/food_or_drink/condiment{
+	pixel_x = -4;
+	pixel_y = -1
+	},
 /turf/open/floor/iron/cafeteria,
 /area/station/maintenance/starboard/aft)
 "eBI" = (
@@ -6448,8 +6452,8 @@
 	},
 /obj/effect/turf_decal/bot,
 /obj/effect/decal/cleanable/rubble,
-/obj/item/boulder,
 /obj/machinery/camera/autoname/directional/south,
+/obj/item/boulder/gulag_expanded,
 /turf/open/floor/iron,
 /area/station/cargo/miningoffice)
 "fkF" = (
@@ -8198,6 +8202,9 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/barsign/all_access/directional/south,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/central)
 "gIz" = (
@@ -10898,6 +10905,11 @@
 /obj/effect/landmark/navigate_destination/chapel,
 /turf/open/floor/wood/parquet,
 /area/station/maintenance/department/chapel)
+"iQw" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/sign/departments/evac,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/exit)
 "iQK" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/turf_decal/stripes/line{
@@ -15350,6 +15362,10 @@
 	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/fore)
+"mrF" = (
+/obj/structure/sign/chalkboard_menu,
+/turf/closed/wall,
+/area/station/maintenance/starboard/aft)
 "msh" = (
 /obj/structure/chair/office{
 	dir = 4
@@ -15963,6 +15979,10 @@
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/south,
 /obj/effect/turf_decal/tile/brown/half/contrasted,
+/obj/machinery/conveyor_switch/oneway{
+	id = "mining";
+	dir = 1
+	},
 /turf/open/floor/iron,
 /area/station/cargo/miningoffice)
 "mMj" = (
@@ -22843,6 +22863,7 @@
 "rOw" = (
 /obj/effect/spawner/random/structure/closet_maintenance,
 /obj/item/clothing/suit/costume/cryptic_shirt,
+/obj/item/card/cardboard,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/aft)
 "rOP" = (
@@ -23119,6 +23140,9 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/central)
 "rZm" = (
@@ -28493,6 +28517,12 @@
 	},
 /turf/open/floor/engine,
 /area/station/science/xenobiology)
+"wfh" = (
+/obj/item/chair/plastic,
+/turf/open/floor/iron/cafeteria{
+	dir = 5
+	},
+/area/station/maintenance/starboard/aft)
 "wfj" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/chair/plastic{
@@ -29600,9 +29630,6 @@
 "wVl" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/chair/plastic{
-	dir = 1
-	},
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/aft)
 "wVn" = (
@@ -31256,10 +31283,6 @@
 /turf/open/floor/iron,
 /area/station/command/heads_quarters/ce)
 "ydV" = (
-/obj/machinery/conveyor_switch/oneway{
-	id = "mining";
-	dir = 1
-	},
 /obj/machinery/light/directional/west,
 /obj/machinery/mining_weather_monitor/directional/north,
 /obj/effect/turf_decal/tile/brown/half/contrasted{
@@ -56495,11 +56518,11 @@ wuD
 tvW
 pxi
 iDt
-xBo
+iQw
 eLw
 pxi
 eLw
-xBo
+iQw
 iDt
 pxi
 tvW
@@ -74261,10 +74284,10 @@ fbU
 vtA
 hJb
 hSe
-eZM
+mrF
 hJb
 wVl
-woh
+wfh
 crt
 wNW
 oCK
