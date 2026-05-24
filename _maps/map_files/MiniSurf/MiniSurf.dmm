@@ -112,6 +112,7 @@
 /obj/machinery/atmospherics/components/unary/outlet_injector/monitored/plasma_input{
 	dir = 8
 	},
+/obj/machinery/atmospherics/miner/plasma,
 /turf/open/floor/engine/plasma,
 /area/station/engineering/atmos)
 "aih" = (
@@ -1663,6 +1664,7 @@
 /obj/machinery/atmospherics/components/unary/outlet_injector/monitored/nitrogen_input{
 	dir = 8
 	},
+/obj/machinery/atmospherics/miner/nitrogen,
 /turf/open/floor/engine/n2,
 /area/station/engineering/atmos)
 "bvi" = (
@@ -2416,10 +2418,10 @@
 "ccq" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/visible/layer4,
-/obj/machinery/atmospherics/pipe/layer_manifold/green/hidden{
-	dir = 8
+/obj/machinery/atmospherics/pipe/layer_manifold/cyan/visible/layer2{
+	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
 /turf/open/floor/plating/airless,
 /area/station/engineering/atmos)
 "ccV" = (
@@ -3587,6 +3589,7 @@
 /obj/machinery/atmospherics/components/unary/outlet_injector/monitored/carbon_input{
 	dir = 8
 	},
+/obj/machinery/atmospherics/miner/carbon_dioxide,
 /turf/open/floor/engine/co2,
 /area/station/engineering/atmos)
 "cWV" = (
@@ -9974,7 +9977,9 @@
 "ihA" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/visible/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible/layer2,
+/obj/machinery/atmospherics/pipe/smart/simple/general/visible/layer2{
+	dir = 4
+	},
 /turf/open/floor/plating/airless,
 /area/space/nearstation)
 "iiC" = (
@@ -17375,9 +17380,6 @@
 /obj/machinery/atmospherics/pipe/layer_manifold/green/hidden/layer5{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/layer_manifold/cyan/visible/layer2{
-	dir = 4
-	},
 /turf/open/floor/engine/n2,
 /area/station/engineering/atmos)
 "nNy" = (
@@ -17427,9 +17429,6 @@
 	dir = 8
 	},
 /obj/machinery/camera/autoname/directional/south,
-/obj/machinery/atmospherics/components/unary/vent_pump/siphon/monitored/oxygen_output{
-	dir = 8
-	},
 /turf/open/floor/engine/o2,
 /area/station/engineering/atmos)
 "nQs" = (
@@ -23359,13 +23358,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/siphon/monitored/oxygen_output{
 	dir = 8
 	},
-/obj/machinery/atmospherics/pipe/layer_manifold/cyan/hidden{
-	dir = 4
-	},
 /obj/machinery/atmospherics/pipe/layer_manifold/green/hidden/layer5{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/layer_manifold/cyan/visible/layer2{
 	dir = 4
 	},
 /turf/open/floor/engine/o2,
@@ -25370,7 +25363,6 @@
 /obj/machinery/atmospherics/pipe/layer_manifold/yellow/visible{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/hidden/layer2,
 /turf/open/floor/plating/airless,
 /area/station/engineering/atmos)
 "tRL" = (
@@ -28846,7 +28838,6 @@
 /obj/machinery/atmospherics/pipe/layer_manifold/green/hidden/layer5{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/hidden/layer2,
 /turf/open/floor/plating/airless,
 /area/station/engineering/atmos)
 "wrd" = (
@@ -29303,6 +29294,7 @@
 /obj/machinery/atmospherics/components/unary/outlet_injector/monitored/oxygen_input{
 	dir = 8
 	},
+/obj/machinery/atmospherics/miner/oxygen,
 /turf/open/floor/engine/o2,
 /area/station/engineering/atmos)
 "wIr" = (
