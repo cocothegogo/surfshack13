@@ -109,10 +109,10 @@
 /area/station/science/explab)
 "agq" = (
 /obj/machinery/light/small/directional/east,
+/obj/machinery/atmospherics/miner/plasma,
 /obj/machinery/atmospherics/components/unary/outlet_injector/monitored/plasma_input{
 	dir = 8
 	},
-/obj/machinery/atmospherics/miner/plasma,
 /turf/open/floor/engine/plasma,
 /area/station/engineering/atmos)
 "aih" = (
@@ -1661,10 +1661,10 @@
 /area/station/security/brig)
 "buQ" = (
 /obj/machinery/light/small/directional/east,
+/obj/machinery/atmospherics/miner/nitrogen,
 /obj/machinery/atmospherics/components/unary/outlet_injector/monitored/nitrogen_input{
 	dir = 8
 	},
-/obj/machinery/atmospherics/miner/nitrogen,
 /turf/open/floor/engine/n2,
 /area/station/engineering/atmos)
 "bvi" = (
@@ -2412,6 +2412,13 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/science/ordnance)
+"ccq" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
+/turf/open/floor/plating/airless,
+/area/station/engineering/atmos)
 "ccV" = (
 /obj/effect/spawner/random/structure/closet_maintenance,
 /turf/open/floor/plating,
@@ -3574,10 +3581,10 @@
 /area/station/commons/dorms)
 "cWP" = (
 /obj/machinery/light/small/directional/east,
+/obj/machinery/atmospherics/miner/carbon_dioxide,
 /obj/machinery/atmospherics/components/unary/outlet_injector/monitored/carbon_input{
 	dir = 8
 	},
-/obj/machinery/atmospherics/miner/carbon_dioxide,
 /turf/open/floor/engine/co2,
 /area/station/engineering/atmos)
 "cWV" = (
@@ -9620,10 +9627,11 @@
 /area/station/security/warden)
 "hRG" = (
 /obj/machinery/atmospherics/pipe/smart/simple/general/visible/layer2{
-	dir = 4
+	dir = 4;
+	color = "#00FFFF"
 	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/green/hidden,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
 /turf/open/floor/plating/airless,
 /area/space/nearstation)
 "hRS" = (
@@ -9978,7 +9986,8 @@
 "ihA" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
 /obj/machinery/atmospherics/pipe/smart/simple/general/visible/layer2{
-	dir = 4
+	dir = 4;
+	color = "#00FFFF"
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/hidden/layer4,
 /turf/open/floor/plating/airless,
@@ -14779,13 +14788,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/hallway/secondary/construction)
-"lUq" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/green/hidden,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible/layer2,
-/turf/open/floor/plating/airless,
-/area/station/engineering/atmos)
 "lUD" = (
 /obj/structure/chair/office{
 	dir = 8
@@ -28840,7 +28842,7 @@
 /obj/machinery/atmospherics/pipe/layer_manifold/yellow/visible{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/green/hidden,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
 /turf/open/floor/plating/airless,
 /area/station/engineering/atmos)
 "wrd" = (
@@ -29294,10 +29296,10 @@
 /area/station/ai_monitored/command/storage/satellite)
 "wIk" = (
 /obj/machinery/light/small/directional/east,
+/obj/machinery/atmospherics/miner/oxygen,
 /obj/machinery/atmospherics/components/unary/outlet_injector/monitored/oxygen_input{
 	dir = 8
 	},
-/obj/machinery/atmospherics/miner/oxygen,
 /turf/open/floor/engine/o2,
 /area/station/engineering/atmos)
 "wIr" = (
@@ -67802,9 +67804,9 @@ jye
 jye
 rBh
 dJC
-lUq
+ccq
 dJC
-lUq
+ccq
 dJC
 cQF
 dJC
