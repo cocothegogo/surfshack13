@@ -19606,6 +19606,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/dark/visible,
 /obj/machinery/meter,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/button/ignition/incinerator/ordmix{
+	pixel_x = 8;
+	pixel_y = -24
+	},
 /turf/open/floor/iron/dark,
 /area/station/science/ordnance)
 "pue" = (
@@ -24599,10 +24603,6 @@
 /obj/machinery/button/door/incinerator_vent_ordmix{
 	pixel_x = 24;
 	pixel_y = 8
-	},
-/obj/machinery/button/ignition/incinerator/ordmix{
-	pixel_x = 24;
-	pixel_y = -6
 	},
 /turf/open/floor/engine,
 /area/station/science/ordnance/burnchamber)
