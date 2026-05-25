@@ -2404,7 +2404,6 @@
 /obj/item/etherealballdeployer,
 /obj/item/ammo_casing/shotgun/buckshot,
 /obj/item/ammo_casing/shotgun/buckshot,
-/obj/item/roulette_wheel_beacon,
 /obj/structure/closet/secure_closet/bar,
 /turf/open/floor/wood,
 /area/station/service/kitchen)
@@ -2822,7 +2821,7 @@
 /obj/item/food/canned/peaches/maint,
 /obj/structure/table,
 /obj/item/food/canned/beans,
-/turf/open/floor/plating,
+/turf/open/floor/iron/terracotta,
 /area/station/maintenance/starboard/aft)
 "crA" = (
 /obj/structure/lattice,
@@ -2913,9 +2912,7 @@
 "cwI" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/landmark/generic_maintenance_landmark,
-/turf/open/floor/iron/cafeteria{
-	dir = 5
-	},
+/turf/open/floor/iron/terracotta,
 /area/station/maintenance/starboard/aft)
 "cwS" = (
 /obj/effect/decal/cleanable/dirt,
@@ -5017,7 +5014,7 @@
 /turf/open/floor/iron/white,
 /area/station/science/genetics)
 "efb" = (
-/obj/machinery/oven/range,
+/obj/machinery/vending/dinnerware,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/aft)
 "efj" = (
@@ -5533,11 +5530,8 @@
 /turf/open/floor/plating,
 /area/station/maintenance/port)
 "eBw" = (
-/obj/effect/spawner/random/food_or_drink/condiment{
-	pixel_x = -4;
-	pixel_y = -1
-	},
-/turf/open/floor/iron/cafeteria,
+/obj/effect/spawner/random/vending/snackvend,
+/turf/open/floor/iron/terracotta,
 /area/station/maintenance/starboard/aft)
 "eBI" = (
 /obj/structure/showcase/cyborg/old{
@@ -7485,9 +7479,8 @@
 /turf/open/floor/engine,
 /area/station/engineering/supermatter/room)
 "gdc" = (
-/obj/effect/spawner/random/trash/mess,
-/obj/machinery/light/small/directional/east,
-/turf/open/floor/plating,
+/obj/structure/chair/plastic,
+/turf/open/floor/iron/terracotta,
 /area/station/maintenance/starboard/aft)
 "gdq" = (
 /obj/effect/turf_decal/trimline/purple/filled/line{
@@ -7621,8 +7614,8 @@
 "ggf" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small/broken/directional/north,
-/obj/machinery/vending/dinnerware,
 /obj/effect/mapping_helpers/burnt_floor,
+/obj/machinery/oven/range,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/aft)
 "ggJ" = (
@@ -8599,7 +8592,7 @@
 	name = "Shutter Control";
 	pixel_x = -4
 	},
-/obj/effect/spawner/random/entertainment/drugs,
+/obj/machinery/coffeemaker/impressa,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/aft)
 "gUK" = (
@@ -8673,10 +8666,9 @@
 /turf/open/floor/iron/freezer,
 /area/station/commons/toilet/restrooms)
 "gZU" = (
-/obj/structure/chair/plastic,
-/turf/open/floor/iron/cafeteria{
-	dir = 5
-	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/iron/terracotta,
 /area/station/maintenance/starboard/aft)
 "hbA" = (
 /obj/machinery/teleport/station,
@@ -9393,7 +9385,7 @@
 "hHK" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sink/kitchen/directional/east,
-/turf/open/floor/plating,
+/turf/open/floor/iron/kitchen,
 /area/station/maintenance/starboard/aft)
 "hHN" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -9582,7 +9574,7 @@
 /obj/item/chair/plastic{
 	pixel_y = 5
 	},
-/turf/open/floor/plating,
+/turf/open/floor/iron/kitchen,
 /area/station/maintenance/starboard/aft)
 "hOR" = (
 /obj/machinery/door/poddoor/shutters/radiation/preopen{
@@ -14030,9 +14022,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/disposalpipe/segment,
-/turf/open/floor/iron/cafeteria{
-	dir = 5
-	},
+/turf/open/floor/iron/terracotta,
 /area/station/maintenance/starboard/aft)
 "lmu" = (
 /obj/machinery/power/apc/auto_name/directional/south,
@@ -17427,8 +17417,9 @@
 /area/station/engineering/atmos)
 "nNy" = (
 /obj/machinery/igniter{
-	id = ord
+	id = "AtmosStorage"
 	},
+/obj/machinery/air_sensor/ordnance_burn_chamber,
 /turf/open/floor/engine/vacuum,
 /area/station/science/ordnance/burnchamber)
 "nND" = (
@@ -18799,7 +18790,6 @@
 	dir = 6
 	},
 /obj/effect/turf_decal/weather/snow,
-/obj/structure/broken_flooring/pile/directional/south,
 /turf/open/floor/iron/freezer,
 /area/station/service/kitchen)
 "oNA" = (
@@ -19614,7 +19604,7 @@
 /obj/machinery/meter,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/button/ignition{
-	id = ord;
+	id = "AtmosStorage";
 	pixel_x = 8;
 	pixel_y = -24
 	},
@@ -20314,7 +20304,6 @@
 /obj/structure/table,
 /obj/item/kitchen/rollingpin,
 /obj/item/reagent_containers/condiment/enzyme,
-/obj/item/reagent_containers/condiment/sugar,
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/aft)
@@ -20664,6 +20653,9 @@
 	dir = 4;
 	id = "psych_shutters";
 	name = "Kitchen Privacy Shutters"
+	},
+/obj/item/storage/fancy/coffee_condi_display{
+	pixel_y = -7
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/aft)
@@ -22829,7 +22821,7 @@
 /obj/structure/chair/plastic{
 	dir = 4
 	},
-/turf/open/floor/iron/cafeteria,
+/turf/open/floor/iron/terracotta,
 /area/station/maintenance/starboard/aft)
 "rNk" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -23777,6 +23769,10 @@
 /area/station/science/ordnance/bomb)
 "sCl" = (
 /obj/effect/decal/cleanable/glass,
+/obj/effect/spawner/random/food_or_drink/condiment{
+	pixel_x = -4;
+	pixel_y = -1
+	},
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/aft)
 "sCq" = (
@@ -24385,6 +24381,7 @@
 /obj/item/folder/yellow,
 /obj/item/taperecorder,
 /obj/item/camera/detective,
+/obj/structure/detectiveboard/directional/east,
 /turf/open/floor/carpet,
 /area/station/security/detectives_office/private_investigators_office)
 "sXB" = (
@@ -24520,14 +24517,9 @@
 /turf/open/floor/iron,
 /area/station/engineering/storage_shared)
 "tdc" = (
-/obj/machinery/igniter{
-	id = "AtmosStorage"
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/turf/open/floor/engine,
-/area/station/engineering/atmos/storage/gas)
+/obj/structure/chair/sofa/right/brown,
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/aft)
 "tei" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
@@ -24647,9 +24639,10 @@
 /turf/open/floor/iron,
 /area/station/engineering/main)
 "tjZ" = (
-/obj/machinery/air_sensor/ordnance_burn_chamber,
-/turf/open/floor/engine/vacuum,
-/area/station/science/ordnance/burnchamber)
+/obj/effect/decal/cleanable/dirt,
+/obj/item/storage/box/coffeepack/robusta,
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/aft)
 "tkg" = (
 /obj/effect/turf_decal/tile/yellow,
 /obj/effect/turf_decal/tile/yellow{
@@ -25131,7 +25124,7 @@
 	dir = 1
 	},
 /obj/structure/disposalpipe/segment,
-/turf/open/floor/iron/cafeteria,
+/turf/open/floor/iron/terracotta,
 /area/station/maintenance/starboard/aft)
 "tFs" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -26787,6 +26780,7 @@
 /obj/machinery/light/directional/east{
 	dir = 8
 	},
+/obj/item/reagent_containers/cup/glass/shaker,
 /turf/open/floor/iron/dark,
 /area/station/service/bar)
 "uWj" = (
@@ -28528,9 +28522,7 @@
 /area/station/science/xenobiology)
 "wfh" = (
 /obj/item/chair/plastic,
-/turf/open/floor/iron/cafeteria{
-	dir = 5
-	},
+/turf/open/floor/iron/terracotta,
 /area/station/maintenance/starboard/aft)
 "wfj" = (
 /obj/effect/decal/cleanable/dirt,
@@ -28828,9 +28820,8 @@
 /turf/open/floor/iron/dark,
 /area/station/science/server)
 "woh" = (
-/turf/open/floor/iron/cafeteria{
-	dir = 5
-	},
+/obj/effect/spawner/random/entertainment/drugs,
+/turf/open/floor/iron/terracotta,
 /area/station/maintenance/starboard/aft)
 "wow" = (
 /obj/structure/table/reinforced,
@@ -29403,9 +29394,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/disposalpipe/segment,
-/turf/open/floor/iron/cafeteria{
-	dir = 5
-	},
+/turf/open/floor/iron/terracotta,
 /area/station/maintenance/starboard/aft)
 "wJY" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
@@ -29504,7 +29493,7 @@
 /area/station/service/kitchen)
 "wNW" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/cafeteria,
+/turf/open/floor/iron/terracotta,
 /area/station/maintenance/starboard/aft)
 "wPl" = (
 /turf/closed/wall,
@@ -29593,9 +29582,8 @@
 /area/station/tcommsat/computer)
 "wSU" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/cafeteria{
-	dir = 5
-	},
+/obj/structure/chair/sofa/left/brown,
+/turf/open/floor/iron/terracotta,
 /area/station/maintenance/starboard/aft)
 "wTu" = (
 /obj/structure/cable,
@@ -66080,7 +66068,7 @@ mmn
 hfR
 wqs
 lKp
-tdc
+xTp
 xTp
 xTp
 bBs
@@ -73267,7 +73255,7 @@ dgr
 eZM
 eZM
 ggf
-kLt
+tjZ
 dgQ
 rEF
 lVm
@@ -74294,7 +74282,7 @@ vtA
 hJb
 hSe
 mrF
-hJb
+tdc
 wVl
 wfh
 crt
@@ -74520,7 +74508,7 @@ ufq
 mvR
 mvR
 nNN
-tjZ
+nNN
 nNN
 dJN
 dJN
@@ -74776,9 +74764,9 @@ cem
 qYk
 xOt
 lhX
-nNN
-nNN
-nNN
+wuD
+apX
+wuD
 dJN
 nlO
 cwr
@@ -74809,8 +74797,8 @@ fbU
 fbU
 eZM
 gZU
-gTa
 gdc
+gTa
 wfj
 eBw
 eZM
@@ -75033,9 +75021,9 @@ wam
 qYk
 apb
 lbQ
-wuD
 apX
-wuD
+fyD
+apX
 vPk
 gIQ
 xSc
