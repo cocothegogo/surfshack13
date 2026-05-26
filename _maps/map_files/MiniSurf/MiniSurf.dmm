@@ -5050,7 +5050,6 @@
 	},
 /area/station/engineering/storage/tech)
 "ecG" = (
-/obj/structure/closet/emcloset,
 /obj/structure/sign/poster/official/random/directional/west,
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 8
@@ -5059,9 +5058,7 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/blue,
-/obj/item/tank/internals/emergency_oxygen,
-/obj/item/tank/internals/emergency_oxygen,
-/obj/item/clothing/mask/gas,
+/obj/structure/closet/firecloset,
 /turf/open/floor/iron/dark,
 /area/station/hallway/primary/aft)
 "ecO" = (
@@ -7449,6 +7446,9 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/central)
 "fRj" = (
@@ -7827,6 +7827,15 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark/telecomms,
 /area/station/tcommsat/server)
+"ghn" = (
+/obj/machinery/power/apc/auto_name/directional/east,
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral,
+/turf/open/floor/iron,
+/area/station/hallway/primary/central)
 "ghK" = (
 /obj/machinery/door/airlock{
 	id_tag = "Cabin2";
@@ -8824,6 +8833,7 @@
 	dir = 1
 	},
 /obj/structure/disposalpipe/junction/flip,
+/obj/machinery/firealarm/directional/west,
 /turf/open/floor/iron,
 /area/station/hallway/primary/central)
 "gVS" = (
@@ -9515,6 +9525,16 @@
 /obj/effect/landmark/start/assistant,
 /turf/open/floor/iron,
 /area/station/service/cafeteria)
+"hCO" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/station/hallway/primary/central)
 "hEg" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "Experimentation Lab Maintenance"
@@ -10403,11 +10423,12 @@
 /turf/open/floor/carpet,
 /area/station/command/heads_quarters/captain)
 "inf" = (
-/obj/machinery/camera/autoname/directional/east,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
+/obj/machinery/door/airlock/public/glass{
+	name = "Central Access"
 	},
-/turf/open/floor/iron,
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron/dark,
 /area/station/hallway/primary/central)
 "inE" = (
 /obj/effect/decal/cleanable/dirt,
@@ -13117,6 +13138,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
+/obj/machinery/firealarm/directional/south,
 /turf/open/floor/iron,
 /area/station/hallway/primary/central)
 "kok" = (
@@ -21768,6 +21790,16 @@
 /obj/item/radio/intercom/directional/west,
 /turf/open/floor/iron/grimy,
 /area/station/security/detectives_office/private_investigators_office)
+"qJI" = (
+/obj/machinery/camera/autoname/directional/east,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/station/hallway/primary/central)
 "qKf" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable,
@@ -24042,8 +24074,9 @@
 "srJ" = (
 /obj/machinery/airalarm/directional/west,
 /obj/effect/turf_decal/tile/neutral{
-	dir = 1
+	dir = 8
 	},
+/obj/effect/turf_decal/tile/neutral,
 /turf/open/floor/iron,
 /area/station/hallway/primary/central)
 "ssb" = (
@@ -25221,12 +25254,15 @@
 /turf/open/floor/pod,
 /area/station/commons/fitness/recreation/pool)
 "tpj" = (
-/obj/machinery/power/apc/auto_name/directional/west,
-/obj/structure/cable,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
-/turf/open/floor/iron,
+/obj/machinery/door/airlock/public/glass{
+	name = "Central Access"
+	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron/dark,
 /area/station/hallway/primary/central)
 "tpu" = (
 /obj/effect/turf_decal/stripes/white/line{
@@ -30104,6 +30140,15 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/grimy,
 /area/station/tcommsat/computer)
+"wSi" = (
+/obj/structure/cable,
+/obj/machinery/door/airlock/public/glass{
+	name = "Central Access"
+	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron/dark,
+/area/station/hallway/primary/central)
 "wSU" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/chair/sofa/left/brown,
@@ -63523,7 +63568,7 @@ fdu
 vgs
 bqf
 tJA
-bzW
+qtl
 uCk
 rZj
 rVf
@@ -64291,9 +64336,9 @@ jai
 jai
 kYs
 jai
-jai
-jai
-jai
+obx
+wSi
+hCO
 ejR
 xWr
 qLE
@@ -64548,9 +64593,9 @@ nnP
 wiq
 iWi
 uxo
-kQJ
+ghn
 inf
-kQJ
+qJI
 tjd
 nKa
 lIg
