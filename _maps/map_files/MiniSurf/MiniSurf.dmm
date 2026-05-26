@@ -204,7 +204,7 @@
 	dir = 1
 	},
 /obj/machinery/light/dim/directional/south,
-/turf/open/floor/iron/kitchen,
+/turf/open/floor/plating,
 /area/station/service/theater_dressing)
 "als" = (
 /obj/effect/spawner/random/structure/table,
@@ -3478,6 +3478,7 @@
 /area/station/security/detectives_office/private_investigators_office)
 "cQD" = (
 /obj/structure/broken_flooring/singular,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/station/maintenance/disposal/incinerator)
 "cQF" = (
@@ -3556,6 +3557,7 @@
 /obj/structure/closet,
 /obj/effect/spawner/random/medical/surgery_tool,
 /obj/effect/spawner/random/medical/surgery_tool,
+/obj/item/pushbroom,
 /turf/open/floor/plating,
 /area/station/maintenance/department/science/xenobiology)
 "cSh" = (
@@ -3576,6 +3578,17 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/aisat/exterior)
+"cTp" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/item/storage/box/donkpockets,
+/turf/open/water/no_planet_atmos{
+	fishing_datum = /datum/fish_source/toilet;
+	name = "stagnant sewage water";
+	desc = "Stagnant water. Time to take a dip and give the virologist a job! Oh, wait."
+	},
+/area/station/commons/fitness/recreation/pool)
 "cTy" = (
 /obj/structure/closet/secure_closet/freezer/kitchen,
 /obj/effect/turf_decal/weather/snow/corner{
@@ -5159,7 +5172,7 @@
 "efO" = (
 /obj/structure/table,
 /obj/effect/decal/cleanable/blood/old,
-/obj/item/storage/box/donkpockets,
+/obj/effect/spawner/random/trash/janitor_supplies,
 /turf/open/floor/plating,
 /area/station/maintenance/aft)
 "efU" = (
@@ -8347,11 +8360,13 @@
 /turf/open/floor/iron,
 /area/station/security/brig)
 "gGU" = (
-/obj/structure/rack,
-/obj/item/mop,
-/obj/item/reagent_containers/cup/bucket,
-/turf/open/floor/plating,
-/area/station/maintenance/aft)
+/obj/structure/cable,
+/obj/machinery/navbeacon{
+	codes_txt = "patrol;next_patrol=1-fore-hall";
+	location = "0-security"
+	},
+/turf/open/floor/iron,
+/area/station/hallway/primary/central/fore)
 "gGZ" = (
 /obj/effect/decal/cleanable/robot_debris,
 /turf/open/floor/iron,
@@ -9020,7 +9035,8 @@
 /obj/structure/disposalpipe/segment{
 	dir = 10
 	},
-/turf/open/floor/iron/kitchen,
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/station/service/theater_dressing)
 "hiT" = (
 /obj/structure/grille,
@@ -10100,6 +10116,10 @@
 /obj/structure/window/reinforced/spawner/directional/south,
 /turf/open/floor/iron/dark,
 /area/station/science/robotics/lab)
+"icP" = (
+/obj/effect/spawner/random/trash/bacteria,
+/turf/open/floor/plating,
+/area/station/maintenance/department/science/xenobiology)
 "idh" = (
 /obj/machinery/atmospherics/components/unary/thermomachine/freezer/layer2{
 	dir = 8
@@ -10115,7 +10135,6 @@
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
 "ieo" = (
-/obj/effect/landmark/start/atmospheric_technician,
 /obj/machinery/atmospherics/pipe/layer_manifold/general/visible,
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
@@ -10789,7 +10808,7 @@
 	pixel_x = 2;
 	pixel_y = 2
 	},
-/turf/open/floor/iron/kitchen,
+/turf/open/floor/plating,
 /area/station/service/theater_dressing)
 "iDP" = (
 /obj/effect/mapping_helpers/airlock/access/all/engineering/general,
@@ -12275,6 +12294,7 @@
 /obj/item/pipe_dispenser,
 /obj/item/pipe_dispenser,
 /obj/machinery/light/directional/west,
+/obj/item/reagent_containers/pill/patch/style/burn,
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
 "jBk" = (
@@ -12530,6 +12550,7 @@
 	name = "grimy chair";
 	dir = 8
 	},
+/obj/effect/landmark/start/atmospheric_technician,
 /turf/open/floor/iron,
 /area/station/engineering/atmos/office)
 "jKo" = (
@@ -12984,6 +13005,7 @@
 "kfF" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/kitchen,
 /area/station/service/theater_dressing)
 "kfI" = (
@@ -13249,16 +13271,16 @@
 "krR" = (
 /obj/structure/table,
 /obj/effect/spawner/random/engineering/toolbox,
+/obj/effect/spawner/random/engineering/toolbox{
+	pixel_x = -5;
+	pixel_y = 6
+	},
 /turf/open/floor/plating,
 /area/station/maintenance/port/aft)
 "krT" = (
 /obj/machinery/navbeacon{
 	codes_txt = "patrol;next_patrol=2-science";
 	location = "1-fore-hall"
-	},
-/obj/machinery/navbeacon{
-	codes_txt = "patrol;next_patrol=4-central";
-	location = "3.2-fore"
 	},
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment{
@@ -13774,6 +13796,11 @@
 	desc = "Stagnant water. Time to take a dip and give the virologist a job! Oh, wait."
 	},
 /area/station/commons/fitness/recreation/pool)
+"kOo" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/trash/boritos,
+/turf/open/floor/plating,
+/area/station/maintenance/starboard/upper)
 "kOp" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
@@ -15701,6 +15728,7 @@
 /area/station/security/brig)
 "mty" = (
 /obj/structure/closet/firecloset,
+/obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark,
 /area/station/hallway/secondary/exit)
 "mtO" = (
@@ -16791,7 +16819,6 @@
 /area/station/maintenance/port)
 "neY" = (
 /obj/structure/girder,
-/obj/structure/grille,
 /turf/open/floor/plating,
 /area/station/maintenance/aft)
 "nfc" = (
@@ -21429,7 +21456,8 @@
 	dir = 1
 	},
 /obj/machinery/camera/autoname/directional/south,
-/turf/open/floor/iron/kitchen,
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
 /area/station/service/theater_dressing)
 "qzp" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -26128,7 +26156,9 @@
 "ucP" = (
 /obj/machinery/newscaster/directional/north,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
-/turf/open/floor/iron/kitchen,
+/obj/effect/mapping_helpers/broken_floor,
+/obj/item/reagent_containers/syringe/contraband,
+/turf/open/floor/plating,
 /area/station/service/theater_dressing)
 "udg" = (
 /obj/effect/turf_decal/stripes/line{
@@ -27763,13 +27793,9 @@
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/aisat/exterior)
 "vou" = (
-/obj/machinery/navbeacon{
-	codes_txt = "patrol;next_patrol=1-fore-hall";
-	location = "0-security"
-	},
-/obj/structure/cable,
-/turf/open/floor/iron,
-/area/station/hallway/primary/central/fore)
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
+/area/station/maintenance/department/science/xenobiology)
 "voF" = (
 /obj/effect/landmark/start/chaplain,
 /obj/effect/turf_decal/stripes/red/line{
@@ -29124,6 +29150,7 @@
 "who" = (
 /obj/structure/closet,
 /obj/effect/spawner/random/maintenance/six,
+/obj/item/pushbroom,
 /turf/open/floor/plating,
 /area/station/maintenance/aft/lesser)
 "whx" = (
@@ -29636,6 +29663,7 @@
 /obj/structure/sign/warning/pods/directional/east{
 	dir = 7
 	},
+/obj/item/trash/boritos/purple,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/aft)
 "wzE" = (
@@ -62225,7 +62253,7 @@ jEl
 rTl
 rVf
 cJj
-gGU
+bwf
 neY
 qCR
 nLE
@@ -64237,13 +64265,13 @@ xRs
 rjP
 uoZ
 uoZ
-uoZ
+gGU
 uoZ
 uoZ
 uoZ
 xdk
 uoZ
-vou
+uoZ
 uoZ
 uoZ
 uoZ
@@ -66091,7 +66119,7 @@ uWj
 uWj
 uWj
 uWj
-uWj
+tCB
 jHr
 sFi
 uTu
@@ -66603,8 +66631,8 @@ lva
 uWj
 uWj
 uWj
-aPT
-aPT
+uWj
+uWj
 aPT
 ieo
 qEl
@@ -66860,9 +66888,9 @@ uWj
 uWj
 uWj
 uWj
-tCo
 uWj
-tCB
+uWj
+tCo
 uWj
 uWj
 uWj
@@ -72449,7 +72477,7 @@ gBj
 kyw
 kOj
 sWg
-kOj
+cTp
 kOj
 kOj
 pZu
@@ -73738,7 +73766,7 @@ qsL
 lck
 lck
 lck
-hly
+kOo
 luP
 dWi
 ciy
@@ -77071,8 +77099,8 @@ wuD
 vfe
 yfW
 mIL
-gBj
-gBj
+vou
+icP
 jcg
 jcg
 jcg
