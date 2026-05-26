@@ -17694,7 +17694,10 @@
 	},
 /obj/machinery/door/airlock/external{
 	name = "Escape Pod One";
-	space_dir = 1
+	space_dir = 4
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/aft)
@@ -19873,7 +19876,7 @@
 "pok" = (
 /obj/machinery/door/airlock/external{
 	name = "Escape Pod Two";
-	space_dir = 1
+	space_dir = 3
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
@@ -22532,7 +22535,7 @@
 "riA" = (
 /obj/machinery/door/airlock/external{
 	name = "Escape Pod Two";
-	space_dir = 1
+	space_dir = 3
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /turf/open/floor/plating,
@@ -26402,7 +26405,8 @@
 	dir = 4
 	},
 /obj/machinery/door/airlock/external{
-	name = "Escape Pod Three"
+	name = "Escape Pod Three";
+	space_dir = 4
 	},
 /turf/open/floor/plating,
 /area/station/hallway/secondary/construction)
@@ -28067,7 +28071,10 @@
 "vth" = (
 /obj/machinery/door/airlock/external{
 	name = "Escape Pod One";
-	space_dir = 1
+	space_dir = 4
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/aft)
@@ -28315,7 +28322,8 @@
 	dir = 8
 	},
 /obj/machinery/door/airlock/external{
-	name = "Escape Pod Three"
+	name = "Escape Pod Three";
+	space_dir = 4
 	},
 /turf/open/floor/plating,
 /area/station/hallway/secondary/construction)
