@@ -1,0 +1,4 @@
+author: "hyperjll"
+delete-after: True
+changes:
+  - sound: "Cyborg players recieve a unique sound effect only audible to them when they're emagged."
