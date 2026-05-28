@@ -1,0 +1,4 @@
+author: "hyperjll"
+delete-after: True
+changes:
+  - bugfix: "Fixes nanite healing programs not healing any burn damage."
