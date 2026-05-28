@@ -603,6 +603,7 @@
 	dir = 1
 	},
 /obj/effect/mapping_helpers/airlock/access/any/security/entrance,
+/obj/machinery/scanner_gate/preset_guns,
 /turf/open/floor/iron,
 /area/station/security/brig)
 "azk" = (
@@ -3104,6 +3105,7 @@
 	name = "Cell 2 Locker"
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small/directional/east,
 /turf/open/floor/iron,
 /area/station/security/brig)
 "cBW" = (
@@ -5660,7 +5662,7 @@
 /obj/machinery/button/door{
 	id = "armory";
 	name = "Armory Lockdown";
-	pixel_y = 35;
+	pixel_y = 38;
 	req_access = list("armory")
 	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -5668,6 +5670,12 @@
 	name = "Warden's Office Vent"
 	},
 /obj/item/melee/baton/security/boomerang/loaded,
+/obj/machinery/button/flasher{
+	id = "secentranceflasher";
+	name = "Brig Entrance Flasher";
+	pixel_y = 28;
+	req_access = list("security")
+	},
 /turf/open/floor/iron/showroomfloor,
 /area/station/security/warden)
 "ezR" = (
@@ -7132,6 +7140,9 @@
 "fGg" = (
 /obj/machinery/computer/security{
 	dir = 4
+	},
+/obj/structure/reagent_dispensers/wall/peppertank{
+	pixel_y = 30
 	},
 /turf/open/floor/iron,
 /area/station/security/brig)
@@ -11074,10 +11085,6 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
 	cycle_id = "brig_left"
 	},
-/obj/machinery/door/airlock/security/glass{
-	id_tag = "outerbrig";
-	name = "Brig"
-	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/turf_decal/tile/red{
 	dir = 1
@@ -11090,6 +11097,10 @@
 	},
 /obj/effect/turf_decal/tile/red,
 /obj/effect/mapping_helpers/airlock/access/any/security/entrance,
+/obj/machinery/door/airlock/security/glass{
+	id_tag = "innerbrig";
+	name = "Brig"
+	},
 /turf/open/floor/iron,
 /area/station/security/brig)
 "iKd" = (
@@ -11885,6 +11896,7 @@
 	id = "Cell 1";
 	pixel_x = 28
 	},
+/obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/security/brig)
 "jnC" = (
@@ -13992,6 +14004,24 @@
 /obj/machinery/computer/records/security{
 	dir = 1
 	},
+/obj/machinery/button/door{
+	desc = "A door remote control switch for the exterior brig doors.";
+	id = "outerbrig";
+	name = "Brig Exterior Door Control";
+	normaldoorcontrol = 1;
+	pixel_x = 6;
+	pixel_y = -30;
+	req_access = list("security")
+	},
+/obj/machinery/button/door{
+	desc = "A door remote control switch for the interior brig doors.";
+	id = "innerbrig";
+	name = "Brig Interior Door Control";
+	normaldoorcontrol = 1;
+	pixel_x = -6;
+	pixel_y = -30;
+	req_access = list("security")
+	},
 /turf/open/floor/iron/showroomfloor,
 /area/station/security/warden)
 "kUA" = (
@@ -14380,6 +14410,27 @@
 /obj/structure/transit_tube/horizontal,
 /turf/open/space,
 /area/space/nearstation)
+"llM" = (
+/obj/machinery/button/door{
+	desc = "A door remote control switch for the exterior brig doors.";
+	id = "outerbrig";
+	name = "Brig Exterior Door Control";
+	normaldoorcontrol = 1;
+	pixel_x = 6;
+	pixel_y = 7;
+	req_access = list("security")
+	},
+/obj/machinery/button/door{
+	desc = "A door remote control switch for the interior brig doors.";
+	id = "innerbrig";
+	name = "Brig Interior Door Control";
+	normaldoorcontrol = 1;
+	pixel_x = -6;
+	pixel_y = 7;
+	req_access = list("security")
+	},
+/turf/closed/wall,
+/area/station/security/brig)
 "llP" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -23269,12 +23320,15 @@
 /turf/open/floor/iron,
 /area/station/service/kitchen)
 "rKu" = (
-/obj/structure/reagent_dispensers/wall/peppertank{
-	pixel_y = 30
-	},
 /obj/structure/cable,
 /obj/effect/turf_decal/tile/red{
 	dir = 1
+	},
+/obj/machinery/button/flasher{
+	id = "secentranceflasher";
+	name = "Brig Entrance Flasher";
+	pixel_y = 28;
+	req_access = list("security")
 	},
 /turf/open/floor/iron,
 /area/station/security/brig)
@@ -23851,6 +23905,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
 	},
+/obj/machinery/newscaster/directional/south,
 /turf/open/floor/iron,
 /area/station/security/brig)
 "seX" = (
@@ -27020,10 +27075,6 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
 	cycle_id = "brig_left"
 	},
-/obj/machinery/door/airlock/security/glass{
-	id_tag = "outerbrig";
-	name = "Brig"
-	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/turf_decal/tile/red{
 	dir = 1
@@ -27039,6 +27090,10 @@
 	dir = 4
 	},
 /obj/effect/mapping_helpers/airlock/access/any/security/entrance,
+/obj/machinery/door/airlock/security/glass{
+	id_tag = "innerbrig";
+	name = "Brig"
+	},
 /turf/open/floor/iron,
 /area/station/security/brig)
 "uGn" = (
@@ -28084,7 +28139,6 @@
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/aft)
 "vuf" = (
-/obj/machinery/light/small/directional/north,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	name = "Cell 1 Vent"
 	},
@@ -31047,6 +31101,12 @@
 	dir = 4
 	},
 /obj/effect/mapping_helpers/airlock/access/any/security/entrance,
+/obj/machinery/scanner_gate/preset_guns,
+/obj/machinery/flasher/directional/east{
+	id = "secentranceflasher";
+	pixel_x = 0;
+	pixel_y = 26
+	},
 /turf/open/floor/iron,
 /area/station/security/brig)
 "xyz" = (
@@ -31569,11 +31629,9 @@
 /turf/closed/wall/r_wall,
 /area/station/maintenance/disposal/incinerator)
 "xQF" = (
-/obj/machinery/light/small/directional/north,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	name = "Cell 2 Vent"
 	},
-/obj/machinery/newscaster/directional/north,
 /turf/open/floor/iron,
 /area/station/security/brig)
 "xQG" = (
@@ -66455,7 +66513,7 @@ pSY
 uGg
 mtv
 iKb
-mWq
+llM
 rKu
 mgu
 qjA
@@ -67486,7 +67544,7 @@ mWq
 vuf
 nXa
 hyX
-mWq
+xRt
 xQF
 bYL
 seC
@@ -67743,7 +67801,7 @@ mWq
 cBI
 eQZ
 jmQ
-mWq
+xRt
 cBI
 wle
 ame
