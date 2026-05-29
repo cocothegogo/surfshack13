@@ -428,10 +428,8 @@
 /turf/open/floor/iron,
 /area/station/hallway/secondary/exit)
 "arD" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/floor/iron,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/iron/dark,
 /area/station/hallway/secondary/entry)
 "arP" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1943,7 +1941,8 @@
 /turf/open/floor/iron/white,
 /area/station/medical/virology)
 "bCx" = (
-/turf/closed/wall/r_wall,
+/obj/structure/cable,
+/turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
 "bCK" = (
 /obj/machinery/light/small/directional/west,
@@ -2288,8 +2287,13 @@
 /turf/open/floor/iron/freezer,
 /area/station/commons/toilet/restrooms)
 "bRr" = (
-/turf/open/floor/carpet,
-/area/station/command/heads_quarters/hop)
+/obj/machinery/door/airlock/external{
+	name = "Arrivals Docking Airlock"
+	},
+/obj/effect/turf_decal/delivery,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/turf/open/floor/iron/dark,
+/area/station/hallway/secondary/entry)
 "bSn" = (
 /obj/machinery/hydroponics,
 /turf/open/floor/plating,
@@ -7019,15 +7023,6 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/port/aft)
-"fqs" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/floor/iron,
-/area/station/hallway/secondary/entry)
 "fqv" = (
 /obj/machinery/vending/coffee,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -7164,15 +7159,11 @@
 /turf/closed/wall,
 /area/station/medical/abandoned)
 "fvv" = (
-/obj/structure/cable,
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/poddoor/shutters{
-	id = "commissaryshutter";
-	name = "Vacant Commissary Shutter";
+/obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/turf/open/floor/plating,
-/area/station/commons/vacant_room/office)
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
 "fvw" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
@@ -7918,16 +7909,8 @@
 /turf/open/floor/iron/dark,
 /area/station/hallway/secondary/exit)
 "fUT" = (
-/obj/machinery/door/airlock/external{
-	name = "Arrivals Docking Airlock"
-	},
-/obj/effect/turf_decal/delivery,
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 1
-	},
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/iron/dark,
-/area/station/hallway/secondary/entry)
+/turf/open/floor/carpet,
+/area/station/command/heads_quarters/hop)
 "fVl" = (
 /obj/structure/disposalpipe/segment{
 	dir = 10
@@ -17827,6 +17810,7 @@
 /obj/effect/spawner/random/bureaucracy/folder{
 	spawn_random_offset = 1
 	},
+/obj/machinery/newscaster/directional/south,
 /turf/open/floor/wood,
 /area/station/commons/vacant_room/office)
 "nnr" = (
@@ -22439,7 +22423,6 @@
 /area/station/hallway/primary/aft)
 "qyC" = (
 /obj/effect/spawner/structure/window/reinforced,
-/obj/structure/cable,
 /obj/machinery/door/poddoor/shutters{
 	id = "commissaryshutter";
 	name = "Vacant Commissary Shutter";
@@ -26003,9 +25986,16 @@
 /turf/open/space/basic,
 /area/space/nearstation)
 "sXg" = (
-/obj/effect/turf_decal/delivery,
-/turf/open/floor/iron/dark,
-/area/station/hallway/secondary/entry)
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/chair/office{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/station/commons/vacant_room/office)
 "sXu" = (
 /obj/structure/table/wood,
 /obj/machinery/atmospherics/components/unary/vent_pump{
@@ -27662,6 +27652,15 @@
 /obj/machinery/light/directional/west,
 /turf/open/floor/iron/dark,
 /area/station/command/bridge)
+"upi" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
 "upz" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
@@ -29250,7 +29249,10 @@
 	name = "Arrivals Docking Airlock"
 	},
 /obj/effect/turf_decal/delivery,
-/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line,
 /turf/open/floor/iron/dark,
 /area/station/hallway/secondary/entry)
 "vrp" = (
@@ -30061,8 +30063,7 @@
 /turf/open/floor/iron,
 /area/station/science/xenobiology)
 "vRt" = (
-/obj/structure/cable,
-/turf/open/floor/iron,
+/turf/closed/wall/r_wall,
 /area/station/hallway/secondary/entry)
 "vRx" = (
 /obj/structure/cable,
@@ -60107,8 +60108,8 @@ wuD
 wuD
 wuD
 wuD
-bCx
-bCx
+vRt
+vRt
 sus
 sus
 sus
@@ -60364,7 +60365,7 @@ wuD
 wuD
 uOz
 uOz
-bCx
+vRt
 wgb
 qwm
 rqm
@@ -60622,7 +60623,7 @@ wuD
 sus
 jvh
 sus
-fqs
+upi
 rqm
 rqm
 rqm
@@ -60876,10 +60877,10 @@ wuD
 wuD
 wuD
 wuD
+bRr
+arD
 vrn
-sXg
-fUT
-fqs
+upi
 uXb
 tJh
 shc
@@ -61136,7 +61137,7 @@ wuD
 sus
 cCl
 sus
-fqs
+upi
 uXb
 tsr
 evD
@@ -61648,7 +61649,7 @@ wuD
 wuD
 wuD
 uOz
-bCx
+vRt
 bpK
 xQV
 rqm
@@ -62164,7 +62165,7 @@ wuD
 sus
 cCl
 sus
-arD
+fvv
 rqm
 rqm
 rqm
@@ -62418,22 +62419,22 @@ wuD
 wuD
 wuD
 wuD
-vrn
-sXg
-fUT
+bRr
 arD
+vrn
+fvv
 qwm
 pcT
 wWK
-vRt
-vRt
+bCx
+bCx
 fbF
-vRt
+bCx
 prl
 xWF
 tjK
 oIm
-bRr
+fUT
 qjI
 prl
 pEm
@@ -62678,7 +62679,7 @@ wuD
 sus
 jvh
 sus
-arD
+fvv
 rqm
 tMu
 tMu
@@ -62690,7 +62691,7 @@ prl
 hlc
 evd
 iGA
-bRr
+fUT
 gfz
 prl
 bVx
@@ -62934,7 +62935,7 @@ wuD
 wuD
 uOz
 uOz
-bCx
+vRt
 ptw
 ogv
 tMu
@@ -62982,7 +62983,7 @@ qKS
 uoN
 aih
 fuS
-uHR
+sXg
 gTT
 cSU
 cSU
@@ -63191,9 +63192,9 @@ wuD
 wuD
 uOz
 uOz
-bCx
-bCx
-bCx
+vRt
+vRt
+vRt
 tMu
 kpw
 kuH
@@ -63716,7 +63717,7 @@ jvW
 dmu
 bVx
 pEm
-pEm
+bVx
 pEm
 mMM
 pda
@@ -63751,7 +63752,7 @@ dwv
 lCU
 mfq
 tOW
-fvv
+qyC
 kvk
 pCU
 ffO
