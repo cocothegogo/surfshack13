@@ -2143,9 +2143,8 @@
 /turf/open/floor/engine,
 /area/station/engineering/supermatter/room)
 "bJZ" = (
-/obj/machinery/firealarm/directional/north,
 /obj/structure/disposalpipe/segment{
-	dir = 6
+	dir = 9
 	},
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
@@ -3927,6 +3926,11 @@
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/chemistry)
+"daq" = (
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/machinery/vending/cigarette,
+/turf/open/floor/iron/dark,
+/area/station/hallway/secondary/entry)
 "daF" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -7487,7 +7491,9 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/obj/effect/landmark/start/hangover,
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
 "fHY" = (
@@ -8040,6 +8046,12 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/port/central)
+"gbb" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/iron,
+/area/station/cargo/storage)
 "gbq" = (
 /obj/structure/cable,
 /obj/structure/broken_flooring/pile,
@@ -8382,9 +8394,8 @@
 /turf/open/floor/iron/showroomfloor,
 /area/station/ai_monitored/security/armory)
 "goD" = (
-/obj/structure/disposalpipe/segment{
-	dir = 9
-	},
+/obj/structure/cable,
+/obj/machinery/door/firedoor,
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
 "goF" = (
@@ -9135,12 +9146,6 @@
 /obj/machinery/holopad,
 /turf/open/floor/iron/white,
 /area/station/science/xenobiology)
-"gRL" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/obj/effect/landmark/start/hangover,
-/turf/open/floor/iron,
-/area/station/cargo/storage)
 "gRU" = (
 /obj/structure/table/glass,
 /obj/item/hand_labeler,
@@ -17124,8 +17129,8 @@
 /turf/open/floor/plating,
 /area/station/maintenance/aft/lesser)
 "mMX" = (
-/obj/machinery/door/firedoor,
-/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/light/directional/east,
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
 "mOe" = (
@@ -18454,7 +18459,7 @@
 	},
 /obj/machinery/door/airlock/external{
 	name = "Escape Pod One";
-	space_dir = 4
+	space_dir = 2
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
@@ -20250,11 +20255,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/station/hallway/primary/fore)
-"oVf" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/start/hangover,
-/turf/open/floor/plating,
-/area/station/maintenance/department/cargo)
 "oVl" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/turf_decal/siding/thinplating_new{
@@ -20476,9 +20476,9 @@
 /turf/open/floor/iron,
 /area/station/cargo/office)
 "pcT" = (
-/obj/machinery/light/directional/west,
-/obj/structure/disposalpipe/segment,
-/turf/open/floor/iron,
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/machinery/vending/snack/teal,
+/turf/open/floor/iron/dark,
 /area/station/hallway/secondary/entry)
 "pda" = (
 /obj/structure/rack,
@@ -22921,6 +22921,12 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/station/hallway/secondary/service)
+"qNA" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/firealarm/directional/north,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
 "qNK" = (
 /obj/structure/table,
 /obj/item/stack/sheet/iron/fifty,
@@ -23466,11 +23472,6 @@
 	},
 /turf/open/floor/wood,
 /area/station/cargo/qm)
-"rfI" = (
-/obj/structure/cable,
-/obj/machinery/door/firedoor,
-/turf/open/floor/iron,
-/area/station/hallway/secondary/entry)
 "rgo" = (
 /obj/structure/table,
 /obj/item/storage/box/disks_nanite,
@@ -26208,11 +26209,6 @@
 	},
 /turf/open/floor/engine/n2o,
 /area/station/engineering/atmos)
-"tea" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/light/directional/east,
-/turf/open/floor/iron,
-/area/station/hallway/secondary/entry)
 "tei" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
@@ -26449,12 +26445,6 @@
 /obj/machinery/light/directional/east,
 /turf/open/floor/iron/dark,
 /area/station/security/prison)
-"tpc" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/firealarm/directional/north,
-/turf/open/floor/iron,
-/area/station/hallway/secondary/entry)
 "tpg" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/fence/door{
@@ -26574,9 +26564,9 @@
 /turf/open/floor/iron,
 /area/station/hallway/primary/central/fore)
 "tsr" = (
-/obj/effect/turf_decal/tile/neutral/fourcorners,
-/obj/machinery/vending/cigarette,
-/turf/open/floor/iron/dark,
+/obj/machinery/door/firedoor,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
 "tsF" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -26973,9 +26963,9 @@
 /turf/open/floor/iron/dark,
 /area/station/science/research)
 "tJh" = (
-/obj/effect/turf_decal/tile/neutral/fourcorners,
-/obj/machinery/vending/snack/teal,
-/turf/open/floor/iron/dark,
+/obj/machinery/light/directional/west,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
 "tJA" = (
 /turf/closed/wall,
@@ -27583,7 +27573,7 @@
 	},
 /obj/machinery/door/airlock/external{
 	name = "Escape Pod Three";
-	space_dir = 4
+	space_dir = 2
 	},
 /turf/open/floor/plating,
 /area/station/hallway/secondary/construction)
@@ -28274,6 +28264,13 @@
 /obj/effect/spawner/structure/window,
 /turf/open/floor/plating,
 /area/station/cargo/miningoffice)
+"uGP" = (
+/obj/machinery/firealarm/directional/north,
+/obj/structure/disposalpipe/segment{
+	dir = 6
+	},
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
 "uHA" = (
 /obj/effect/turf_decal/tile/yellow{
 	dir = 1
@@ -29174,14 +29171,10 @@
 /turf/open/floor/iron/white,
 /area/station/science/research)
 "vnx" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 10
-	},
-/turf/open/floor/iron,
-/area/station/hallway/secondary/entry)
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/plating,
+/area/station/maintenance/department/cargo)
 "vnM" = (
 /obj/structure/cable,
 /obj/machinery/holopad/secure,
@@ -29370,12 +29363,12 @@
 /turf/open/floor/iron,
 /area/station/hallway/secondary/exit)
 "vth" = (
-/obj/machinery/door/airlock/external{
-	name = "Escape Pod One";
-	space_dir = 4
-	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
+	},
+/obj/machinery/door/airlock/external{
+	name = "Escape Pod One";
+	space_dir = 2
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/aft)
@@ -29623,7 +29616,7 @@
 	},
 /obj/machinery/door/airlock/external{
 	name = "Escape Pod Three";
-	space_dir = 4
+	space_dir = 2
 	},
 /turf/open/floor/plating,
 /area/station/hallway/secondary/construction)
@@ -29659,6 +29652,13 @@
 /obj/effect/mapping_helpers/airlock/access/any/security/entrance,
 /turf/open/floor/plating,
 /area/station/security/brig)
+"vFI" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/landmark/start/hangover,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
 "vGc" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/visible/layer4,
@@ -57353,7 +57353,7 @@ rAs
 kip
 kip
 emB
-gRL
+gbb
 oab
 oab
 rYl
@@ -59664,7 +59664,7 @@ epx
 bke
 bke
 bke
-oVf
+vnx
 qEm
 xOm
 epx
@@ -60686,7 +60686,7 @@ hSO
 uXb
 uXb
 uXb
-tea
+mMX
 uBd
 uXb
 rqm
@@ -60945,7 +60945,7 @@ lUn
 shc
 tMu
 tMu
-tpc
+qNA
 pYn
 pYn
 pWW
@@ -61201,7 +61201,7 @@ uXb
 lUn
 vWk
 tMu
-tJh
+pcT
 tMk
 dBn
 uvY
@@ -61715,7 +61715,7 @@ rqm
 lUn
 vWk
 tMu
-tsr
+daq
 vlC
 cAD
 uYX
@@ -61973,7 +61973,7 @@ lUn
 dNj
 tMu
 tMu
-bJZ
+uGP
 wQZ
 rei
 pqr
@@ -62224,13 +62224,13 @@ wuD
 sus
 cCl
 sus
-vnx
+fGY
 hit
 hit
 hit
-pcT
-mMX
-goD
+tJh
+tsr
+bJZ
 rqm
 prl
 mAz
@@ -62486,7 +62486,7 @@ qwm
 rqm
 wWK
 bCx
-rfI
+goD
 fbF
 bCx
 prl
@@ -62738,7 +62738,7 @@ wuD
 sus
 jvh
 sus
-fGY
+vFI
 rqm
 tMu
 tMu
