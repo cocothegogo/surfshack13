@@ -1932,6 +1932,9 @@
 /obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/station/medical/virology)
+"bCx" = (
+/turf/closed/wall/r_wall,
+/area/station/hallway/secondary/entry)
 "bCK" = (
 /obj/machinery/light/small/directional/west,
 /obj/machinery/camera/autoname/directional/west,
@@ -2274,9 +2277,6 @@
 /obj/machinery/duct,
 /turf/open/floor/iron/freezer,
 /area/station/commons/toilet/restrooms)
-"bRr" = (
-/turf/open/floor/carpet,
-/area/station/command/heads_quarters/hop)
 "bSn" = (
 /obj/machinery/hydroponics,
 /turf/open/floor/plating,
@@ -7894,6 +7894,9 @@
 /obj/effect/spawner/random/vending/colavend,
 /turf/open/floor/iron/dark,
 /area/station/hallway/secondary/exit)
+"fUT" = (
+/turf/open/floor/carpet,
+/area/station/command/heads_quarters/hop)
 "fVl" = (
 /obj/structure/disposalpipe/segment{
 	dir = 10
@@ -25219,7 +25222,6 @@
 /turf/closed/wall/r_wall,
 /area/station/engineering/transit_tube)
 "svo" = (
-/obj/structure/cable,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -60057,8 +60059,8 @@ wuD
 wuD
 wuD
 wuD
-tMu
-tMu
+bCx
+bCx
 sus
 sus
 sus
@@ -60314,7 +60316,7 @@ wuD
 wuD
 uOz
 uOz
-tMu
+bCx
 wgb
 qwm
 rqm
@@ -61598,7 +61600,7 @@ wuD
 wuD
 wuD
 uOz
-tMu
+bCx
 bpK
 xQV
 rqm
@@ -62383,7 +62385,7 @@ prl
 xWF
 tjK
 oIm
-bRr
+fUT
 qjI
 prl
 pEm
@@ -62640,7 +62642,7 @@ prl
 hlc
 evd
 iGA
-bRr
+fUT
 gfz
 prl
 bVx
@@ -62884,7 +62886,7 @@ wuD
 wuD
 uOz
 uOz
-tMu
+bCx
 ptw
 ogv
 tMu
@@ -63141,9 +63143,9 @@ wuD
 wuD
 uOz
 uOz
-tMu
-tMu
-tMu
+bCx
+bCx
+bCx
 tMu
 kpw
 kuH
