@@ -116,6 +116,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 10
 	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
 "aih" = (
@@ -424,6 +427,12 @@
 	},
 /turf/open/floor/iron,
 /area/station/hallway/secondary/exit)
+"arD" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
 "arP" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/parquet,
@@ -1662,6 +1671,7 @@
 /obj/effect/turf_decal/delivery,
 /obj/structure/closet/emcloset,
 /obj/machinery/camera/autoname/directional/north,
+/obj/effect/turf_decal/stripes/line,
 /turf/open/floor/iron/dark,
 /area/station/hallway/secondary/entry)
 "bqf" = (
@@ -2277,6 +2287,9 @@
 /obj/machinery/duct,
 /turf/open/floor/iron/freezer,
 /area/station/commons/toilet/restrooms)
+"bRr" = (
+/turf/open/floor/carpet,
+/area/station/command/heads_quarters/hop)
 "bSn" = (
 /obj/machinery/hydroponics,
 /turf/open/floor/plating,
@@ -2962,11 +2975,11 @@
 /turf/open/floor/plating,
 /area/station/maintenance/port/central)
 "cre" = (
-/obj/machinery/door/airlock/external{
-	name = "Arrival Airlock"
-	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/effect/turf_decal/delivery,
+/obj/machinery/door/airlock/external{
+	name = "Mining Dock Airlock"
+	},
 /turf/open/floor/iron/dark,
 /area/station/hallway/secondary/exit)
 "crl" = (
@@ -7006,6 +7019,15 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/port/aft)
+"fqs" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/station/hallway/secondary/entry)
 "fqv" = (
 /obj/machinery/vending/coffee,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -7843,9 +7865,10 @@
 /turf/open/floor/engine,
 /area/station/maintenance/disposal/incinerator)
 "fTq" = (
-/obj/machinery/door/airlock{
-	name = "Fore Emergency Storage";
-	req_access_txt = "0"
+/obj/machinery/door/airlock/maintenance,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/effect/mapping_helpers/airlock/unres{
+	dir = 4
 	},
 /turf/open/floor/plating,
 /area/station/hallway/secondary/entry)
@@ -7895,8 +7918,16 @@
 /turf/open/floor/iron/dark,
 /area/station/hallway/secondary/exit)
 "fUT" = (
-/turf/open/floor/carpet,
-/area/station/command/heads_quarters/hop)
+/obj/machinery/door/airlock/external{
+	name = "Arrivals Docking Airlock"
+	},
+/obj/effect/turf_decal/delivery,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/iron/dark,
+/area/station/hallway/secondary/entry)
 "fVl" = (
 /obj/structure/disposalpipe/segment{
 	dir = 10
@@ -11681,6 +11712,7 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/effect/turf_decal/delivery,
 /obj/structure/closet/firecloset,
+/obj/effect/turf_decal/stripes/line,
 /turf/open/floor/iron/dark,
 /area/station/hallway/secondary/entry)
 "iQX" = (
@@ -11760,13 +11792,13 @@
 /turf/open/floor/plating,
 /area/station/command/heads_quarters/ce)
 "iSO" = (
-/obj/machinery/door/airlock/external{
-	name = "Arrival Airlock"
-	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
 	},
 /obj/effect/turf_decal/delivery,
+/obj/machinery/door/airlock/external{
+	name = "Mining Dock Airlock"
+	},
 /turf/open/floor/iron/dark,
 /area/station/hallway/secondary/exit)
 "iSV" = (
@@ -20729,6 +20761,9 @@
 	dir = 4
 	},
 /obj/effect/landmark/navigate_destination/dockarrival,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
 "ppU" = (
@@ -20830,6 +20865,9 @@
 /area/lavaland/surface)
 "ptw" = (
 /obj/machinery/vending/coffee,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
 "pty" = (
@@ -25964,6 +26002,10 @@
 /obj/effect/spawner/random/structure/grille,
 /turf/open/space/basic,
 /area/space/nearstation)
+"sXg" = (
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/iron/dark,
+/area/station/hallway/secondary/entry)
 "sXu" = (
 /obj/structure/table/wood,
 /obj/machinery/atmospherics/components/unary/vent_pump{
@@ -26755,8 +26797,8 @@
 /area/station/engineering/storage/tech)
 "tEV" = (
 /obj/machinery/door/airlock/maintenance,
-/obj/structure/cable,
 /obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/structure/cable,
 /obj/effect/mapping_helpers/airlock/unres{
 	dir = 4
 	},
@@ -29207,7 +29249,9 @@
 /obj/machinery/door/airlock/external{
 	name = "Arrivals Docking Airlock"
 	},
-/turf/open/floor/plating,
+/obj/effect/turf_decal/delivery,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/turf/open/floor/iron/dark,
 /area/station/hallway/secondary/entry)
 "vrp" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -30036,6 +30080,7 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/effect/turf_decal/delivery,
 /obj/structure/closet/emcloset,
+/obj/effect/turf_decal/stripes/line,
 /turf/open/floor/iron/dark,
 /area/station/hallway/secondary/entry)
 "vRY" = (
@@ -30484,6 +30529,9 @@
 "wgb" = (
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/corner{
 	dir = 4
 	},
 /turf/open/floor/iron,
@@ -60574,7 +60622,7 @@ wuD
 sus
 jvh
 sus
-xQV
+fqs
 rqm
 rqm
 rqm
@@ -60829,9 +60877,9 @@ wuD
 wuD
 wuD
 vrn
-dqA
-vrn
-xQV
+sXg
+fUT
+fqs
 uXb
 tJh
 shc
@@ -61088,7 +61136,7 @@ wuD
 sus
 cCl
 sus
-xQV
+fqs
 uXb
 tsr
 evD
@@ -62116,7 +62164,7 @@ wuD
 sus
 cCl
 sus
-rqm
+arD
 rqm
 rqm
 rqm
@@ -62371,9 +62419,9 @@ wuD
 wuD
 wuD
 vrn
-dqA
-vrn
-rqm
+sXg
+fUT
+arD
 qwm
 pcT
 wWK
@@ -62385,7 +62433,7 @@ prl
 xWF
 tjK
 oIm
-fUT
+bRr
 qjI
 prl
 pEm
@@ -62630,7 +62678,7 @@ wuD
 sus
 jvh
 sus
-rqm
+arD
 rqm
 tMu
 tMu
@@ -62642,7 +62690,7 @@ prl
 hlc
 evd
 iGA
-fUT
+bRr
 gfz
 prl
 bVx
