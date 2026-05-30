@@ -28617,6 +28617,7 @@
 	name = "Secure Pen Shutters"
 	},
 /obj/structure/window/reinforced/spawner/directional/west,
+/obj/structure/window/reinforced/spawner/directional/east,
 /turf/open/floor/engine,
 /area/station/science/xenobiology)
 "uvp" = (
@@ -28751,10 +28752,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
 /area/station/maintenance/port/greater)
-"uxZ" = (
-/obj/effect/mapping_helpers/broken_floor,
-/turf/open/floor/iron,
-/area/station/hallway/secondary/exit)
 "uyh" = (
 /obj/machinery/camera/autoname/directional/east,
 /obj/effect/turf_decal/tile/green{
@@ -61119,7 +61116,7 @@ wuD
 wuD
 wuD
 tvW
-kAF
+tvW
 uhB
 ovk
 uhB
@@ -61629,7 +61626,7 @@ wuD
 wuD
 wuD
 wuD
-wuD
+tvW
 uhB
 htW
 hRD
@@ -61878,6 +61875,7 @@ qKS
 vtb
 oSB
 pxi
+tvW
 wuD
 wuD
 wuD
@@ -61885,8 +61883,7 @@ wuD
 wuD
 wuD
 wuD
-wuD
-wuD
+tvW
 uhB
 aJi
 hRD
@@ -62135,6 +62132,7 @@ mCb
 vtb
 qKS
 pxi
+tvW
 wuD
 wuD
 wuD
@@ -62142,8 +62140,7 @@ wuD
 wuD
 wuD
 wuD
-wuD
-wuD
+tvW
 uhB
 krR
 hRD
@@ -62388,19 +62385,19 @@ cEU
 yfU
 qKS
 lVt
-uxZ
+qKS
 qKS
 qKS
 pxi
-wuD
-wuD
-wuD
-wuD
-wuD
-wuD
-wuD
-wuD
-wuD
+tvW
+tvW
+tvW
+tvW
+tvW
+tvW
+tvW
+tvW
+tvW
 uhB
 hja
 hRD
