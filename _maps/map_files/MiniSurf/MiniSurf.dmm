@@ -1709,7 +1709,9 @@
 /turf/open/floor/iron/dark,
 /area/station/hallway/secondary/entry)
 "bqf" = (
-/obj/machinery/rnd/production/protolathe/department/service,
+/obj/machinery/modular_computer/preset/civilian{
+	dir = 1
+	},
 /turf/open/floor/plating,
 /area/station/maintenance/port/central)
 "bqs" = (
@@ -4603,14 +4605,11 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/airlock/access/any/engineering/maintenance,
-/obj/effect/mapping_helpers/airlock/access/any/service/general,
 /obj/effect/mapping_helpers/airlock/unres{
 	dir = 1
 	},
 /obj/structure/disposalpipe/segment,
-/obj/machinery/door/airlock/glass{
-	name = "Service Maintenance"
-	},
+/obj/machinery/door/airlock/maintenance,
 /turf/open/floor/plating,
 /area/station/maintenance/port/central)
 "dxi" = (
@@ -6147,7 +6146,16 @@
 /turf/closed/wall/r_wall,
 /area/station/engineering/atmos)
 "eAN" = (
-/obj/effect/spawner/random/maintenance,
+/obj/structure/rack,
+/obj/item/storage/toolbox/electrical,
+/obj/item/stack/cable_coil/five,
+/obj/item/stack/cable_coil/five,
+/obj/item/stack/cable_coil/five,
+/obj/item/stack/cable_coil/five,
+/obj/item/stack/cable_coil/five,
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/stack/rods/fifty,
+/obj/item/stack/sheet/iron/fifty,
 /turf/open/floor/plating,
 /area/station/maintenance/port/central)
 "eBw" = (
@@ -8903,6 +8911,8 @@
 "gzn" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/random/structure/closet_maintenance,
+/obj/effect/spawner/random/maintenance,
+/obj/effect/spawner/random/maintenance,
 /turf/open/floor/plating,
 /area/station/maintenance/port/greater)
 "gzC" = (
@@ -19758,16 +19768,7 @@
 /turf/open/floor/iron,
 /area/station/hallway/primary/central)
 "ohk" = (
-/obj/structure/rack,
-/obj/item/storage/toolbox/electrical,
-/obj/item/stack/cable_coil/five,
-/obj/item/stack/cable_coil/five,
-/obj/item/stack/cable_coil/five,
-/obj/item/stack/cable_coil/five,
-/obj/item/stack/cable_coil/five,
-/obj/item/stack/sheet/glass/fifty,
-/obj/item/stack/rods/fifty,
-/obj/item/stack/sheet/iron/fifty,
+/obj/machinery/rnd/production/protolathe/department/service,
 /turf/open/floor/plating,
 /area/station/maintenance/aft/lesser)
 "ohH" = (
@@ -20398,16 +20399,13 @@
 "oEO" = (
 /obj/structure/cable,
 /obj/effect/mapping_helpers/airlock/access/any/engineering/maintenance,
-/obj/effect/mapping_helpers/airlock/access/any/service/general,
 /obj/effect/mapping_helpers/airlock/unres{
 	dir = 8
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/machinery/door/airlock/glass{
-	name = "Service Maintenance"
-	},
+/obj/machinery/door/airlock/maintenance,
 /turf/open/floor/plating,
 /area/station/maintenance/port/central)
 "oER" = (
@@ -24022,7 +24020,7 @@
 /turf/closed/wall/r_wall,
 /area/station/maintenance/fore/lesser)
 "qYS" = (
-/obj/machinery/modular_computer/preset/civilian{
+/obj/machinery/modular_computer/preset/cargochat/service{
 	dir = 4
 	},
 /turf/open/floor/plating,
@@ -24864,7 +24862,7 @@
 /obj/effect/spawner/random/exotic/antag_gear_weak{
 	spawn_loot_chance = 20
 	},
-/obj/effect/spawner/random/mosin/ammo,
+/obj/effect/spawner/random/medical/injector,
 /turf/open/floor/plating,
 /area/station/maintenance/port/lesser)
 "rEo" = (
@@ -25278,10 +25276,10 @@
 /turf/open/floor/plating,
 /area/station/maintenance/department/chapel/monastery)
 "rSw" = (
+/obj/structure/table,
 /obj/item/paper/pamphlet/gateway{
 	pixel_x = -3
 	},
-/obj/structure/table,
 /obj/item/paper/pamphlet/gateway,
 /obj/item/paper/pamphlet/gateway{
 	pixel_x = 3
@@ -29789,14 +29787,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/science/genetics)
-"vgs" = (
-/obj/machinery/modular_computer/preset/cargochat/service{
-	dir = 8;
-	pixel_y = 2;
-	pixel_x = 4
-	},
-/turf/open/floor/plating,
-/area/station/maintenance/port/central)
 "vhg" = (
 /obj/effect/landmark/event_spawn,
 /turf/open/floor/plating,
@@ -65732,7 +65722,7 @@ mgJ
 mgJ
 eiw
 bzL
-rim
+iVU
 eAN
 tJA
 bzW
@@ -65989,7 +65979,7 @@ wBS
 mgJ
 cqJ
 fdu
-vgs
+rim
 bqf
 tJA
 qtl
