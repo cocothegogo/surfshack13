@@ -1,8 +1,0 @@
-author: "cocothegogo"
-delete-after: True
-changes:
-  - rscadd: "MiniSurf: minor fixes across station"
-  - rscadd: "MiniSurf: fire alarms in more ergonomic locations"
-  - rscadd: "MiniSurf: gives sec a flasher at brig doors + door cycling buttons"
-  - rscadd: "MiniSurf: Clown and Mime now have own rooms"
-  - rscadd: "MiniSurf: more maint space below medical and chapel maints\nfixes:MiniSurf: adjust maint loot spawns\nfixes:MiniSurf: moves atmos pipe dispenser to chapel maints for assistant access (theyre never really used anyway)"

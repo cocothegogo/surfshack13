@@ -1,4 +1,0 @@
-author: "hyperjll"
-delete-after: True
-changes:
-  - rscdel: "Removed the tech nodes: Nanite Experimental Replication Protocols, Mental Augmentation Nanite Programming, Experimental Medical Nanite Programming, Highly Experimental Nanite Programming. All designs unlocked from these nodes may be found elsewhere."
