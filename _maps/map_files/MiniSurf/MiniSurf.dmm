@@ -939,7 +939,6 @@
 /turf/open/floor/iron/white,
 /area/station/medical/chemistry)
 "aJi" = (
-/obj/effect/spawner/random/trash/deluxe_garbage,
 /obj/structure/table,
 /turf/open/floor/plating,
 /area/station/maintenance/port/aft)
@@ -1018,11 +1017,17 @@
 /turf/open/floor/plating,
 /area/station/cargo/miningoffice)
 "aNh" = (
-/obj/structure/table/wood,
-/obj/item/camera{
-	pixel_x = -5;
-	pixel_y = 7
+/obj/structure/filingcabinet{
+	pixel_x = -10;
+	pixel_y = 0
 	},
+/obj/structure/filingcabinet{
+	pixel_x = 10;
+	pixel_y = 0
+	},
+/obj/structure/filingcabinet,
+/obj/machinery/computer/security/telescreen/entertainment/directional/north,
+/obj/effect/decal/cleanable/cobweb,
 /turf/open/floor/wood,
 /area/station/commons/vacant_room/office)
 "aNi" = (
@@ -2907,6 +2912,7 @@
 /obj/machinery/hydroponics/soil,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/food_or_drink/seed,
 /turf/open/floor/plating,
 /area/station/maintenance/fore)
 "clG" = (
@@ -3010,6 +3016,7 @@
 /obj/structure/table,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/random/maintenance,
+/obj/item/binoculars,
 /turf/open/floor/plating,
 /area/station/maintenance/port/greater)
 "cpe" = (
@@ -3122,9 +3129,10 @@
 /turf/open/floor/iron,
 /area/station/hallway/secondary/service)
 "crt" = (
-/obj/item/food/canned/peaches/maint,
-/obj/structure/table,
 /obj/item/food/canned/beans,
+/obj/structure/table{
+	name = "Jim Norton's Quebecois Coffee table"
+	},
 /turf/open/floor/iron/terracotta,
 /area/station/maintenance/starboard/aft)
 "crA" = (
@@ -4039,6 +4047,7 @@
 "cYo" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/closet/crate/solarpanel_small,
+/obj/item/stack/sheet/glass/fifty,
 /turf/open/floor/iron/dark,
 /area/station/hallway/secondary/construction)
 "cYD" = (
@@ -4222,6 +4231,9 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/landmark/generic_maintenance_landmark,
 /obj/effect/decal/cleanable/blood/old,
+/obj/structure/chair/plastic{
+	dir = 8
+	},
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/aft)
 "dhF" = (
@@ -4308,7 +4320,7 @@
 /area/space/nearstation)
 "dmq" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/spawner/random/structure/grille,
+/obj/structure/grille,
 /turf/open/floor/plating,
 /area/station/maintenance/port/lesser)
 "dmu" = (
@@ -4886,10 +4898,7 @@
 /turf/open/floor/iron/white,
 /area/station/medical/chemistry)
 "dIo" = (
-/obj/structure/table/wood,
-/obj/effect/spawner/random/bureaucracy/folder{
-	spawn_random_offset = 1
-	},
+/obj/effect/spawner/random/bureaucracy/pen,
 /turf/open/floor/carpet,
 /area/station/commons/vacant_room/office)
 "dIC" = (
@@ -5080,7 +5089,6 @@
 	pixel_x = 1;
 	pixel_y = 5
 	},
-/obj/effect/spawner/random/food_or_drink/snack,
 /turf/open/floor/iron/grimy,
 /area/station/hallway/secondary/entry)
 "dNP" = (
@@ -7257,16 +7265,10 @@
 /turf/open/floor/plating,
 /area/station/maintenance/port/aft)
 "fqs" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/structure/chair/office{
-	dir = 1
-	},
-/turf/open/floor/wood,
-/area/station/commons/vacant_room/office)
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/wrapping,
+/turf/open/floor/plating,
+/area/station/maintenance/port/greater)
 "fqv" = (
 /obj/machinery/vending/coffee,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -7405,6 +7407,7 @@
 	dir = 1
 	},
 /obj/effect/landmark/start/hangover,
+/obj/effect/landmark/start/assistant,
 /turf/open/floor/carpet,
 /area/station/hallway/secondary/entry)
 "fvp" = (
@@ -7852,6 +7855,13 @@
 /obj/machinery/door/airlock/maintenance/external{
 	name = "Coffee Shop Kitchen"
 	},
+/obj/item/paper{
+	default_raw_text = "Jim Norton's Quebecois Coffee.         You see, in 2265 the Quebecois had finally had enough of Canada's shit, and went to the one place that wasn't corrupted by Canuckistan.Je vais au seul endroit qui n'a pas ??? corrompu par les Canadiens ... ESPACE.";
+	name = "Coffee Shop";
+	pixel_x = -4;
+	pixel_y = 6
+	},
+/obj/effect/mapping_helpers/airlock_note_placer,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/aft)
 "fLE" = (
@@ -9018,7 +9028,7 @@
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/spawner/random/structure/crate,
+/obj/machinery/power/port_gen/pacman,
 /turf/open/floor/iron/dark,
 /area/station/hallway/secondary/construction)
 "gGp" = (
@@ -9483,7 +9493,9 @@
 /obj/item/reagent_containers/condiment/saltshaker{
 	pixel_x = -3
 	},
-/obj/structure/table,
+/obj/structure/table{
+	name = "Jim Norton's Quebecois Coffee table"
+	},
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/aft)
 "gTx" = (
@@ -10169,6 +10181,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
+/obj/effect/landmark/start/hangover,
 /turf/open/floor/iron/dark/textured,
 /area/station/security/mechbay)
 "hxa" = (
@@ -10635,7 +10648,6 @@
 /turf/open/floor/iron/white,
 /area/station/science/research)
 "hOr" = (
-/obj/item/chair/plastic,
 /turf/open/floor/iron/kitchen,
 /area/station/maintenance/starboard/aft)
 "hOR" = (
@@ -10825,6 +10837,13 @@
 	},
 /turf/open/floor/iron,
 /area/station/engineering/main)
+"hVW" = (
+/obj/item/stack/cable_coil{
+	pixel_x = -1;
+	pixel_y = -3
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/port/greater)
 "hWa" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/shutters/preopen{
@@ -11156,6 +11175,10 @@
 /obj/machinery/computer/security/telescreen/entertainment/directional/north,
 /turf/open/floor/iron,
 /area/station/hallway/primary/central/fore)
+"ijY" = (
+/obj/machinery/power/port_gen/pacman,
+/turf/open/floor/plating,
+/area/station/maintenance/port/lesser)
 "ikO" = (
 /obj/effect/turf_decal/tile/purple{
 	dir = 1
@@ -14040,7 +14063,6 @@
 /turf/open/floor/iron/white/corner,
 /area/station/hallway/primary/port)
 "kjG" = (
-/obj/structure/table,
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 4
 	},
@@ -14051,6 +14073,9 @@
 	name = "Kitchen Privacy Shutters"
 	},
 /obj/item/food/donut/matcha,
+/obj/structure/table{
+	name = "Jim Norton's Quebecois Coffee table"
+	},
 /turf/open/floor/iron/kitchen,
 /area/station/maintenance/starboard/aft)
 "kjO" = (
@@ -14350,6 +14375,9 @@
 	pixel_y = 6
 	},
 /obj/effect/spawner/random/bureaucracy/pen,
+/obj/effect/spawner/random/bureaucracy/folder{
+	spawn_random_offset = 1
+	},
 /turf/open/floor/wood,
 /area/station/commons/vacant_room/office)
 "kvl" = (
@@ -15764,7 +15792,6 @@
 "lzU" = (
 /obj/structure/bookcase/random/nonfiction,
 /obj/machinery/light/directional/west,
-/obj/effect/spawner/random/exotic/languagebook,
 /turf/open/floor/wood,
 /area/station/commons/dorms)
 "lzV" = (
@@ -16327,14 +16354,9 @@
 /turf/open/floor/iron/showroomfloor,
 /area/station/security/warden)
 "lSA" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/table/wood,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/floor/wood,
-/area/station/commons/vacant_room/office)
+/obj/effect/decal/cleanable/xenoblood/xsplatter,
+/turf/open/floor/engine/xenobio,
+/area/station/science/xenobiology)
 "lTl" = (
 /obj/machinery/door/airlock/research/glass/incinerator/ordmix_exterior{
 	name = "Burn Chamber Exterior Airlock"
@@ -17052,6 +17074,11 @@
 /obj/machinery/requests_console/auto_name/directional/east,
 /turf/open/floor/iron,
 /area/station/cargo/miningoffice)
+"mxH" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/blobstart,
+/turf/open/floor/plating,
+/area/station/maintenance/fore)
 "mxI" = (
 /obj/machinery/power/smes/super/full,
 /obj/structure/cable,
@@ -18005,9 +18032,9 @@
 	},
 /area/station/commons/fitness/recreation/pool)
 "nak" = (
-/obj/effect/spawner/random/structure/grille,
+/obj/effect/spawner/random/decoration/glowstick/on,
 /turf/open/floor/plating,
-/area/station/maintenance/port/lesser)
+/area/station/maintenance/aft)
 "naJ" = (
 /obj/effect/turf_decal/tile/green,
 /obj/effect/turf_decal/tile/green{
@@ -18422,6 +18449,7 @@
 "nql" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/hydroponics/soil,
+/obj/effect/spawner/random/food_or_drink/seed,
 /turf/open/floor/plating,
 /area/station/maintenance/fore)
 "nqm" = (
@@ -21811,7 +21839,7 @@
 /area/station/hallway/primary/port)
 "pCU" = (
 /obj/structure/chair/office{
-	dir = 8
+	dir = 1
 	},
 /turf/open/floor/carpet,
 /area/station/commons/vacant_room/office)
@@ -22469,6 +22497,7 @@
 "qdO" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/random/maintenance,
+/obj/effect/spawner/random/exotic/languagebook,
 /turf/open/floor/plating,
 /area/station/maintenance/port/lesser)
 "qea" = (
@@ -22685,7 +22714,6 @@
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/security/armory)
 "qmL" = (
-/obj/structure/table,
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 4
 	},
@@ -22696,6 +22724,9 @@
 	},
 /obj/item/storage/fancy/coffee_condi_display{
 	pixel_y = -7
+	},
+/obj/structure/table{
+	name = "Jim Norton's Quebecois Coffee table"
 	},
 /turf/open/floor/iron/kitchen,
 /area/station/maintenance/starboard/aft)
@@ -23047,6 +23078,10 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/science/xenobiology)
+"qvt" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/station/maintenance/aft)
 "qvC" = (
 /obj/machinery/light/small/directional/west,
 /obj/structure/sign/warning/docking/directional/west,
@@ -23202,6 +23237,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
+/obj/effect/landmark/start/hangover,
 /turf/open/floor/iron/dark,
 /area/station/security/prison)
 "qCt" = (
@@ -23682,6 +23718,11 @@
 /obj/machinery/airalarm/directional/east,
 /obj/structure/table/wood,
 /obj/effect/spawner/random/bureaucracy/stamp,
+/obj/item/camera{
+	pixel_x = -5;
+	pixel_y = 7
+	},
+/obj/structure/noticeboard/directional/north,
 /turf/open/floor/wood,
 /area/station/commons/vacant_room/office)
 "qQo" = (
@@ -25090,6 +25131,7 @@
 /obj/item/clothing/suit/costume/cryptic_shirt,
 /obj/item/card/cardboard,
 /obj/structure/rack,
+/obj/item/clothing/gloves/color/fyellow,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/aft)
 "rOP" = (
@@ -26085,6 +26127,7 @@
 	pixel_x = -4;
 	pixel_y = -1
 	},
+/obj/item/chair/plastic,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/aft)
 "sCq" = (
@@ -29087,6 +29130,7 @@
 	dir = 1
 	},
 /obj/structure/closet/crate/solarpanel_small,
+/obj/item/stack/sheet/glass/fifty,
 /turf/open/floor/iron/dark,
 /area/station/hallway/secondary/construction)
 "uLP" = (
@@ -29809,6 +29853,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/closet/crate/solarpanel_small,
 /obj/machinery/camera/autoname/directional/north,
+/obj/item/stack/cable_coil,
 /turf/open/floor/iron/dark,
 /area/station/hallway/secondary/construction)
 "vkS" = (
@@ -32619,6 +32664,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/station/cargo/office)
+"xaS" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/generic_maintenance_landmark,
+/obj/effect/landmark/blobstart,
+/turf/open/floor/plating,
+/area/station/maintenance/port/greater)
 "xce" = (
 /obj/structure/transit_tube/curved{
 	dir = 8
@@ -33074,6 +33125,11 @@
 /obj/structure/closet/secure_closet/freezer/kitchen/maintenance,
 /obj/effect/decal/cleanable/cobweb,
 /obj/structure/sign/poster/official/random/directional/north,
+/obj/item/storage/box/coffeepack,
+/obj/item/storage/pill_bottle/happinesspsych{
+	pixel_x = -4;
+	pixel_y = -1
+	},
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/aft)
 "xrZ" = (
@@ -34016,6 +34072,7 @@
 /obj/machinery/hydroponics/soil,
 /obj/machinery/light/small/directional/east,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/food_or_drink/seed,
 /turf/open/floor/plating,
 /area/station/maintenance/fore)
 "xXM" = (
@@ -55109,7 +55166,7 @@ fzc
 hsZ
 cpb
 fzc
-wuD
+apX
 wuD
 wuD
 wuD
@@ -55366,8 +55423,8 @@ cyt
 vsR
 wOF
 rYU
-wuD
-wuD
+apX
+apX
 wuD
 wuD
 wuD
@@ -55623,7 +55680,7 @@ fzc
 oft
 knU
 fzc
-wuD
+apX
 wuD
 wuD
 wuD
@@ -56135,8 +56192,8 @@ eky
 uCA
 oft
 fzc
-wuD
-wuD
+apX
+apX
 wuD
 wuD
 wuD
@@ -56390,9 +56447,9 @@ hZU
 obs
 gzn
 uCA
-bUH
+xaS
 fzc
-wuD
+apX
 wuD
 wuD
 wuD
@@ -56906,8 +56963,8 @@ fzc
 ckW
 nnN
 fzc
-wuD
-wuD
+apX
+apX
 wuD
 wuD
 wuD
@@ -57420,7 +57477,7 @@ fzc
 ckW
 vlp
 fzc
-wuD
+apX
 wuD
 wuD
 wuD
@@ -57677,8 +57734,8 @@ fzc
 ckW
 dNP
 fzc
-wuD
-wuD
+apX
+apX
 wuD
 wuD
 wuD
@@ -58195,7 +58252,7 @@ hzs
 bBO
 bTf
 fzc
-wuD
+apX
 wuD
 wuD
 wuD
@@ -58452,8 +58509,8 @@ lov
 dbl
 kNy
 fzc
-wuD
-wuD
+apX
+apX
 wuD
 wuD
 wuD
@@ -58706,10 +58763,10 @@ ckW
 oft
 fzc
 mHa
-oft
+fqs
 qtM
 fzc
-wuD
+apX
 wuD
 wuD
 wuD
@@ -59217,7 +59274,7 @@ aHs
 hNo
 fzc
 ckW
-vlp
+hVW
 fzc
 xMK
 cbM
@@ -62558,7 +62615,7 @@ frf
 pmW
 vQG
 kQV
-kQV
+ijY
 hHH
 kpZ
 hHH
@@ -62815,7 +62872,7 @@ frf
 pmW
 vQG
 kQV
-nak
+tqb
 hHH
 dVO
 nzY
@@ -62840,13 +62897,13 @@ teT
 beO
 beO
 fZP
-qKS
+xHQ
 pwt
 bwf
 bwf
-bwf
-bwf
-bwf
+qvt
+nak
+qvt
 bwf
 bwf
 bgc
@@ -63610,7 +63667,7 @@ cJx
 biY
 ntT
 fvv
-lSA
+uHR
 qjP
 oCa
 oCa
@@ -63867,7 +63924,7 @@ qKS
 uoN
 aih
 fuS
-fqs
+uHR
 gTT
 cSU
 cSU
@@ -64381,7 +64438,7 @@ iZu
 uYA
 ury
 aNh
-dIo
+ffO
 dIo
 ffO
 xUB
@@ -65629,7 +65686,7 @@ xOL
 bSn
 num
 szE
-pyb
+mxH
 aTB
 mMM
 sck
@@ -74197,12 +74254,12 @@ wuD
 tvW
 tvW
 tvW
-uOz
-uOz
-uOz
-uOz
-uOz
-uOz
+wuD
+wuD
+wuD
+wuD
+wuD
+wuD
 pdc
 pdc
 pdc
@@ -74459,7 +74516,7 @@ ulk
 ulk
 uPp
 uOz
-uOz
+wuD
 pdc
 pdc
 pdc
@@ -74716,7 +74773,7 @@ clN
 clN
 clN
 xYa
-uOz
+wuD
 pdc
 pdc
 pdc
@@ -75197,7 +75254,7 @@ qea
 dPq
 dgr
 eZM
-uMw
+hSe
 rOw
 eZM
 wuD
@@ -77252,14 +77309,14 @@ fbU
 fbU
 vtA
 hJb
-hSe
+uMw
 mrF
 tdc
 wVl
 wfh
 crt
 wNW
-oCK
+uqL
 wuD
 wuD
 wuD
@@ -78984,7 +79041,7 @@ jcg
 jcg
 qDg
 qlV
-dWQ
+lSA
 dWQ
 jcg
 sVq
