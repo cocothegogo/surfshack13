@@ -14983,10 +14983,6 @@
 	location = "6-Port-Central"
 	},
 /obj/machinery/navbeacon{
-	codes_txt = "patrol;next_patrol=7-Command-Starboard";
-	location = "6-Port-Central"
-	},
-/obj/machinery/navbeacon{
 	codes_txt = "patrol;next_patrol=7.5-Starboard-Aft-Corner";
 	location = "7-Command-Starboard"
 	},
