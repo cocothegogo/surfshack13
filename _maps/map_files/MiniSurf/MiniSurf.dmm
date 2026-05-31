@@ -3752,11 +3752,10 @@
 /turf/open/floor/plating,
 /area/station/maintenance/aft)
 "cOR" = (
+/obj/item/stack/cable_coil/cut,
 /obj/structure/lattice/catwalk,
-/obj/effect/spawner/random/glass_debris,
-/obj/effect/decal/cleanable/glass,
 /turf/open/space/basic,
-/area/station/solars/port/aft)
+/area/space/nearstation)
 "cOU" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment,
@@ -7529,6 +7528,7 @@
 /area/station/engineering/main)
 "fws" = (
 /obj/item/stack/cable_coil/cut,
+/obj/structure/lattice,
 /turf/open/space,
 /area/space/nearstation)
 "fwE" = (
@@ -8978,13 +8978,6 @@
 /obj/structure/window/reinforced/spawner/directional/south,
 /turf/open/floor/iron/dark,
 /area/station/science/robotics/lab)
-"gzn" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/spawner/random/structure/closet_maintenance,
-/obj/effect/spawner/random/maintenance,
-/obj/effect/spawner/random/maintenance,
-/turf/open/floor/plating,
-/area/station/maintenance/port/greater)
 "gzC" = (
 /obj/structure/bed/dogbed/ian,
 /obj/machinery/status_display/evac/directional/south,
@@ -11832,13 +11825,6 @@
 	},
 /turf/open/floor/plating,
 /area/station/engineering/main)
-"iDS" = (
-/obj/effect/turf_decal/box,
-/obj/effect/mapping_helpers/broken_floor,
-/obj/effect/decal/cleanable/glass,
-/obj/item/shard,
-/turf/open/floor/iron/solarpanel/airless,
-/area/station/solars/port/aft)
 "iDW" = (
 /obj/effect/spawner/random/structure/crate,
 /obj/effect/decal/cleanable/dirt,
@@ -12691,12 +12677,6 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/solars/port/aft)
-"jeF" = (
-/obj/structure/lattice/catwalk,
-/obj/effect/decal/cleanable/glass,
-/obj/structure/cable,
-/turf/open/space/basic,
-/area/station/solars/port/aft)
 "jfa" = (
 /obj/machinery/status_display/ai/directional/east,
 /obj/structure/cable,
@@ -16195,9 +16175,9 @@
 /area/station/engineering/supermatter)
 "lHR" = (
 /obj/structure/lattice,
-/obj/effect/mapping_helpers/broken_floor,
+/obj/item/stack/cable_coil/cut,
 /turf/open/space/basic,
-/area/station/solars/port/aft)
+/area/space/nearstation)
 "lIg" = (
 /obj/effect/turf_decal/plaque{
 	icon_state = "L10"
@@ -17314,6 +17294,7 @@
 	name = "Aft-Port Solar Array"
 	},
 /obj/structure/cable,
+/obj/effect/decal/cleanable/glass,
 /turf/open/floor/iron/solarpanel/airless,
 /area/station/solars/port/aft)
 "mzK" = (
@@ -18227,6 +18208,7 @@
 	},
 /obj/structure/cable,
 /obj/effect/mapping_helpers/broken_floor,
+/obj/effect/decal/cleanable/glass,
 /turf/open/floor/iron/solarpanel/airless,
 /area/station/solars/port/aft)
 "nak" = (
@@ -24725,8 +24707,9 @@
 /obj/effect/turf_decal/box,
 /obj/effect/mapping_helpers/broken_floor,
 /obj/effect/decal/cleanable/glass,
+/obj/item/shard,
 /turf/open/floor/iron/solarpanel/airless,
-/area/station/solars/port/aft)
+/area/space/nearstation)
 "rsg" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
@@ -30196,10 +30179,6 @@
 /obj/structure/cable/layer3,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/turret_protected/aisat/foyer)
-"voa" = (
-/obj/structure/lattice,
-/turf/open/space/basic,
-/area/station/solars/port/aft)
 "vof" = (
 /obj/machinery/door/window/left/directional/north{
 	name = "MiniSat Walkway Access"
@@ -31965,10 +31944,6 @@
 	},
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
-"wqQ" = (
-/obj/item/stack/cable_coil,
-/turf/open/space/basic,
-/area/space/nearstation)
 "wrd" = (
 /obj/docking_port/stationary/random{
 	name = "lavaland";
@@ -32946,8 +32921,12 @@
 /turf/open/floor/plating,
 /area/station/maintenance/solars/port/aft)
 "xbW" = (
-/turf/open/space/basic,
-/area/station/maintenance/solars/port/aft)
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/rack,
+/obj/item/shovel,
+/obj/item/pickaxe,
+/turf/open/floor/plating,
+/area/station/maintenance/port/greater)
 "xce" = (
 /obj/structure/transit_tube/curved{
 	dir = 8
@@ -33700,10 +33679,11 @@
 /turf/open/floor/plating,
 /area/station/hallway/secondary/exit)
 "xBO" = (
-/obj/structure/lattice/catwalk,
+/obj/effect/turf_decal/box,
+/obj/effect/mapping_helpers/broken_floor,
 /obj/effect/decal/cleanable/glass,
-/turf/open/space/basic,
-/area/station/solars/port/aft)
+/turf/open/floor/iron/solarpanel/airless,
+/area/space/nearstation)
 "xBP" = (
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
@@ -51584,7 +51564,7 @@ wuD
 wuD
 wuD
 wuD
-wuD
+apX
 pdc
 pdc
 pdc
@@ -51837,11 +51817,11 @@ pdc
 wuD
 wuD
 fgN
-wuD
+mng
 wuD
 apX
 wuD
-wuD
+fyD
 pdc
 pdc
 pdc
@@ -52095,9 +52075,9 @@ wuD
 wuD
 wuD
 wuD
+mng
 wuD
-rrZ
-iDS
+wuD
 fLj
 pdc
 apX
@@ -52353,9 +52333,9 @@ apX
 wuD
 mng
 mng
-fgN
-pdc
-wuD
+xBO
+rrZ
+cOR
 fgN
 fgN
 pdc
@@ -52869,8 +52849,8 @@ iPl
 mng
 mng
 fgN
-wqQ
-pdc
+kAF
+mng
 pdc
 apX
 pdc
@@ -53383,7 +53363,7 @@ iPl
 iPl
 mng
 fgN
-jeF
+vJF
 nai
 mzJ
 pdc
@@ -53638,10 +53618,10 @@ wuD
 wuD
 wuD
 wuD
-cOR
-lHR
+nnN
+apX
 tvI
-xBO
+nnN
 nnN
 wuD
 fgN
@@ -54154,7 +54134,7 @@ wuD
 wuD
 wuD
 wuD
-jeF
+vJF
 wuD
 wuD
 wuD
@@ -54410,9 +54390,9 @@ wuD
 wuD
 wuD
 wuD
-voa
+apX
 jqG
-voa
+apX
 wuD
 wuD
 wuD
@@ -54671,8 +54651,8 @@ knt
 fsW
 mMn
 knt
-voa
-voa
+apX
+wuD
 wuD
 wuD
 wuD
@@ -54928,8 +54908,8 @@ knt
 wzg
 hWb
 knt
-xbW
-xbW
+apX
+apX
 wuD
 wuD
 wuD
@@ -55702,7 +55682,7 @@ qnF
 gGU
 mMn
 apX
-wuD
+apX
 wuD
 wuD
 wuD
@@ -56721,7 +56701,7 @@ mVM
 aiA
 hZU
 obs
-gzn
+tNK
 uCA
 fzc
 hzs
@@ -56978,7 +56958,7 @@ wfz
 tbx
 bnq
 obs
-tNK
+xbW
 bsK
 anu
 lov
