@@ -895,7 +895,8 @@
 	creation_purity = REAGENT_STANDARD_PURITY
 	purity = REAGENT_STANDARD_PURITY
 	color = "#AC88CA" //RGB: 172, 136, 202
-	metabolization_rate = 0.6 * REAGENTS_METABOLISM
+	overdose_threshold = 20
+	metabolization_rate = REAGENTS_METABOLISM
 	ph = 6.2
 	taste_description = "spinning"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
@@ -918,3 +919,18 @@
 		var/atom/movable/plane_master_controller/pm_controller = affected_mob.hud_used.plane_master_controllers[PLANE_MASTERS_GAME]
 		for(var/atom/movable/screen/plane_master/plane as anything in pm_controller.get_planes())
 			animate(plane, transform = matrix(), time = 9, easing = QUAD_EASING)
+
+/datum/reagent/drug/rotatium/overdose_start(mob/living/affected_mob)
+	. = ..()
+	to_chat(affected_mob, span_userdanger("You start tripping hard!"))
+	affected_mob.add_mood_event("[type]_overdose", /datum/mood_event/overdose, name)
+
+/datum/reagent/drug/rotatium/overdose_process(mob/living/affected_mob, seconds_per_tick, times_fired)
+	. = ..()
+	affected_mob.reagents.remove_reagent(type, 4 * REM * seconds_per_tick)
+	var/hallucination_duration_in_seconds = (affected_mob.get_timed_status_effect_duration(/datum/status_effect/hallucination) / 10)
+	if(hallucination_duration_in_seconds < volume && SPT_PROB(10, seconds_per_tick))
+		affected_mob.adjust_hallucinations(10 SECONDS)
+		//surfshack start
+		affected_mob.AddComponent(/datum/component/tweak, time=30 SECONDS)
+		//surfshack end
