@@ -3004,9 +3004,7 @@
 /turf/open/floor/engine,
 /area/station/science/ordnance/storage)
 "cmO" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 8
-	},
+/obj/effect/decal/cleanable/oil,
 /turf/open/floor/iron/dark,
 /area/station/science/ordnance)
 "cmR" = (
@@ -3479,10 +3477,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/lobby)
-"cEh" = (
-/obj/structure/lattice,
-/turf/open/space/basic,
-/area/space)
 "cEU" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/disposalpipe/segment,
@@ -4936,6 +4930,10 @@
 /obj/machinery/bookbinder,
 /turf/open/floor/carpet,
 /area/station/commons/dorms)
+"dGd" = (
+/obj/item/radio/intercom/directional/east,
+/turf/open/floor/iron/dark,
+/area/station/science/ordnance)
 "dGy" = (
 /obj/machinery/power/turbine/core_rotor{
 	dir = 4;
@@ -7061,8 +7059,11 @@
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
 "fbG" = (
-/obj/item/radio/intercom/directional/east,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/purple/visible,
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	dir = 1;
+	name = "Freezer Chamber Input Port"
+	},
 /turf/open/floor/iron/dark,
 /area/station/science/ordnance)
 "fbQ" = (
@@ -9284,6 +9285,10 @@
 /obj/item/stamp/head/captain,
 /turf/open/floor/wood/parquet,
 /area/station/command/heads_quarters/captain)
+"gId" = (
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron/dark,
+/area/station/science/ordnance)
 "gIf" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
@@ -10450,14 +10455,6 @@
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/engine,
 /area/station/science/xenobiology)
-"hAm" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "rdordnance";
-	name = "Toxins Lab Shutters"
-	},
-/turf/open/floor/plating,
-/area/station/science/research)
 "hAr" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
@@ -13306,7 +13303,6 @@
 /area/station/commons/dorms)
 "jxQ" = (
 /obj/machinery/camera/autoname/directional/east,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/purple/visible,
 /turf/open/floor/iron/dark,
 /area/station/science/ordnance)
 "jxV" = (
@@ -14537,7 +14533,7 @@
 /area/station/science/genetics)
 "kqu" = (
 /obj/machinery/light/directional/north,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/iron/dark,
 /area/station/science/ordnance)
 "kqQ" = (
@@ -15174,10 +15170,6 @@
 /area/station/maintenance/starboard/upper)
 "kOp" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
-/obj/machinery/atmospherics/components/unary/portables_connector/visible{
-	dir = 0;
-	name = "Freezer Chamber Input Port"
-	},
 /obj/machinery/light/directional/north,
 /turf/open/floor/iron/dark,
 /area/station/science/ordnance)
@@ -18182,12 +18174,6 @@
 	},
 /turf/open/floor/iron,
 /area/station/cargo/miningoffice)
-"mTZ" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 8
-	},
-/turf/open/floor/iron/dark,
-/area/station/science/ordnance)
 "mUg" = (
 /obj/machinery/status_display/evac/directional/north,
 /obj/machinery/porta_turret/ai,
@@ -28884,7 +28870,6 @@
 /turf/open/floor/plating,
 /area/station/maintenance/department/chapel/monastery)
 "umC" = (
-/obj/machinery/power/apc/auto_name/directional/south,
 /turf/open/floor/iron,
 /area/station/engineering/gravity_generator)
 "uoc" = (
@@ -29697,6 +29682,7 @@
 /obj/effect/turf_decal/tile/neutral,
 /obj/machinery/research/anomaly_refinery,
 /obj/effect/turf_decal/bot_red,
+/obj/machinery/computer/security/telescreen/ordnance/directional/east,
 /turf/open/floor/iron/dark,
 /area/station/science/research)
 "uNa" = (
@@ -31735,7 +31721,9 @@
 /turf/open/floor/iron,
 /area/station/science/research)
 "wam" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
 /turf/open/floor/iron/dark,
 /area/station/science/ordnance)
 "wan" = (
@@ -31781,7 +31769,6 @@
 /obj/item/radio/intercom/directional/south,
 /obj/item/pipe_dispenser,
 /obj/item/holosign_creator/atmos,
-/obj/machinery/computer/security/telescreen/ordnance/directional/east,
 /turf/open/floor/iron/dark,
 /area/station/science/research)
 "wbS" = (
@@ -51673,7 +51660,7 @@ wuD
 wuD
 wuD
 wuD
-wuD
+apX
 pdc
 pdc
 pdc
@@ -51925,12 +51912,12 @@ pdc
 pdc
 wuD
 wuD
-wuD
-wuD
-wuD
-wuD
+fgN
+mng
 wuD
 apX
+wuD
+fyD
 pdc
 pdc
 pdc
@@ -52182,14 +52169,14 @@ pdc
 pdc
 wuD
 wuD
-fgN
+wuD
+wuD
 mng
 wuD
-apX
 wuD
-fyD
+fLj
 pdc
-pdc
+apX
 pdc
 pdc
 pdc
@@ -52438,15 +52425,15 @@ pdc
 pdc
 pdc
 wuD
-wuD
-wuD
+apX
 wuD
 mng
-wuD
-wuD
-fLj
-pdc
-apX
+mng
+xBO
+rrZ
+cOR
+fgN
+fgN
 pdc
 pdc
 pdc
@@ -52695,13 +52682,13 @@ pdc
 pdc
 pdc
 wuD
-apX
+wuD
 wuD
 mng
 mng
-xBO
-rrZ
-cOR
+fgN
+fws
+lHR
 fgN
 fgN
 pdc
@@ -52953,17 +52940,17 @@ pdc
 pdc
 wuD
 wuD
-wuD
+iPl
+iPl
 mng
 mng
 fgN
-fws
-lHR
-fgN
-fgN
+kAF
+mng
 pdc
+apX
 pdc
-pdc
+apX
 pdc
 pdc
 pdc
@@ -53210,17 +53197,17 @@ wuD
 wuD
 wuD
 wuD
-iPl
-iPl
+fgN
+mng
 mng
 mng
 fgN
-kAF
-mng
+lHR
+axx
+fgN
 pdc
-apX
 pdc
-apX
+pdc
 pdc
 pdc
 pdc
@@ -53467,14 +53454,14 @@ pdc
 pdc
 wuD
 wuD
-fgN
+wuD
+iPl
+iPl
 mng
-mng
-mng
 fgN
-lHR
-axx
-fgN
+nnN
+nAa
+xdR
 pdc
 pdc
 pdc
@@ -53725,16 +53712,16 @@ wuD
 wuD
 wuD
 wuD
-iPl
-iPl
-mng
-fgN
+wuD
+wuD
 nnN
-nAa
-xdR
-pdc
-pdc
-pdc
+apX
+tvI
+nnN
+nnN
+wuD
+fgN
+wuD
 pdc
 pdc
 pdc
@@ -53984,13 +53971,13 @@ wuD
 wuD
 wuD
 wuD
-nnN
-apX
-tvI
-nnN
-nnN
+nai
+mzJ
+vJF
+mzJ
+mzJ
 wuD
-fgN
+wuD
 wuD
 wuD
 wuD
@@ -54241,11 +54228,11 @@ wuD
 wuD
 wuD
 wuD
-nai
-mzJ
+wuD
+wuD
 vJF
-mzJ
-mzJ
+wuD
+wuD
 wuD
 wuD
 wuD
@@ -54499,9 +54486,9 @@ wuD
 wuD
 wuD
 wuD
-wuD
+apX
 vJF
-wuD
+apX
 wuD
 wuD
 wuD
@@ -65267,7 +65254,7 @@ wuD
 wuD
 wuD
 wuD
-uOz
+wuD
 apX
 fUT
 rcy
@@ -65524,8 +65511,8 @@ klj
 wuD
 wuD
 wuD
-uOz
-uOz
+wuD
+wuD
 fUT
 hwP
 tMu
@@ -65781,8 +65768,8 @@ wuD
 wuD
 wuD
 wuD
-uOz
-uOz
+wuD
+wuD
 fUT
 fUT
 fUT
@@ -69125,10 +69112,10 @@ wuD
 wuD
 wuD
 wuD
-apX
 wuD
 wuD
 apX
+wuD
 dLR
 pzX
 eua
@@ -69382,10 +69369,10 @@ wuD
 wuD
 wuD
 wuD
+wuD
+wuD
 fyD
 wuD
-wuD
-kAF
 dLR
 wHG
 hgM
@@ -69637,12 +69624,12 @@ wuD
 wuD
 wuD
 wuD
-kAF
-kAF
+wuD
+wuD
+wuD
+wuD
 apX
 wuD
-kAF
-cEh
 dLR
 soz
 qZj
@@ -73758,7 +73745,7 @@ wuD
 wuD
 wuD
 wuD
-wuD
+apX
 apX
 apX
 wuD
@@ -74013,7 +74000,7 @@ wuD
 wuD
 wuD
 wuD
-wuD
+apX
 lck
 lck
 lck
@@ -78406,13 +78393,13 @@ wuD
 gpU
 iHx
 gpU
-hAm
-hAm
+gpU
+gpU
 gpU
 lhX
 kqu
 cem
-qYk
+wam
 xOt
 lhX
 wuD
@@ -78663,12 +78650,12 @@ wuD
 tvW
 pdc
 tvW
-pdc
-wuD
-lbQ
+lhX
 owE
-mTZ
-wam
+hta
+qYk
+qYk
+qYk
 qYk
 apb
 lbQ
@@ -78917,15 +78904,15 @@ wuD
 wuD
 wuD
 wuD
-tvW
-pdc
-tvW
-pdc
-wuD
+apX
+fyD
+apX
 lbQ
 gek
 oly
-wam
+hta
+hta
+qYk
 qYk
 arl
 lbQ
@@ -79170,19 +79157,19 @@ aXA
 pVG
 wuD
 fyD
-wuD
-wuD
-wuD
-wuD
-apX
 fyD
-apX
-wuD
-wuD
+fyD
+fyD
+fyD
+fyD
+fyD
+fyD
 lbQ
 kdf
 hta
-cmO
+qYk
+hta
+qYk
 qYk
 vzy
 lbQ
@@ -79426,21 +79413,21 @@ usB
 gNM
 uin
 wuD
-fyD
-fyD
-fyD
-fyD
-fyD
-fyD
-fyD
-fyD
+wuD
+apX
+wuD
+wuD
+wuD
+apX
 fyD
 apX
 lbQ
 lNu
+hta
+hta
 qYk
 qYk
-qYk
+cmO
 nuI
 lbQ
 apX
@@ -79684,20 +79671,20 @@ jcg
 nOs
 wuD
 wuD
-apX
+tvW
 wuD
 wuD
 wuD
-apX
-fyD
-apX
+tvW
 wuD
-wuD
+tvW
 lhX
 kOp
+qYk
+dGd
 jxQ
-fbG
-mYa
+qYk
+qYk
 faU
 lhX
 wuD
@@ -79948,13 +79935,13 @@ apX
 tvW
 pdc
 tvW
-wuD
-wuD
 lhX
 lhX
 lhX
 lhX
-mYa
+lhX
+gId
+qYk
 bVB
 lhX
 apX
@@ -80206,13 +80193,13 @@ tvW
 pdc
 tvW
 wuD
-wuD
 evj
 jIY
 gKL
 qZX
 xqO
-oXO
+mYa
+fbG
 lhX
 tvW
 dJN
@@ -80463,12 +80450,12 @@ tvW
 pdc
 tvW
 wuD
-wuD
 evj
 kEe
 uWq
 evj
 xHe
+qYk
 oXO
 lhX
 wuD
@@ -80720,12 +80707,12 @@ tvW
 pdc
 tvW
 wuD
-wuD
 evj
 lzN
 tTT
 qZX
 oYR
+mYa
 cbU
 lhX
 tvW
@@ -80934,7 +80921,7 @@ pdc
 pdc
 pdc
 wuD
-wuD
+apX
 pbe
 aCy
 aCy
@@ -80977,11 +80964,11 @@ tvW
 pdc
 tvW
 wuD
-wuD
 evj
 evj
 gDC
 evj
+qYk
 qYk
 oXO
 lhX
@@ -81235,10 +81222,10 @@ pdc
 tvW
 wuD
 wuD
-wuD
 lhX
 rTN
 aCw
+hta
 qYk
 nAL
 lhX
@@ -81448,7 +81435,7 @@ pdc
 pdc
 pdc
 wuD
-wuD
+apX
 pbe
 pBH
 vdr
@@ -81492,10 +81479,10 @@ pdc
 tvW
 wuD
 wuD
-wuD
 lhX
 idh
 oBa
+qYk
 qYk
 oXO
 lhX
@@ -81749,7 +81736,7 @@ pdc
 tvW
 wuD
 wuD
-wuD
+lhX
 lhX
 lhX
 lhX
