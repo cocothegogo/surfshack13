@@ -1,4 +1,0 @@
-author: "peppyrmynt"
-delete-after: True
-changes:
-  - bugfix: "added character limit to Play Internet Sound and Request Internet Sound boxes"

@@ -1,7 +1,0 @@
-author: "cocothegogo"
-delete-after: True
-changes:
-  - rscadd: "MiniSurf: New Arrival Area"
-  - rscadd: "MiniSurf: Moved HoP office"
-  - rscadd: "MiniSurf: vacant office added to maints"
-  - rscadd: "MiniSurf: new maint tunnels"
