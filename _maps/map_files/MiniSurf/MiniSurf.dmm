@@ -6,6 +6,7 @@
 /obj/item/extinguisher/mini,
 /obj/item/extinguisher/mini,
 /obj/effect/landmark/start/hangover/closet,
+/obj/effect/decal/cleanable/cobweb/cobweb2,
 /turf/open/floor/plating,
 /area/station/hallway/secondary/entry)
 "aae" = (
@@ -4761,7 +4762,6 @@
 /area/station/ai_monitored/aisat/exterior)
 "dBn" = (
 /obj/effect/turf_decal/stripes/corner,
-/obj/effect/spawner/random/trash/garbage,
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
 "dCk" = (
@@ -15409,6 +15409,12 @@
 "kYu" = (
 /turf/closed/wall,
 /area/station/medical/cryo)
+"kYE" = (
+/obj/effect/turf_decal/tile/red,
+/turf/open/floor/iron/white/corner{
+	dir = 8
+	},
+/area/station/hallway/secondary/exit)
 "kYX" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Telecomms Server Room"
@@ -16048,6 +16054,13 @@
 /obj/machinery/telecomms/bus/preset_one,
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/station/tcommsat/server)
+"lyu" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/station/hallway/primary/aft)
 "lzt" = (
 /obj/structure/closet/firecloset,
 /obj/machinery/camera/autoname/directional/south,
@@ -24980,6 +24993,11 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/science/explab)
+"rtB" = (
+/turf/open/floor/iron/white/corner{
+	dir = 8
+	},
+/area/station/hallway/secondary/exit)
 "rtD" = (
 /turf/closed/wall/mineral/plastitanium,
 /area/station/maintenance/starboard/aft)
@@ -25181,6 +25199,13 @@
 /obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/station/medical/virology)
+"rCu" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/red,
+/turf/open/floor/iron,
+/area/station/hallway/secondary/exit)
 "rCD" = (
 /obj/machinery/light/directional/east,
 /obj/structure/closet/secure_closet/atmospherics,
@@ -28436,7 +28461,9 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /obj/effect/spawner/random/engineering/tracking_beacon,
-/obj/structure/disposalpipe/segment,
+/obj/structure/disposalpipe/junction{
+	dir = 1
+	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/aft)
 "tTT" = (
@@ -33607,11 +33634,11 @@
 /turf/open/floor/iron,
 /area/station/hallway/primary/central)
 "xnm" = (
-/obj/machinery/vending/cigarette{
-	pixel_x = 0;
-	pixel_y = 0
-	},
 /obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk{
+	dir = 8
+	},
 /turf/open/floor/iron/dark,
 /area/station/hallway/primary/aft)
 "xnu" = (
@@ -62478,7 +62505,7 @@ xHQ
 lVt
 qKS
 vtb
-oSB
+rCu
 pxi
 tvW
 wuD
@@ -62735,7 +62762,7 @@ oPq
 lVt
 mCb
 vtb
-qKS
+kYE
 pxi
 tvW
 wuD
@@ -62992,7 +63019,7 @@ qKS
 lVt
 qKS
 qKS
-qKS
+rtB
 pxi
 tvW
 tvW
@@ -67636,7 +67663,7 @@ gLd
 hAj
 uxh
 xcl
-xcl
+lyu
 gzP
 xef
 jUx
