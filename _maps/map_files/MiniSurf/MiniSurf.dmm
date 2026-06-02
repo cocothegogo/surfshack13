@@ -327,6 +327,10 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/command/bridge)
+"apK" = (
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
+/area/station/maintenance/department/cargo)
 "apQ" = (
 /obj/machinery/portable_atmospherics/canister/plasma,
 /obj/effect/turf_decal/bot,
@@ -688,7 +692,6 @@
 	},
 /area/station/commons/fitness/recreation/pool)
 "azv" = (
-/obj/effect/decal/cleanable/dirt,
 /obj/machinery/portable_atmospherics/canister/air,
 /turf/open/floor/plating,
 /area/station/maintenance/port/greater)
@@ -2573,6 +2576,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/blue,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/light/directional/east,
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
 "bYA" = (
@@ -3197,6 +3201,7 @@
 /area/station/science/xenobiology)
 "cth" = (
 /obj/effect/spawner/random/structure/closet_maintenance,
+/obj/effect/spawner/random/maintenance/two,
 /turf/open/floor/plating,
 /area/station/maintenance/fore/lesser)
 "cto" = (
@@ -3901,6 +3906,11 @@
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/iron,
 /area/station/service/hydroponics)
+"cRO" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/structure/crate_abandoned,
+/turf/open/floor/plating,
+/area/station/maintenance/department/cargo)
 "cRX" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -7791,6 +7801,14 @@
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/iron/dark,
 /area/station/hallway/secondary/exit)
+"fEl" = (
+/obj/effect/mapping_helpers/airlock/access/all/engineering/maintenance,
+/obj/effect/mapping_helpers/airlock/unres{
+	dir = 8
+	},
+/obj/machinery/door/airlock/maintenance,
+/turf/open/floor/plating,
+/area/station/maintenance/department/cargo)
 "fEK" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -11161,6 +11179,7 @@
 /obj/machinery/light/small/dim/directional/west,
 /obj/effect/spawner/random/structure/closet_maintenance,
 /obj/item/reagent_containers/cup/soda_cans/beer,
+/obj/effect/spawner/random/maintenance/no_decals/five,
 /turf/open/floor/plating,
 /area/station/maintenance/fore)
 "icP" = (
@@ -19704,6 +19723,12 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/port/central)
+"nWL" = (
+/obj/effect/landmark/start/hangover,
+/obj/effect/spawner/random/structure/chair_maintenance,
+/obj/effect/decal/cleanable/vomit/old,
+/turf/open/floor/plating,
+/area/station/maintenance/department/cargo)
 "nXa" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -21633,6 +21658,10 @@
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/aft)
+"pkz" = (
+/obj/machinery/door/airlock/maintenance_hatch,
+/turf/open/floor/plating,
+/area/station/maintenance/department/cargo)
 "pkD" = (
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
@@ -23524,6 +23553,7 @@
 /area/space/nearstation)
 "qwm" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/directional/west,
 /turf/open/floor/iron,
 /area/station/hallway/secondary/entry)
 "qxc" = (
@@ -58111,7 +58141,7 @@ sfv
 sfv
 fzc
 ckW
-vlp
+azv
 fzc
 apX
 wuD
@@ -58882,7 +58912,7 @@ tsr
 jvW
 fzc
 ckW
-azv
+oft
 fzc
 hsZ
 cpb
@@ -61432,9 +61462,9 @@ wuD
 wuD
 wuD
 wuD
-wuD
-wuD
-wuD
+epx
+epx
+epx
 epx
 epx
 vDW
@@ -61686,12 +61716,12 @@ wuD
 wuD
 wuD
 wuD
-wuD
-wuD
-wuD
-wuD
-wuD
-apX
+epx
+epx
+epx
+epx
+mFw
+bke
 epx
 rWo
 rej
@@ -61943,14 +61973,14 @@ pdc
 wuD
 wuD
 wuD
-wuD
-apX
-wuD
-wuD
-apX
-apX
 epx
 dpN
+bke
+bke
+apK
+bke
+pkz
+bke
 bke
 bke
 vnx
@@ -62200,15 +62230,15 @@ wuD
 wuD
 wuD
 wuD
-apX
-apX
-apX
-wuD
-wuD
-apX
+epx
+nWL
+bke
+bke
+bke
+bke
 epx
 eZr
-xOm
+cRO
 mFw
 bke
 cSt
@@ -62458,10 +62488,10 @@ wuD
 wuD
 fUT
 fUT
-sus
-sus
-sus
-sus
+tMu
+fEl
+tMu
+tMu
 tMu
 tMu
 epx
@@ -62713,7 +62743,7 @@ wuD
 wuD
 uOz
 apX
-fUT
+sus
 wgb
 qwm
 rqm
@@ -65283,7 +65313,7 @@ wuD
 wuD
 wuD
 apX
-fUT
+sus
 rcy
 tMu
 lAP
