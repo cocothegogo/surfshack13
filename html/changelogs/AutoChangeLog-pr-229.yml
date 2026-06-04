@@ -1,0 +1,4 @@
+author: "hyperjll"
+delete-after: True
+changes:
+  - bugfix: "Fixes the nanite program 'Distributed Computing' causing frequent periods of lag, preventing point generation."
