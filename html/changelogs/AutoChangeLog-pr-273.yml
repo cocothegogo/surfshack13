@@ -1,0 +1,9 @@
+author: "ZealousZeke"
+delete-after: True
+changes:
+  - rscdel: "Removed Purity testing reagent to repurpose prefactor a for Palladium Synthate catalyst."
+  - balance: "Prefactor a and b are no longer competitive reactions. Prefactor b uses acetone instead of phenol. Improved ease of mixing."
+  - balance: "Buffed Palladium's mix speed increase to 5x. Changed the recipe to mirror Tempomyocin's."
+  - balance: "Tempomyocin is now a catalyst that reduces reaction speed down to 15% of its original speed."
+  - balance: "Increased optimal pH range and overheat of Palladium and Tempomyocin for easier mixing."
+  - balance: "Increased the base 300k reaction speed of Strong basic and acidic pH buffers."
