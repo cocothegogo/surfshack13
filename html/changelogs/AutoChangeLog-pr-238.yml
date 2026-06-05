@@ -1,0 +1,5 @@
+author: "ElGitificador"
+delete-after: True
+changes:
+  - balance: "luxury shuttle is no longer emag only"
+  - balance: "wabbajack shuttle has had it s unlock requeriment removed"
