@@ -1,0 +1,4 @@
+author: "hyperjll"
+delete-after: True
+changes:
+  - bugfix: "Fixed some nanite program descriptions."
