@@ -1,0 +1,6 @@
+author: "ZealousZeke"
+delete-after: True
+changes:
+  - rscadd: "Add irradiation to radioactive reagents uranium, radium, and polonium."
+  - balance: "Radioactive reagents uranium, radium, and polonium now cause irradiate effects when they come into contact with mobs or objects. This can be via several means, ingestion, touch, or vapors. The more radioactive the reagent, the more likely it is to irradiate. Polonium is the most radioactive with a x4 multiplier, uranium is next with a x3 multiplier, and radium is the weakest with just a x2 multiplier."
+  - balance: "Polonium no longer guarantees instant irradiation when the reagent is inside a mob."
