@@ -1,0 +1,16 @@
+author: "ZealousZeke"
+delete-after: True
+changes:
+  - refactor: "Completely rewrote all item and projectile embedding code"
+  - bugfix: "Instant summons now actually drags people who had the summoned item embedded into them"
+  - bugfix: "Items embedded into limbs no longer get shoved into limbs deep enough for them to never be found again upon delimbing."
+  - bugfix: "You can see scar descriptions upon detailed examination of targets"
+  - rscadd: "Foam darts now stick to people when they have their cap on, riot foam darts also can passively deal a bit of stamina damage when you move with one."
+  - rscadd: "Syringes can be inserted into foam darts, making them embed and slowly leak their reagents into their victim."
+  - rscadd: "Syringe guns can be toggled (with right click) between high power and low power modes, former being their normal functionality and latter making syringes embed and slowly leak their contents."
+  - bugfix: "Fixed projectiles sometimes not embedding when they should've"
+  - code_imp: "Cleaned embedding code up"
+  - bugfix: "Fixed items not embedding"
+  - bugfix: "Projectiles can once again embed targets that are armoured."
+  - bugfix: "You can remove embeds during surgery"
+  - bugfix: "Fixed dropdel embeds runtiming upon removal"
