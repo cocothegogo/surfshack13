@@ -1,0 +1,4 @@
+author: "ZealousZeke"
+delete-after: True
+changes:
+  - bugfix: "Benzoic Acid mixes into its proper form for botany usage, rather than on metabolism, because that doesn't work in botany trays."
