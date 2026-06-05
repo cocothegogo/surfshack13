@@ -1,0 +1,4 @@
+author: "hyperjll"
+delete-after: True
+changes:
+  - rscadd: "Added two new reagents which directly interact with a person's nanite supply. The anti-nanite reagent will now be stocked within pharmacy smartfridges."
