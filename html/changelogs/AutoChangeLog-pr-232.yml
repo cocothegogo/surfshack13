@@ -1,0 +1,4 @@
+author: "ElGitificador"
+delete-after: True
+changes:
+  - balance: "increased runic vendor range and decreased time it takes to spawn a vendor"
