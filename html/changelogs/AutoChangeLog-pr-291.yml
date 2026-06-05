@@ -1,0 +1,4 @@
+author: "hyperjll"
+delete-after: True
+changes:
+  - bugfix: "You now drop all of your stuff when using certain antag tokens, to ensure you're given all of the gear you SHOULD have been given."
