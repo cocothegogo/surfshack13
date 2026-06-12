@@ -144,3 +144,6 @@
 2026-06-07:
   IndieanaJones:
   - bugfix: Fixes the Desired Role Bonus.
+2026-06-12:
+  pcpcrusader:
+  - rscadd: construction bags now hold materials
