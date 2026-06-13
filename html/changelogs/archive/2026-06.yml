@@ -147,3 +147,14 @@
 2026-06-12:
   pcpcrusader:
   - rscadd: construction bags now hold materials
+2026-06-13:
+  forgman6:
+  - rscadd: auto surgeon has 30% malfunction chance after its been used 3 times
+  - rscadd: malfunctioning autosurgeon will remove arm of user
+  - balance: autosurgeon cant implant brains and debrain.
+  - rscadd: autosurgeons can be emagged to maim someones arm.
+  - qol: autolathe autosurgeons aren't single use
+  pcpcrusader:
+  - rscadd: messenger bags now go in belt slot
+  sylvia-from-fulp-station:
+  - rscadd: Adds a special brain damage line

@@ -1,8 +1,0 @@
-author: "forgman6"
-delete-after: True
-changes:
-  - rscadd: "auto surgeon has 30% malfunction chance after its been used 3 times"
-  - rscadd: "malfunctioning autosurgeon will remove arm of user"
-  - balance: "autosurgeon cant implant brains and debrain."
-  - rscadd: "autosurgeons can be emagged to maim someones arm."
-  - qol: "autolathe autosurgeons aren't single use"
