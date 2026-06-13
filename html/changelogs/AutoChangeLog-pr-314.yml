@@ -1,0 +1,4 @@
+author: "sylvia-from-fulp-station"
+delete-after: True
+changes:
+  - rscadd: "Adds a special brain damage line"
