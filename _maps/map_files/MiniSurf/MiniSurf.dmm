@@ -31068,7 +31068,6 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
-/obj/machinery/power/apc/auto_name/directional/north,
 /obj/machinery/component_printer{
 	dir = 2
 	},
