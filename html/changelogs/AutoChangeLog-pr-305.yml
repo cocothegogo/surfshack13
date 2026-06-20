@@ -1,0 +1,12 @@
+author: "ZealousZeke"
+delete-after: True
+changes:
+  - balance: "Aivime now causes an accelerated case of manual blinking and gives X-Ray vision. It's now harder to mix as well and has a faster metabolism."
+  - balance: "Libitoil interferes with how the liver filters toxins, instead of how the liver metabolizes alcohol."
+  - balance: "Super Melatonin boosts purity scaling medicines by 2x while asleep. Improved ease of mixing."
+  - balance: "Methanol is now a clear inverse that has a 20% chance to cause eye blur, headaches, funny emotes, and 2 toxin per tick. Also, it's flammable on splash."
+  - balance: "Chloralax is now a miracle household cleaner and mildly toxic antibiotic. Also, it mixes as a clear inverse."
+  - balance: "Chloral Hydrate now mixes 5:2 instead of 5:1."
+  - bugfix: "Mannitoil is now able to be mixed."
+  - bugfix: "Syrinifergus is now able to be mixed."
+  - rscadd: "Insolvent Medicinal Precipitate is now an inverse of Granibitaluri below 35% purity."
