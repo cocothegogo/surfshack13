@@ -1,0 +1,14 @@
+author: "ZealousZeke"
+delete-after: True
+changes:
+  - rscadd: "New Ballistic Tech Node for shotgun slugs and shells."
+  - rscadd: "Shotgun slugs and shells are now orderable via cargo."
+  - balance: "Increased Rubbershot shell's stamina damage from 11 to 12."
+  - bugfix: "Fixed Rubbershot's pellet range. (Thanks, Anton.)"
+  - balance: "Decreased the material cost for rubber shells and .38 rubbershot."
+  - balance: "Increased Dragon's Breath shell brute damage."
+  - balance: "Added burn damage to Ion Scatter Shells."
+  - balance: "Ion Scatter shells take 5u uranium, iron, and aluminium, instead of an ansible crystal."
+  - balance: "Lowered Exotic Ammo tech requirement from Explosives to Riot Suppression."
+  - balance: "Pulse Slugs now take tier-3 capacitors, for consistency."
+  - balance: "Security department ordered combat knives no longer require armory access."
