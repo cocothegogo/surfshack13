@@ -1,0 +1,4 @@
+author: "hyperjll"
+delete-after: True
+changes:
+  - rscadd: "RPED's can now exchange an APC's cell with a higher quality cell or a cell with more charge."
