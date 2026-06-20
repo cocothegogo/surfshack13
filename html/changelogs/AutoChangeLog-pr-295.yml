@@ -1,0 +1,8 @@
+author: "ZealousZeke"
+delete-after: True
+changes:
+  - rscadd: "Adds self-surgery skillchip."
+  - balance: "Replaces the autosurgeon in experimental surgery tech with the self-surgery skillchip."
+  - balance: "Moves autosurgeon to advanced surgery tools."
+  - balance: "Exosuit fabricators can print autosurgeons."
+  - rscadd: "exosuit fabricators can print self-surgery skillchips."
