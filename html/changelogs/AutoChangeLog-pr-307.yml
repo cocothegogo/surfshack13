@@ -1,9 +1,0 @@
-author: "cocothegogo"
-delete-after: True
-changes:
-  - rscadd: "MiniSurf: Extends chem lab 1 tile down making it have more room for choomists"
-  - rscadd: "MiniSurf: Slightly enlarges gambling den"
-  - rscadd: "MiniSurf:Extends bridge up 1 tile so it no longer has a 2x2 way reinforced walls next to arrivals"
-  - rscadd: "MiniSurf: Adds a table for genetics"
-  - bugfix: "MiniSurf: Adds more signs for departments"
-  - bugfix: "MiniSurf: Moves some doors in central halls so its less clunky for combat/movement"

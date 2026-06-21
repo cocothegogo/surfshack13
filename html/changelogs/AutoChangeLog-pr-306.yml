@@ -1,5 +1,0 @@
-author: "ZealousZeke"
-delete-after: True
-changes:
-  - balance: "Nuclear Operatives can declare war at effectively any player amount."
-  - balance: "War TC bonus scales with the amount of players below 20."
