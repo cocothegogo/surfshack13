@@ -3934,7 +3934,7 @@
 /turf/open/floor/plating,
 /area/station/maintenance/department/cargo)
 "cRX" = (
-/obj/effect/spawner/structure/window/reinforced,
+/obj/effect/spawner/structure/window,
 /turf/open/floor/plating,
 /area/station/maintenance/central)
 "cSa" = (
@@ -75049,10 +75049,10 @@ fyD
 fyD
 fyD
 tvW
-wuD
-wuD
-wuD
-wuD
+tvW
+tvW
+tvW
+tvW
 clN
 qUv
 wuD
@@ -75305,7 +75305,7 @@ fyD
 apX
 wuD
 fyD
-apX
+wuD
 wuD
 wuD
 wuD
@@ -81438,7 +81438,7 @@ oXO
 lhX
 wuD
 apX
-wuD
+tvW
 wuD
 wuD
 wuD
@@ -82716,10 +82716,10 @@ apX
 apX
 wuD
 wuD
+tvW
 wuD
 wuD
-wuD
-wuD
+tvW
 wuD
 wuD
 wuD
